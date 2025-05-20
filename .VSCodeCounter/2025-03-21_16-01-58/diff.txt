@@ -1,0 +1,219 @@
+Date : 2025-03-21 16:01:58
+Directory : c:\xampp\htdocs\Gretex Corporate main
+Total : 163 files,  4967 codes, -328 comments, 630 blanks, all 5269 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| PHP      |        148 |      3,290 |         26 |        350 |      3,666 |
+| CSS      |         15 |      1,677 |       -354 |        280 |      1,603 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                          | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                             |        163 |      4,967 |       -328 |        630 |      5,269 |
+| . (Files)                                                                                                     |          4 |        152 |          0 |         29 |        181 |
+| about                                                                                                         |          1 |          6 |          0 |          0 |          6 |
+| csr                                                                                                           |          1 |          0 |          0 |         -1 |         -1 |
+| css                                                                                                           |         15 |      1,677 |       -354 |        280 |      1,603 |
+| css (Files)                                                                                                   |          3 |        518 |       -181 |        110 |        447 |
+| css\Ipo                                                                                                       |          1 |        142 |         -1 |         16 |        157 |
+| css\about                                                                                                     |          1 |         -1 |          0 |          0 |         -1 |
+| css\offer-documents                                                                                           |          2 |        874 |          4 |        136 |      1,014 |
+| css\offer-documents\open-offer                                                                                |          1 |        633 |          2 |         98 |        733 |
+| css\offer-documents\open-offer-template-main                                                                  |          1 |        241 |          2 |         38 |        281 |
+| css\services                                                                                                  |          4 |     -2,046 |       -195 |       -413 |     -2,654 |
+| css\what-we-do                                                                                                |          4 |      2,190 |         19 |        431 |      2,640 |
+| css\what-we-do (Files)                                                                                        |          3 |      1,808 |         16 |        355 |      2,179 |
+| css\what-we-do\capital-markets                                                                                |          1 |        382 |          3 |         76 |        461 |
+| ipo                                                                                                           |         63 |     -8,705 |         -2 |       -843 |     -9,550 |
+| offer-documents                                                                                               |         67 |     10,054 |          4 |      1,047 |     11,105 |
+| offer-documents\ipo                                                                                           |         63 |      9,018 |          2 |        954 |      9,974 |
+| offer-documents\ipo (Files)                                                                                   |         62 |      8,899 |          2 |        937 |      9,838 |
+| offer-documents\ipo\a-m-febcon-limited                                                                        |          1 |        119 |          0 |         17 |        136 |
+| offer-documents\open-offer                                                                                    |          4 |      1,036 |          2 |         93 |      1,131 |
+| offer-documents\open-offer (Files)                                                                            |          1 |        375 |          2 |         51 |        428 |
+| offer-documents\open-offer\Kwality Credit and Leasing Limited                                                 |          1 |        220 |          0 |         14 |        234 |
+| offer-documents\open-offer\deepti-alloy-steel-limited                                                         |          1 |        220 |          0 |         14 |        234 |
+| offer-documents\open-offer\econo-trade-india-limited                                                          |          1 |        221 |          0 |         14 |        235 |
+| services                                                                                                      |          4 |     -2,462 |        -10 |       -131 |     -2,603 |
+| what-we-do                                                                                                    |          8 |      4,245 |         34 |        249 |      4,528 |
+| what-we-do (Files)                                                                                            |          3 |      1,529 |          8 |         76 |      1,613 |
+| what-we-do\capital-markets                                                                                    |          2 |      1,432 |          8 |         71 |      1,511 |
+| what-we-do\compliance-advisory                                                                                |          1 |        428 |          6 |         34 |        468 |
+| what-we-do\corporate-finance                                                                                  |          1 |        428 |          6 |         34 |        468 |
+| what-we-do\corporate-restructuring                                                                            |          1 |        428 |          6 |         34 |        468 |
++---------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                      | language | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\xampp\htdocs\Gretex Corporate main\about\index.php                                                         | PHP      |          6 |          0 |          0 |          6 |
+| c:\xampp\htdocs\Gretex Corporate main\contact.php                                                             | PHP      |        182 |          0 |         32 |        214 |
+| c:\xampp\htdocs\Gretex Corporate main\csr\index.php                                                           | PHP      |          0 |          0 |         -1 |         -1 |
+| c:\xampp\htdocs\Gretex Corporate main\css\Ipo\ipo.css                                                         | CSS      |        142 |         -1 |         16 |        157 |
+| c:\xampp\htdocs\Gretex Corporate main\css\about\about.css                                                     | CSS      |         -1 |          0 |          0 |         -1 |
+| c:\xampp\htdocs\Gretex Corporate main\css\contact.css                                                         | CSS      |        255 |         -3 |         68 |        320 |
+| c:\xampp\htdocs\Gretex Corporate main\css\global.css                                                          | CSS      |         89 |          4 |         15 |        108 |
+| c:\xampp\htdocs\Gretex Corporate main\css\index.css                                                           | CSS      |        174 |       -182 |         27 |         19 |
+| c:\xampp\htdocs\Gretex Corporate main\css\offer-documents\open-offer-template-main\open-offer-template.css    | CSS      |        241 |          2 |         38 |        281 |
+| c:\xampp\htdocs\Gretex Corporate main\css\offer-documents\open-offer\open-offer.css                           | CSS      |        633 |          2 |         98 |        733 |
+| c:\xampp\htdocs\Gretex Corporate main\css\services\service copy.css                                           | CSS      |       -556 |         -4 |       -125 |       -685 |
+| c:\xampp\htdocs\Gretex Corporate main\css\services\service.css                                                | CSS      |       -382 |         -3 |        -76 |       -461 |
+| c:\xampp\htdocs\Gretex Corporate main\css\services\services copy.css                                          | CSS      |       -562 |         -5 |       -101 |       -668 |
+| c:\xampp\htdocs\Gretex Corporate main\css\services\services.css                                               | CSS      |       -546 |       -183 |       -111 |       -840 |
+| c:\xampp\htdocs\Gretex Corporate main\css\what-we-do\capital-markets\ipo.css                                  | CSS      |        382 |          3 |         76 |        461 |
+| c:\xampp\htdocs\Gretex Corporate main\css\what-we-do\service copy.css                                         | CSS      |        556 |          4 |        125 |        685 |
+| c:\xampp\htdocs\Gretex Corporate main\css\what-we-do\services copy.css                                        | CSS      |        562 |          5 |        101 |        668 |
+| c:\xampp\htdocs\Gretex Corporate main\css\what-we-do\services.css                                             | CSS      |        690 |          7 |        129 |        826 |
+| c:\xampp\htdocs\Gretex Corporate main\footer.php                                                              | PHP      |          1 |          0 |          0 |          1 |
+| c:\xampp\htdocs\Gretex Corporate main\header.php                                                              | PHP      |         51 |          0 |          4 |         55 |
+| c:\xampp\htdocs\Gretex Corporate main\index.php                                                               | PHP      |        -82 |          0 |         -7 |        -89 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\a-m-febcon-limited.php                                              | PHP      |       -119 |          0 |        -17 |       -136 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\aaron-industries-limited.php                                        | PHP      |       -117 |          0 |        -14 |       -131 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\aki-india-limited.php                                               | PHP      |        -77 |          0 |        -12 |        -89 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\akme-fintrade-India-limited.php                                     | PHP      |        -77 |          0 |        -12 |        -89 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\amic-forging-limited.php                                            | PHP      |       -116 |          0 |        -14 |       -130 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\anuroop-packaging-limited.php                                       | PHP      |       -134 |          0 |        -12 |       -146 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\associated-coaters-limited.php                                      | PHP      |        -96 |          0 |        -12 |       -108 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\b&B-triplewall-containers-Limited.php                               | PHP      |       -136 |          0 |        -13 |       -149 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\b-right-Realestate-Limited.php                                      | PHP      |       -136 |          0 |        -12 |       -148 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\bcpl-railway-Infrastructure-Limited.php                             | PHP      |       -117 |          0 |        -12 |       -129 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\bilwin-Industries-Limited.php                                       | PHP      |       -135 |          0 |        -14 |       -149 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\clara-industries-Limited.php                                        | PHP      |       -136 |          0 |        -13 |       -149 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\comrade-appliances-limited.php                                      | PHP      |       -136 |          0 |        -13 |       -149 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\debock-sales-&-marketing-Limited.php                                | PHP      |       -136 |          0 |        -12 |       -148 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\deep-Polymers-Limited.php                                           | PHP      |       -135 |          0 |        -13 |       -148 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\dhruv-wellness-Limited.php                                          | PHP      |       -119 |          0 |        -14 |       -133 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\diggi-multitrade-Limited.php                                        | PHP      |       -100 |          0 |        -13 |       -113 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\flywings-simulator-training-center-limited.php                      | PHP      |        -80 |          0 |        -11 |        -91 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\g-m-polyplast-Limited.php                                           | PHP      |       -119 |          0 |        -11 |       -130 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\gnh-india-pharmaceuticals-limited.php                               | PHP      |        -80 |          0 |        -13 |        -93 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\goel-food-products-Limited.php                                      | PHP      |       -140 |          0 |        -14 |       -154 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\index.php                                                           | PHP      |     -1,211 |         -2 |        -63 |     -1,276 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\innokaiz-India-limited.php                                          | PHP      |       -139 |          0 |        -14 |       -153 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\interiors-and-more-limited.php                                      | PHP      |       -140 |          0 |        -12 |       -152 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\jash-dealmark-Limited.php                                           | PHP      |       -139 |          0 |        -16 |       -155 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\jayant-infratech-limited.php                                        | PHP      |       -140 |          0 |        -11 |       -151 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\kalyani-cast-tech-limited.php                                       | PHP      |       -160 |          0 |        -12 |       -172 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\kids-medical-System-Limited.php                                     | PHP      |       -160 |          0 |        -12 |       -172 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\mac-hotels-Limited.php                                              | PHP      |       -143 |          0 |        -12 |       -155 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\markolines-traffic-Controls-Limited.php                             | PHP      |       -144 |          0 |        -11 |       -155 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\misquita-engineering-limited.php                                    | PHP      |       -138 |          0 |        -12 |       -150 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\moving-media-entertainment-limited.php                              | PHP      |        -80 |          0 |        -12 |        -92 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\niks-technology-Limited.php                                         | PHP      |       -118 |          0 |        -11 |       -129 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\oan-industries-limited.php                                          | PHP      |        -79 |          0 |        -11 |        -90 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\omviras-marine-services-limited.php                                 | PHP      |        -58 |          0 |        -13 |        -71 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\owais-metal-mineral-processing-limited.php                          | PHP      |       -160 |          0 |        -12 |       -172 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\paramount-dye-tec-limited.php                                       | PHP      |       -123 |          0 |        -14 |       -137 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\platinumone-business-Services-Limited.php                           | PHP      |       -140 |          0 |        -12 |       -152 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\rapid-fleet-management-services-limited.php                         | PHP      |        -80 |          0 |        -11 |        -91 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\rapid-multimodal-logistics-limited.php                              | PHP      |       -158 |          0 |        -11 |       -169 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\reetech-international-cargo-courier-Limited.php                     | PHP      |       -140 |          0 |        -13 |       -153 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\resgen-limited.php                                                  | PHP      |       -181 |          0 |        -11 |       -192 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\retaggio-industries-limited.php                                     | PHP      |        -76 |          0 |        -12 |        -88 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\retina-paints-limited.php                                           | PHP      |       -139 |          0 |        -12 |       -151 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\riddhi-corporate-services-limited.php                               | PHP      |       -120 |          0 |        -13 |       -133 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\sagar-diamonds-limited.php                                          | PHP      |       -119 |          0 |        -12 |       -131 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\sailani-tours-N-Travels-Limited.php                                 | PHP      |       -143 |          0 |        -11 |       -154 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\sellowrap-industries-limited.php                                    | PHP      |        -60 |          0 |        -13 |        -73 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\shelter-pharma-Limited.php                                          | PHP      |       -159 |          0 |        -12 |       -171 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\shreyas-fabtech-limited.php                                         | PHP      |        -82 |          0 |        -16 |        -98 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\siddharth-education-Services-limited.php                            | PHP      |       -160 |          0 |        -13 |       -173 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\silky-overseas-limited.php                                          | PHP      |        -79 |          0 |        -12 |        -91 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\ssg-furnishing-solution-limited.php                                 | PHP      |        -60 |          0 |        -14 |        -74 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\steelman-Telecom-Limited.php                                        | PHP      |       -140 |          0 |        -12 |       -152 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\subam-papers-limited.php                                            | PHP      |       -119 |          0 |        -13 |       -132 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\sudharshan-pharma-industries-limited.php                            | PHP      |       -160 |          0 |        -12 |       -172 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\suumaya-lifestyle-Limited.php                                       | PHP      |       -120 |          0 |        -12 |       -132 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\tenty-limited.php                                                   | PHP      |        -79 |          0 |        -12 |        -91 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\trackpoint-gps-limited.php                                          | PHP      |        -79 |          0 |        -12 |        -91 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\transteel-Seating-Technologies-Limited.php                          | PHP      |       -140 |          0 |        -12 |       -152 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\veeram-ornaments-limited.php                                        | PHP      |       -120 |          0 |        -14 |       -134 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\yug-decor-limited.php                                               | PHP      |       -139 |          0 |        -14 |       -153 |
+| c:\xampp\htdocs\Gretex Corporate main\ipo\zenith-drugs-limited.php                                            | PHP      |       -140 |          0 |        -13 |       -153 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\a-m-febcon-limited\index.php                        | PHP      |        119 |          0 |         17 |        136 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\aaron-industries-limited.php                        | PHP      |        117 |          0 |         14 |        131 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\aki-india-limited.php                               | PHP      |         77 |          0 |         12 |         89 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\akme-fintrade-India-limited.php                     | PHP      |         77 |          0 |         12 |         89 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\amic-forging-limited.php                            | PHP      |        116 |          0 |         14 |        130 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\anuroop-packaging-limited.php                       | PHP      |        134 |          0 |         12 |        146 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\associated-coaters-limited.php                      | PHP      |         96 |          0 |         12 |        108 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\b&B-triplewall-containers-Limited.php               | PHP      |        136 |          0 |         13 |        149 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\b-right-Realestate-Limited.php                      | PHP      |        136 |          0 |         12 |        148 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\bcpl-railway-Infrastructure-Limited.php             | PHP      |        117 |          0 |         12 |        129 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\bilwin-Industries-Limited.php                       | PHP      |        135 |          0 |         14 |        149 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\clara-industries-Limited.php                        | PHP      |        136 |          0 |         13 |        149 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\comrade-appliances-limited.php                      | PHP      |        136 |          0 |         13 |        149 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\debock-sales-&-marketing-Limited.php                | PHP      |        136 |          0 |         12 |        148 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\deep-Polymers-Limited.php                           | PHP      |        135 |          0 |         13 |        148 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\dhruv-wellness-Limited.php                          | PHP      |        119 |          0 |         14 |        133 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\diggi-multitrade-Limited.php                        | PHP      |        100 |          0 |         13 |        113 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\flywings-simulator-training-center-limited.php      | PHP      |         80 |          0 |         11 |         91 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\g-m-polyplast-Limited.php                           | PHP      |        119 |          0 |         11 |        130 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\gnh-india-pharmaceuticals-limited.php               | PHP      |         80 |          0 |         13 |         93 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\goel-food-products-Limited.php                      | PHP      |        140 |          0 |         14 |        154 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\index.php                                           | PHP      |      1,524 |          2 |        174 |      1,700 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\innokaiz-India-limited.php                          | PHP      |        139 |          0 |         14 |        153 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\interiors-and-more-limited.php                      | PHP      |        140 |          0 |         12 |        152 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\jash-dealmark-Limited.php                           | PHP      |        139 |          0 |         16 |        155 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\jayant-infratech-limited.php                        | PHP      |        140 |          0 |         11 |        151 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\kalyani-cast-tech-limited.php                       | PHP      |        160 |          0 |         12 |        172 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\kids-medical-System-Limited.php                     | PHP      |        160 |          0 |         12 |        172 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\mac-hotels-Limited.php                              | PHP      |        143 |          0 |         12 |        155 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\markolines-traffic-Controls-Limited.php             | PHP      |        144 |          0 |         11 |        155 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\misquita-engineering-limited.php                    | PHP      |        138 |          0 |         12 |        150 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\moving-media-entertainment-limited.php              | PHP      |         80 |          0 |         12 |         92 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\niks-technology-Limited.php                         | PHP      |        118 |          0 |         11 |        129 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\oan-industries-limited.php                          | PHP      |         79 |          0 |         11 |         90 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\omviras-marine-services-limited.php                 | PHP      |         58 |          0 |         13 |         71 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\owais-metal-mineral-processing-limited.php          | PHP      |        160 |          0 |         12 |        172 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\paramount-dye-tec-limited.php                       | PHP      |        123 |          0 |         14 |        137 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\platinumone-business-Services-Limited.php           | PHP      |        140 |          0 |         12 |        152 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\rapid-fleet-management-services-limited.php         | PHP      |         80 |          0 |         11 |         91 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\rapid-multimodal-logistics-limited.php              | PHP      |        158 |          0 |         11 |        169 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\reetech-international-cargo-courier-Limited.php     | PHP      |        140 |          0 |         13 |        153 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\resgen-limited.php                                  | PHP      |        181 |          0 |         11 |        192 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\retaggio-industries-limited.php                     | PHP      |         76 |          0 |         12 |         88 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\retina-paints-limited.php                           | PHP      |        139 |          0 |         12 |        151 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\riddhi-corporate-services-limited.php               | PHP      |        120 |          0 |         13 |        133 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\sagar-diamonds-limited.php                          | PHP      |        119 |          0 |         12 |        131 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\sailani-tours-N-Travels-Limited.php                 | PHP      |        143 |          0 |         11 |        154 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\sellowrap-industries-limited.php                    | PHP      |         60 |          0 |         13 |         73 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\shelter-pharma-Limited.php                          | PHP      |        159 |          0 |         12 |        171 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\shreyas-fabtech-limited.php                         | PHP      |         82 |          0 |         16 |         98 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\siddharth-education-Services-limited.php            | PHP      |        160 |          0 |         13 |        173 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\silky-overseas-limited.php                          | PHP      |         79 |          0 |         12 |         91 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\ssg-furnishing-solution-limited.php                 | PHP      |         60 |          0 |         14 |         74 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\steelman-Telecom-Limited.php                        | PHP      |        140 |          0 |         12 |        152 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\subam-papers-limited.php                            | PHP      |        119 |          0 |         13 |        132 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\sudharshan-pharma-industries-limited.php            | PHP      |        160 |          0 |         12 |        172 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\suumaya-lifestyle-Limited.php                       | PHP      |        120 |          0 |         12 |        132 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\tenty-limited.php                                   | PHP      |         79 |          0 |         12 |         91 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\trackpoint-gps-limited.php                          | PHP      |         79 |          0 |         12 |         91 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\transteel-Seating-Technologies-Limited.php          | PHP      |        140 |          0 |         12 |        152 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\veeram-ornaments-limited.php                        | PHP      |        120 |          0 |         14 |        134 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\yug-decor-limited.php                               | PHP      |        139 |          0 |         14 |        153 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\ipo\zenith-drugs-limited.php                            | PHP      |        140 |          0 |         13 |        153 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\open-offer\Kwality Credit and Leasing Limited\index.php | PHP      |        220 |          0 |         14 |        234 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\open-offer\deepti-alloy-steel-limited\index.php         | PHP      |        220 |          0 |         14 |        234 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\open-offer\econo-trade-india-limited\index copy.php     | PHP      |        221 |          0 |         14 |        235 |
+| c:\xampp\htdocs\Gretex Corporate main\offer-documents\open-offer\index.php                                    | PHP      |        375 |          2 |         51 |        428 |
+| c:\xampp\htdocs\Gretex Corporate main\services\index copy.php                                                 | PHP      |       -119 |          0 |        -16 |       -135 |
+| c:\xampp\htdocs\Gretex Corporate main\services\index.php                                                      | PHP      |       -445 |         -6 |        -42 |       -493 |
+| c:\xampp\htdocs\Gretex Corporate main\services\service copy.php                                               | PHP      |       -942 |         -2 |        -38 |       -982 |
+| c:\xampp\htdocs\Gretex Corporate main\services\service.php                                                    | PHP      |       -956 |         -2 |        -35 |       -993 |
+| c:\xampp\htdocs\Gretex Corporate main\what-we-do\capital-markets\index.php                                    | PHP      |        474 |          6 |         37 |        517 |
+| c:\xampp\htdocs\Gretex Corporate main\what-we-do\capital-markets\ipo.php                                      | PHP      |        958 |          2 |         34 |        994 |
+| c:\xampp\htdocs\Gretex Corporate main\what-we-do\compliance-advisory\index.php                                | PHP      |        428 |          6 |         34 |        468 |
+| c:\xampp\htdocs\Gretex Corporate main\what-we-do\corporate-finance\index.php                                  | PHP      |        428 |          6 |         34 |        468 |
+| c:\xampp\htdocs\Gretex Corporate main\what-we-do\corporate-restructuring\index.php                            | PHP      |        428 |          6 |         34 |        468 |
+| c:\xampp\htdocs\Gretex Corporate main\what-we-do\index copy.php                                               | PHP      |        119 |          0 |         16 |        135 |
+| c:\xampp\htdocs\Gretex Corporate main\what-we-do\index.php                                                    | PHP      |        468 |          6 |         22 |        496 |
+| c:\xampp\htdocs\Gretex Corporate main\what-we-do\service copy.php                                             | PHP      |        942 |          2 |         38 |        982 |
+| Total                                                                                                         |          |      4,967 |       -328 |        630 |      5,269 |
++---------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

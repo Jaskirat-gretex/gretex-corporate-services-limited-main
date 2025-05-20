@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/*---------------- main-------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --navbar: #E1F1FF;
+    --heading: #141E47;
+    --body-text: #000000;
+    --white-text: #FFFFFF;
+    --buttons: #2B46BA;
+    --border: #141E4733;
+    --accentdesc: #999999;
+    --accentcolor: #EEF1FB;
+    --placebolder: #A0A9CF;
+}
+
+/* All sections heading and descriptions */
+
+.section-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.section-heading {
+    width: 100%;
+    font-family: Urbanist;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 64px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: var(--heading);
+}
+
+.section-description {
+    width: 60%;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--body-text);
+}
+
+/* All sections heading and descriptions ends ^ */
+
+/* Global button */
+.button {
+    width: fit-content;
+    background-color: var(--buttons);
+    color: var(--white-text);
+    padding: 12px 12px 12px 24px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.5s, color 0.5s;
+    /* Smooth background and text color change */
+}
+
+.button i {
+    transition: transform 0.5s;
+    /* Smooth transition for arrow movement */
+}
+
+.button:hover {
+    background: linear-gradient(100.54deg, #B8FF89 2.13%, #5474FF 96.81%);
+    color: var(--heading);
+}
+
+.button:hover>i {
+    transform: translateX(-10px);
+}
+
+/* All view buttons */
+.view-button {
+    width: fit-content;
+    height: 48px;
+    padding: 16px 16px 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+    border-radius: 24px;
+    opacity: 0px;
+    background-color: var(--white-text);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-decoration: none;
+    color: var(--heading);
+}
+
+.view-button i {
+    transition: transform 0.5s;
+    /* Smooth transition for arrow movement */
+}
+
+.view-button:hover>i {
+    transform: translateX(-10px);
+}
+
+
+/* global responsive section heading */
+@media screen and (max-width: 930px) {
+    .section-header {
+        padding: 0px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .section-heading {
+        width: 100%;
+        text-align: left;
+    }
+
+    .section-description {
+        text-align: left;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        width: 100%;
+        font-family: Urbanist;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: -0.03em;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .section-header {
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        line-height: 5px;
+        letter-spacing: -0.03em;
+    }
+
+    .section-heading {
+        width: 100%;
+        text-align: left;
+        font-size: 41.8px;
+        font-weight: 900;
+        line-height: 50.16px;
+        letter-spacing: -0.03em;
+        color: var(--heading);
+    }
+
+    .section-description {
+        text-align: left;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        width: 100%;
+        font-family: Urbanist;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.03em;
+    }
+
+    .button {
+        font-size: 18px;
+        padding: 8px 12px 8px 16px;
+    }
+}
+
+/* main ends here */
+
+/* header */
+#main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--navbar);
+    padding: 0px 40px;
+}
+
+#left-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.header-internal-links>ul {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    list-style: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--navbar);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.header-internal-links>ul>li>a {
+    text-decoration: none;
+    font-family: Plus Jakarta Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-align: left;
+    color: var(--body-text);
+}
+
+.hamburger-icon {
+    display: none;
+    opacity: 0;
+    scale: 0;
+}
+
+.hamburger-icon>a>i {
+    font-size: 2em;
+    color: var(--body-text);
+}
+
+#mobile-links {
+    z-index: 90;
+}
+
+#mobile-links>.container-mobile-links {
+    position: absolute;
+    background-color: var(--navbar);
+    width: 100vw;
+    top: 15%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 50px;
+    gap: 16px;
+}
+
+#mobile-links>.container-mobile-links>a {
+    text-decoration: none;
+    font-family: Plus Jakarta Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: var(--body-text);
+}
+
+#mobile-links {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    #main-header {
+        padding: 0 10px;
+    }
+
+    .header-internal-links>ul {
+        display: none;
+    }
+
+    .hamburger-icon {
+        display: block;
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+/* header ends here */
+
+.general-container {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .general-container {
+        padding: 20px;
+    }
+}

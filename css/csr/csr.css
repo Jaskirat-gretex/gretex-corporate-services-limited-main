@@ -1,0 +1,921 @@
+@import url(../global.css);
+
+.csr-header {
+    height: 100vh;
+    background: linear-gradient(89.53deg, rgba(0, 0, 0, 0.8) 38.02%, rgba(0, 0, 0, 0.3) 60.4%, rgba(0, 0, 0, 0) 71.79%), url("../../assets/csr-web-banner-min.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 128px 50px;
+    display: flex;
+    align-items: flex-end;
+    position: relative
+}
+
+.csr-content>h1 {
+    width: 45%;
+    font-family: Urbanist, sans-serif;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.csr-content>p {
+    width: 45%;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.hero-footer {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 26px 0 0 0;
+    bottom: 0;
+    right: 0;
+}
+
+.hero-footer::before {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background: transparent;
+    top: -50px;
+    right: 0;
+    border-radius: 50px;
+    box-shadow: 26px 26px 0 #fff;
+}
+
+.hero-footer::after {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: transparent;
+    bottom: 0px;
+    left: -50px;
+    border-radius: 50px;
+    box-shadow: 26px 26px 0 #fff;
+}
+
+.breadcrumbs>a,
+.breadcrumbs>span {
+    font-family: Urbanist;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.618;
+    text-align: left;
+    text-decoration: none;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+@media screen and (max-width:768px) {
+    .csr-header {
+        background: linear-gradient(180deg, rgba(137, 137, 137, 0) 0%, #000000 100%), url("../../assets/csr-web-banner-min.png");
+        display: flex;
+        align-items: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px;
+    }
+
+    .csr-content>h1 {
+        width: 100%;
+    }
+
+    .csr-content>p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .csr-header {
+        align-items: center;
+        padding: 50px 20px;
+    }
+
+    .csr-content>h1 {
+        width: 100%;
+        font-size: 2.617rem;
+    }
+
+    .csr-content>p {
+        width: 100%;
+    }
+}
+
+.csr-usps-main{
+    padding: 128px 32px 0 32px;
+    border-radius: 26px;
+    background-color: #212121;
+    color: #fff;
+}
+
+.about-csr {
+    padding-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.about-csr-left {
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+
+.about-csr-left>span {
+    font-family: Urbanist, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.about-csr-right {
+    width: 70%;
+}
+
+.about-csr-right>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.usp-container{
+    padding: 128px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.usp-col {
+    border-top: 1px solid #979797;
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.usp-col-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+
+.usp-col-header>span {
+    font-family: Urbanist, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.usp-main>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+}
+
+.usp-description>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width:768px) {
+    .about-csr {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .about-csr-left {
+        width: 100%;
+    }
+
+    .about-csr-left>span {
+        font-family: Urbanist, sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .about-csr-right {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .csr-usps-main{
+        margin-top: 64px;
+    }
+    .about-csr-right>h2 {
+        font-family: Urbanist, sans-serif;
+        font-size: 1.618rem;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    .usp-container{
+        padding: 64px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+}
+
+.initiative-main {
+    display: flex;
+    justify-content: center;
+}
+
+.initiative-data {
+    padding: 50px;
+    width: 40%;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.initiative-numbers {
+    padding: 50px;
+    width: 60%;
+    background: linear-gradient(180deg, rgba(137, 137, 137, 0) 0%, #000000 100%), url('../../assets/hands-together.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.initiative-data-box {
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.initiative-date-box {
+    background-color: aquamarine;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.initiative-date-box>h3 {
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.initiative-date-box>span {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+    text-wrap: nowrap;
+}
+
+.initiative-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.initiative-content>h3 {
+    font-family: Urbanist, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.initiative-location {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.initiative-location>span {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+}
+
+.initiative-content>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.initiative-numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+.initiative-numbers-header>h3 {
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617em;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #fff;
+    text-align: center;
+}
+
+.initiative-numbers-data {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.initiative-icon-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1 1 20%;
+}
+
+.initiative-icon {
+    border: 1px solid #fff;
+    border-radius: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.icon-header {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+}
+
+.icon-header>h3 {
+    font-family: Urbanist, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #fff;
+    text-align: center;
+}
+
+.icon-header>span {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width:768px) {
+    .initiative-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .initiative-data {
+        padding: 40px;
+        width: 100%;
+        gap: 24px;
+    }
+
+    .initiative-numbers {
+        padding: 40px;
+        width: 100%;
+    }
+
+    .initiative-numbers-header {
+        padding: 40px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .initiative-numbers-header>h3 {
+        width: 100%;
+        font-family: Urbanist, sans-serif;
+        font-size: 1.618em;
+        font-weight: 600;
+        line-height: 1.2;
+        color: #fff;
+        text-align: center;
+    }
+
+    .initiative-numbers-data {
+
+        padding: 0px;
+    }
+
+    .initiative-icon-box {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .initiative-icon>svg {
+        width: 48px;
+        height: 48px;
+    }
+
+    .icon-header {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .initiative-data-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+}
+
+
+
+/* Testimonial section */
+
+.testimonial-container {
+    padding: 64px 24px;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(137, 137, 137, 0) 0%, #000000 100%), url('../../assets/green-scenic-view.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 26px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 0px;
+    position: relative;
+}
+
+.testimonial-header {
+    width: 50%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonial-header>span {
+    font-family: Urbanist, sane-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.618;
+    color: #fff;
+}
+
+.testimonial-header>h2 {
+    font-family: Urbanist, sane-serif;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.testimonial-header>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.testimonial-main {
+    width: 40%;
+    height: 80%;
+    padding: 64px 32px;
+    border-radius: 26px;
+    background-color: #212121;
+    padding: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+.testimonial-content>h3 {
+    font-family: Urbanist, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.swipe-buttons {
+    background: #fff;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    gap: 24px;
+    z-index: 10;
+    border: 1px solid #fff;
+    margin: 0;
+    border-radius: 26px 0 0 0;
+}
+
+.swipe-buttons::before {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background: transparent;
+    top: -50px;
+    right: 0;
+    border-radius: 50px;
+    box-shadow: 30px 30px 0 #fff;
+}
+
+.swipe-buttons::after {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: transparent;
+    bottom: 0;
+    left: -50px;
+    border-radius: 50px;
+    box-shadow: 26px 26px 0 #fff;
+}
+
+.button-prev,
+.button-next {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    transition: background 1s ease-in;
+}
+
+.button-prev:hover,
+.button-next:hover {
+    background: linear-gradient(100.54deg, #003366 2.13%, #0f52ba 96.81%);
+    border: 1px solid linear-gradient(100.54deg, #003366 2.13%, #0f52ba 96.81%);
+}
+
+.button-prev:hover .button-prev svg {
+    background: #fff;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .testimonial-container {
+        padding: 0;
+        height: max-content;
+        flex-direction: column;
+    }
+    .testimonial-header{
+        width: 100%;
+    }
+    .testimonial-main, .testimonial-header{
+        width: 100%;
+        height: max-content;
+        position: relative;
+    }
+}
+
+
+@media screen and (max-width:430px) {
+
+    .testimonial-container {
+        box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.7);    
+    }
+
+    .testimonial-header{
+        padding: 64px 20px;
+    }
+    .testimonial-header>h2 {
+        font-family: Urbanist, sane-serif;
+        font-size: 2.617rem;
+        color: #fff;
+    }
+    
+    .testimonial-header>p {
+        font-family: Plus Jakarta Sans, sans-serif;
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 1.5;
+        color: #fff;
+    }
+    .testimonial-content>h3 {
+        font-family: Urbanist, sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.5;
+        color: #fff;
+    }
+
+}
+
+/* announcements */
+
+.announcements {
+    padding: 50px;
+    background-color: #f0f2f4;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.announcements-header>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.announcements-row {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.announcement-col {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000000;
+}
+
+.announcement-date>span {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.announcement-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.announcement-content>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.announcement-content>a {
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+
+.announcement-content>a:hover {
+    transform: translateX(10px);
+}
+
+@media screen and (max-width: 768px) {
+    .announcement-col {
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .announcements {
+        padding: 64px 20px;
+    }
+
+    .announcements-header>h2 {
+        font-size: 2.617rem;
+    }
+}
+
+/*---------- announcements ends ---------- */
+
+/* Awards and Accolades */
+.awards {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.awards-row {
+    display: flex;
+    gap: 16px;
+}
+
+.award {
+    border-left: 1px solid #979797;
+    padding: 50px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.award:nth-child(1) {
+    border-left: none;
+}
+
+.award-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.award-icon>span {
+    font-family: Urbanist;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+span::after {
+    content: '';
+    border-bottom: 1px solid #000000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.award-content>h3 {
+    font-family: Urbanist;
+    font-size: 1.618rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.award-image {
+    margin-top: 24px;
+}
+
+@media screen and (max-width:768px) {
+    .awards {
+        gap: 32px;
+    }
+
+    .awards-row {
+        flex-direction: column;
+    }
+
+    .award {
+        padding: 32px;
+        border-left: none;
+        border-top: 1px solid #979797;
+        padding: 40px 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .award:nth-child(1) {
+        border-left: none;
+        border-top: none;
+    }
+
+    .award-icon {
+        gap: 8px;
+    }
+}
+
+/* ----Awards and Accolades---- */
+
+/* CTA Section */
+
+.footer-cta-section {
+    display: flex;
+    background-color: #212121;
+}
+
+.cta-section-left,
+.cta-section-right {
+    width: 50%;
+}
+
+.cta-section-left {
+    padding: 128px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 64px;
+}
+
+.cta-header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cta-header>h4 {
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    color: #fff;
+}
+
+.cta-header>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    color: #fff;
+}
+
+.cta-section-right {
+    padding: 50px;
+    background-image: url('../../assets/corporate-meeting.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:768px) {
+    .footer-cta-section {
+        display: flex;
+        flex-direction: column;
+        background-color: #212121;
+    }
+
+    .cta-section-left,
+    .cta-section-right {
+        width: 100%;
+    }
+
+    .cta-section-left {
+        padding: 64px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 64px;
+    }
+
+    .cta-header {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .cta-section-right {
+        display: none;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .cta-section-left {
+        padding: 64px 40px;
+        gap: 32px;
+    }
+
+    .cta-header {
+        gap: 8px;
+    }
+
+    .cta-header>h4 {
+        font-family: Urbanist, sans-serif;
+        font-size: 1.618rem;
+        font-weight: 600;
+        line-height: 1.2;
+        text-align: left;
+        color: #fff;
+    }
+
+    .cta-header>p {
+        font-family: Plus Jakarta Sans, sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+        color: #fff;
+    }
+}

@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="icon" href="img/faviconx.ico"> -->
+    <link type="image/png" sizes="96x96" rel="icon" href="img/favicon.png">
+    <title>Gretex Broking</title>
+
+    <!-- STYLESHEET -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+
+    <style>
+        * {
+            overflow-x: hidden;
+        }
+
+        .terms-caption {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: start;
+            text-align: center;
+            color: #ffffff;
+            padding: 50px 0;
+        }
+
+        @media screen and (max-width:768px) {
+            .block-content {
+                flex-direction: column;
+            }
+
+            .block-content-left,
+            .block-content-right {
+                width: 100% !important;
+                padding: 20px;
+            }
+
+            .block-content-reverse {
+                flex-direction: column !important;
+                padding: 20px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-header navbar-expand-lg navbar-light bg-white">
+
+        <div class="container align-items-stretch">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo-desk-img.gif" class="img-fluid" alt="">
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title fw-bold" id="offcanvasNavbarLabel">Navigation Menu</h5>
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="downloads.html">Downloads</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Investor
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-white"
+                                        aria-labelledby="navbarDarkDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="Regulation46_LODR.html">Disclosures under
+                                                Regulation 46 of the LODR</a></li>
+                                        <li><a class="dropdown-item" href="Regulation62_LODR.html">Group Companies
+                                                Financials and Annual Returns</a></li>
+                                        <li><a class="dropdown-item" href="OtherInvestor.html">Other Investor
+                                                Information</a></li>
+
+                                        <!--                  <li><a class="dropdown-item" href="SubTab_CodeandPolicies.html">Information and Documents under Sub Tab Code and Policies</a></li>-->
+                                        <li><a class="dropdown-item" href="SubTab_CodeandPolicies.html">Investor
+                                                Contacts</a></li>
+                                        <li><a class="dropdown-item" href="SubTab_CorpSocialRespons.html">Corporate
+                                                Social Responsibility</a></li>
+                                        <li><a class="dropdown-item" href="https://kra.ndml.in/kra/ckyc/#/initiate">Know
+                                                you KRA validation status</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://gretexbroking.com/img/validate-KRA-status-2.2.pdf">KRA
+                                                Validation Process</a></li>
+
+                                        <!-- <li><a class="dropdown-item" href="SubTab_CorporateGovernance.html">Information under Sub Tab Corporate Governance</a></li>
+                  <li><a class="dropdown-item" href="SubTab_Investor.html">Information under Sub Tab Investor</a></li>
+                  <li><a class="dropdown-item" href="SubTab_AnnualReport.html">Documents under Sub Tab Annual Report</a></li>
+                  <li><a class="dropdown-item" href="SubTab_FinancialResults.html">Documents under Sub Tab Financial Results</a></li>
+                  <li><a class="dropdown-item" href="SubTab_ShareholdingPattern.html">Documents under Sub Tab Shareholding Pattern</a></li>
+                  <li><a class="dropdown-item" href="SubTab_StatutoryDisclosure.html">Documents under Sub Tab Statutory Disclosure</a></li>
+                  <li><a class="dropdown-item" href="SubTab_IPO.html">Documents under Sub Tab Initial Public Offering</a></li>
+                -->
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+                <div class="offcanvas-footer">
+                    <a href="#">
+                        <button class="btn btn-outline-dark">Apply IPO</button>
+                    </a>
+
+                    <a href="https://onboarding.gretexbroking.com:8080/OnBoarding/">
+                        <button class="btn btn-primary">Register</button>
+                    </a>
+
+                    <div class="dropdown">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Login
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <!-- <li><a class="dropdown-item" href="DpIdApi.html">Branch Login</a></li>-->
+                            <li><a class="dropdown-item" href="https://onboarding.gretexbroking.com:8080/ReKYC/">Branch
+                                    Login</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://backoffice.gretexbroking.com/shrdbms/userlogin.ss">Client
+                                    Login</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://onboarding.gretexbroking.com:8080/ReKYC/ipvLink">Re-KYC/
+                                    Modification/Closure</a></li>
+                            <!--            <li><a class="dropdown-item" href="#">Partners Login</a></li>-->
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="topbar">
+            <div class="container">
+                <div class="topbar-inner">
+                    <div class="topbar-support">
+                        <a href="tel:02269308500" class="topbar-link">
+                            <span class="topbar-label">Support : </span>
+                            <span class="topbar-text">(022) 69308500</span>
+                        </a>
+                    </div>
+                    <ul class="topbar-nav justify-content-md-end justify-content-sm-center flex-grow-1">
+                        <li class="nav-item">
+                            <div class="nav-item-label"> </div>
+                            <div class="nav-item-data">
+                                <div class="nav-item-value"></div>
+                                <div class="nav-item-percent plus"></div>
+                            </div>
+                        </li>
+                        <li class="h-divider mx-2 text-white"></li>
+                        <li class="nav-item">
+                            <div class="nav-item-label"> </div>
+                            <div class="nav-item-data">
+                                <div class="nav-item-value"></div>
+                                <div class="nav-item-percent minus"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <div class="container" style="display:flex; flex-direction:column; gap:32px;">
+        <div class="section-title">
+            <h1>From Local Broker to Global Investor</h1>
+        </div>
+        <div class="block-content" style="display: flex; gap:32px; justify-content: center; align-items: center;">
+            <div style="width: 50%;" class="block-content-left">
+                <h2 style="font-size: 2.617rem;">Steps to Open an Investment Account</h2>
+                <ul>
+                    <li style="font-size: 1.2rem;">Open a Trading Account.</li>
+                    <li style="font-size: 1.2rem;">Set up a Custodian, DEMAT, and Rupee Bank Account through a
+                        SEBI-approved Qualified Depository Participant (QDP) who also serves as a Custodian.</li>
+                    <li style="font-size: 1.2rem;">Obtain a Unique Income Tax Code via the Custodian QDP.</li>
+                </ul>
+                <p class="card-desc">For assistance, reach out to Mr. Prem Kumar Harikrishnan at +91 70218 00802.</p>
+            </div>
+            <div style="width: 50%;" class="block-content-right">
+                <img style="width: 100%; object-fit: cover;" src="./assets/random/man-using-phone.png" alt="">
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container">
+        <div class="block-content" style="display: flex; justify-content: center; align-items: center;">
+            <div style="width: 50%;" class="block-content-left">
+                <h1>Eligibility Criteria for FPI Investments</h1>
+                <p style="font-size: 1.618rem;">Foreign individuals or entities from countries that are members of the
+                    Financial Action Task Force
+                    (FATF) or nations with which SEBI has signed a bilateral or multilateral agreement can invest in
+                    India. Additionally, NRIs who do not have a PIS account or those who have closed all NRI DEMAT
+                    accounts in India can also invest through this route.</p>
+            </div>
+            <div style="width: 50%;" class="block-content-right">
+                <img style="width: 100%; object-fit: cover;" src="./assets/random/sebi.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="block-content-reverse"
+            style="display: flex; flex-direction: row-reverse; gap: 16px; justify-content: center; align-items: center;">
+            <div style="width: 50%;" class="block-content-left">
+                <h2 style="font-size: 2.617rem;">Process to Invest via the FPI Route</h2>
+                <p style="font-size: 1.2rem;">To invest, appoint a SEBI-registered Stock Broker, who will assist in:
+                </p>
+                <ul>
+                    <li style="font-size: 1.2rem;">Open a Trading Account.</li>
+                    <li style="font-size: 1.2rem;">Setting up a Custodian, DEMAT, and Rupee Bank Account with a
+                        SEBI-approved QDP Custodian</li>
+                    <li style="font-size: 1.2rem;">Applying for a Unique Income Tax Code through the Custodian QDP
+                    </li>
+                    <li style="font-size: 1.2rem;">Upon submission of all required documents (FULL PACK) with
+                        signatures, the investor will be ready to transfer funds and begin investing within 3 to 4
+                        weeks. The processing time primarily depends on obtaining a Tax Code (PAN Card), which involves
+                        a government agency.</li>
+                </ul>
+            </div>
+            <div style="width: 50%;" class="block-content-right">
+                <img style="width: 100%; object-fit: cover;" src="./assets/random/man-using-phone.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="block-content" style="display: flex; justify-content: center; align-items: center;">
+            <div style="width: 50%;" class="block-content-left">
+                <h1>FPI Investment Process & Guidelines</h1>
+                <p style="font-size: 1.618rem;">Once investment decisions are made based on either the Stock Broker's
+                    analysis or the investor's own research, the FPI can place orders directly with the Stock Broker or
+                    Route them through the Custodian's Order Management System, provided by many QDPs. Investors will
+                    have real-time access to order and trade status through an online system</p>
+            </div>
+            <div style="width: 50%;" class="block-content-right">
+                <img style="width: 100%; object-fit: cover;" src="./assets/random/man-using-phone.png" alt="">
+            </div>
+        </div>
+    </div>

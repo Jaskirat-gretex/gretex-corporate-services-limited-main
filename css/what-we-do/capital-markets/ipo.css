@@ -1,0 +1,652 @@
+@import url(../../global.css);
+
+.main-hero {
+    background: linear-gradient(89.53deg, rgba(0, 0, 0, 0.8) 38.02%, rgba(0, 0, 0, 0.3) 60.4%, rgba(0, 0, 0, 0) 71.79%), url("../../../assets/banners/ipo-banner-main.png");
+    padding: 128px 50px;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+}
+
+.hero-header>h1 {
+    width: 35%;
+    font-family: Urbanist, sans-serif;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+
+.hero-header>p {
+    width: 50%;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.618;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+
+.hero-footer {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 48px 0 0 0;
+    bottom: 0;
+    right: 0;
+}
+
+.hero-footer::before {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background: transparent;
+    top: -50px;
+    right: 0;
+    border-radius: 50px;
+    box-shadow: 26px 26px 0 #fff;
+}
+
+.hero-footer::after {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: transparent;
+    bottom: 0px;
+    left: -50px;
+    border-radius: 50px;
+    box-shadow: 26px 26px 0 #fff;
+}
+
+.breadcrumbs>a,
+.breadcrumbs>span {
+    font-family: Urbanist;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.618;
+    text-align: left;
+    text-decoration: none;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+@media screen and (max-width:768px) {
+    .main-hero {
+        padding: 40px;
+        background: linear-gradient(180deg, rgba(137, 137, 137, 0) 0%, #000000 100%), url("../../../assets/banners/ipo-banner-main.png");
+        align-items: center;
+    }
+
+    .hero-header>h1 {
+        width: 60%;
+        font-family: Urbanist;
+        font-size: 4.235rem;
+        font-weight: 700;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #ffffff;
+    }
+
+    .hero-header>p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .main-hero {
+        padding: 20px;
+    }
+
+    .hero-header>h1 {
+        width: 100%;
+        font-family: Urbanist;
+        font-size: 2.617rem;
+        font-weight: 700;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #ffffff;
+    }
+
+    .hero-header>p {
+        width: 100%;
+    }
+}
+
+
+.service-section{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+
+.service-section-col, .service-col-image {
+    width: 50%;
+}
+
+.service-section-col{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.service-section-col-header{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.service-section-col-header > h2{
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.service-section-col-header > p{
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.618;
+    text-align: left;
+}
+
+.service-section-col-cta{
+    align-self: start;
+}
+
+.service-section-col-cta > a{
+    display: flex;
+    padding: 12px 24px;
+    border: 1px solid #343c3f;
+    border-radius: 50px;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.618;
+    text-decoration: none;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+.ruler > hr{
+    width: 100%;
+    height: 1px;
+    background-color: #e9ebed;
+    border: none;
+}
+
+.service-section-col-metrics{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.metric{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.metric > h2{
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.metric > p{
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.618;
+    text-align: center;
+}
+
+.service-col-left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.service-col-image>img {
+    width: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:768px) {
+    .service-section{
+        padding: 64px 0px;
+        flex-direction: column;
+        gap: 64px;
+    }
+
+    .service-section-col, .service-col-image {
+        width: 100%;
+    }
+    
+}
+
+.service-strategy {
+    background: #dae1e3;
+    padding: 64px 50px;
+}
+
+.service-strategy-inner-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.service-strategy-content,
+.service-strategy-image {
+    width: 50%;
+}
+
+.service-strategy-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.service-strategy-content>h3 {
+    font-family: Urbanist;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.service-strategy-content>p {
+    font-family: Plus Jakarta Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.618;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.know-more {
+    display: flex;
+    align-self: start;
+    padding: 16px 32px;
+    border: 1px solid #343c3f;
+    border-radius: 50px;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.618;
+    text-decoration: none;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+.know-more:hover {
+    background-color: #343c3f;
+    color: #ffffff;
+}
+
+.service-strategy-image>img {
+    width: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:768px) {
+    .service-strategy {
+        padding: 64px 32px;
+    }
+
+    .service-strategy-inner-container {
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .service-strategy-content,
+    .service-strategy-image {
+        width: 100%;
+    }
+}
+
+/* Process chart for service */
+.about-usp-container {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.about-header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.usp-header>h2 {
+    font-family: Urbanist;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #141E47;
+}
+
+.usp-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+}
+
+.usp-data {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: fit-content;
+    flex: 1 1 20%;
+    padding: 10px;
+}
+
+.usp-data-header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.usp-data-header>h3 {
+    font-family: Urbanist;
+    font-size: 1.618rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.usp-data-header>p {
+    font-family: Plus Jakarta Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.618;
+    letter-spacing: -0.02em;
+}
+
+.usp-icon {
+    width: fit-content;
+    padding: 16px;
+    border-radius: 16px;
+    align-self: flex-start;
+    background-color: #e9ebed;
+}
+
+@media screen and (max-width: 768px) {
+    .about-header>h2 {
+        font-size: 2.617rem;
+    }
+
+    .usp-row {
+        flex-direction: column;
+    }
+
+    .usp-data {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .about-usp-container {
+        gap: 32px;
+    }
+
+    .about-header>h2 {
+        font-size: 2.617rem;
+    }
+
+    .usp-data {
+        padding: 0px;
+    }
+}
+
+/* FAQ Section */
+
+.faq-header > h2{
+    font-family: Urbanist;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #141E47;
+}
+
+.faqs {
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding: 50px;
+}
+
+.faq-col {
+    width: 40%;
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq-item {
+    padding: 20px;
+    border-bottom: 1px solid #a0a9cf;
+}
+
+.faq-item.open .faq-answer {
+    max-height: 500px;
+    opacity: 1;
+    padding: 10px;
+}
+
+.faq-question svg {
+    transition: transform 0.3s ease;
+}
+
+.faq-item.open .faq-question svg {
+    transform: rotate(45deg);
+}
+
+.faq-question {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.faq-question>h2 {
+    font-family: Urbanist;
+    font-size: 1.618rem;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.5s ease, opacity 0.3s ease;
+    padding: 0 10px;
+}
+
+.faq-answer>p {
+    font-family: Plus Jakarta Sans;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.618;
+    text-align: left;
+    color: var(--body-text);
+}
+
+@media screen and (max-width: 768px) {
+    .faqs {
+        padding: 20px 0;
+        flex-direction: column;
+    }
+
+    .faq-col {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .faq-question>h2 {
+        font-size: 1.618rem;
+    }
+
+    .faq-answer>p {
+        font-size: 1rem;
+    }
+}
+
+/* CTA Section */
+
+.footer-cta-section {
+    display: flex;
+    background-color: #212121;
+}
+
+.cta-section-left,
+.cta-section-right {
+    width: 50%;
+}
+
+.cta-section-left {
+    padding: 128px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 64px;
+}
+
+.cta-header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cta-header>h4 {
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    color: #fff;
+}
+
+.cta-header>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    color: #fff;
+}
+
+.cta-section-right {
+    padding: 50px;
+    background-image: url('../../../assets/corporate-meeting.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:768px) {
+    .footer-cta-section {
+        display: flex;
+        flex-direction: column;
+        background-color: #212121;
+    }
+
+    .cta-section-left,
+    .cta-section-right {
+        width: 100%;
+    }
+
+    .cta-section-left {
+        padding: 64px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 64px;
+    }
+
+    .cta-header {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .cta-section-right {
+        display: none;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .cta-section-left {
+        padding: 64px 40px;
+        gap: 32px;
+    }
+
+    .cta-header {
+        gap: 8px;
+    }
+
+    .cta-header>h4 {
+        font-family: Urbanist, sans-serif;
+        font-size: 1.618rem;
+        font-weight: 600;
+        line-height: 1.2;
+        text-align: left;
+        color: #fff;
+    }
+
+    .cta-header>p {
+        font-family: Plus Jakarta Sans, sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+        color: #fff;
+    }
+}

@@ -1,0 +1,66 @@
+Home
+About Done
+Services Done
+    |
+    |--Capital Markets
+    |--Corporate Finance
+    |--Corporate Restructuring
+    |--Compliance Advisory
+
+IPO
+    |
+    |-Offer Documents
+    |         |
+    |         |-IPO 1
+    |         |-IPO 2
+    |
+    |-Open Offer
+    |-Track Record
+
+CSR
+    |
+    |-index.php Done
+    |-csr-initiative-1.php
+    |-csr-initiative-2.php
+
+Investor Relations Done
+    |
+    |--Disclosures under Reg 64 of LODR
+    |         |
+    |         |-Business Details
+    |         |-Composition of Board of Directors and Committee
+    |         |-Financial Information
+    |         |       |
+    |         |       |-Annual Report Done
+    |         |       |-Annual Return Done
+    |         |       |-Financials Subsidiary Done
+    |         |       |-Financial Result Done
+    |         |
+    |         |
+    |         |-Investor Contact Done
+    |         |-Shareholding Pattern Done
+    |         |-Scrutinizer Report Done
+    |         |-Terms and Condition for Appointment of Independent Director Done
+    |         |-Notice For Shareholders Done
+    |         |-Announcements Done
+    |         |-Statement of Deviation Done
+    |         |-Compliance with Stock Exchange 
+    |
+    |
+    |-Codes and Policies Done
+    |-Gretex Right Issue Done
+    |-Investors Charter Done
+    |-Investors Complaints
+
+Careers Done
+    |
+    |
+    |-Job Posting Done
+
+Blog
+Contact
+
+
+
+
+GID moved to footer of website since it has only a pdf

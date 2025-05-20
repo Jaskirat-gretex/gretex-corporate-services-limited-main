@@ -1,0 +1,1212 @@
+@import url(../global.css);
+
+/* Main Section */
+
+.main-hero {
+    background: linear-gradient(89.53deg, rgba(0, 0, 0, 0.8) 38.02%, rgba(0, 0, 0, 0.3) 60.4%, rgba(0, 0, 0, 0) 71.79%), url("../../assets/banners/about-us-banner.png") center / cover no-repeat;
+    height: 100vh;
+    padding: 128px 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.hero-header{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hero-header>h1 {
+    width: 60%;
+    font-family: Urbanist;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+
+.hero-header>p {
+    width: 60%;
+    font-family: Plus Jakarta Sans;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.hero-footer {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 26px 0 0 0;
+    bottom: 0;
+    right: 0;
+}
+
+.hero-footer::before {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background: transparent;
+    top: -50px;
+    right: 0;
+    border-radius: 50px;
+    box-shadow: 26px 26px 0 #fff;
+}
+
+.hero-footer::after {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: transparent;
+    bottom: 0px;
+    left: -50px;
+    border-radius: 50px;
+    box-shadow: 26px 26px 0 #fff;
+}
+
+.breadcrumbs>a,
+.breadcrumbs>span {
+    font-family: Urbanist;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.618;
+    text-align: left;
+    text-decoration: none;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+@media screen and (max-width: 768px) {
+    .main-hero {
+        background: linear-gradient(180deg, rgba(137, 137, 137, 0) 0%, #000000 100%), url("../../assets/banners/about-us-banner.png") center / cover no-repeat;
+        padding: 40px;
+        align-items: center;
+    }
+
+    .hero-header>h1 {
+        width: 100%;
+        font-size: 4.235rem;
+    }
+
+    .hero-header>p {
+        width: 100%;
+        font-size: 1.rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .main-hero {
+        padding: 20px;
+    }
+
+    .hero-header>h1 {
+        width: 100%;
+        font-size: 2.617rem;
+    }
+
+    .hero-header>p {
+        font-size: 1rem;
+        line-height: 1.618;
+    }
+}
+
+/* USPs */
+
+.about-main{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding: 64px 0;
+}
+
+.about-header{
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+}
+
+.about-header > h2{
+    width: 60%;
+    font-family: Urbanist, sans-serif;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.about-header > p{
+    width: 70%;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.about-content-main{
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+    width: 100%;
+}
+
+.about-content-left{
+    width: 30%;
+    padding: 64px 0 ;
+    /* background-color: #003366; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.about-icon-box{
+    display: flex;
+    gap: 16px;
+}
+
+.about-icon{
+    background-color: #003366;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.about-icon-box-content{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.about-icon-box-content > h3{
+    font-family: Urbanist, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.about-icon-box-content > p{
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.about-content-right{
+    width: 70%;
+    display: flex;
+    border: none;
+}
+
+.about-us-video{
+    position: relative;
+}
+
+.about-media{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 26px;
+    position: relative;
+}
+
+.video-overlay{
+    border-radius: 26px;
+}
+
+.about-usp-container{
+    padding: 50px;
+    background-color: #003366;
+    position: absolute;
+    top: -60px;
+    right: 50px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.usp-main-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.usp-main-block > h2{
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.usp-main-content-block > p{
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #fff;
+}
+
+
+@media screen and (max-width:768px) {
+    .about-main{
+        gap: 0px;
+    }
+
+    .about-header{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    
+    .about-header > h2{
+        width: 60%;
+    }
+    
+    .about-header > p{
+        width: 70%;
+    }
+    
+    .about-content-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 24px;
+        width: 100%;
+    }
+    
+    .about-content-left{
+        width: 100%;
+        gap: 32px;
+    }
+            
+    .about-icon-box-content{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .about-icon-box-content > h3{
+        font-family: Urbanist, sans-serif;
+        font-size: 1.618rem;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    
+    .about-icon-box-content > p{
+        font-family: Plus Jakarta Sans, sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+    
+    .about-content-right{
+        width: 100%;
+        display: flex;
+        border: none;
+    }
+    
+    .about-us-video{
+        position: relative;
+    }
+    
+    .about-media{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 26px;
+        position: relative;
+    }
+        
+    .about-usp-container{
+        padding: 50px;
+        background-color: #104b88;
+        position: absolute;
+        top: -60px;
+        right: 50px;
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width:430px) {
+    .about-main{
+        gap: 0px;
+    }
+
+    .about-header{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    
+    .about-header > h2{
+        width: 100%;
+        font-size: 2.617rem;
+    }
+    
+    .about-header > p{
+        width: 100%;
+        font-size: 1rem;
+    }
+    
+    .about-content-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 24px;
+        width: 100%;
+    }
+    
+    .about-content-left{
+        width: 100%;
+        gap: 32px;
+    }
+            
+    .about-icon-box-content{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .about-icon-box-content > h3{
+        font-family: Urbanist, sans-serif;
+        font-size: 1.618rem;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    
+    .about-icon-box-content > p{
+        font-family: Plus Jakarta Sans, sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+    
+    .about-content-right{
+        width: 100%;
+        display: flex;
+        border: none;
+    }
+    
+    .about-us-video{
+        position: relative;
+    }
+    
+    .about-media{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 26px;
+        position: relative;
+    }
+        
+    .about-usp-container{
+        padding: 30px;
+        background-color: #003366;
+        position: absolute;
+        top: -60px;
+        right: 30px;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .usp-main-block > h2{
+        font-family: Urbanist, sans-serif;
+        font-size: 1.618rem;
+        font-weight: 600;
+        line-height: 1.2;
+        color: #fff;
+    }
+    
+    .usp-main-content-block > p{
+        font-family: Plus Jakarta Sans, sans-serif;
+        font-size: 0.6rem;
+        font-weight: 500;
+        line-height: 1.5;
+        color: #fff;
+    }
+
+}
+
+/* USPs ends */
+
+
+/* Vision & Mission */
+
+.vision-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+}
+
+.vision-col{
+    width: 50%;
+}
+
+.vision-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.vision-content > h2{
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.vision-content > p{
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.vision-image > img{
+    width: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 26px;
+}
+
+.mission-row{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+}
+
+.mission-col{
+    width: 50%;
+}
+
+.mission-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.mission-content > h2{
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.mission-content > p{
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.mission-image > img{
+    width: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 26px;
+}
+
+
+
+
+/* Vision & Mission ends*/
+
+/* Our Story */
+
+.story {
+    padding: 64px 50px;
+    background-color: #003366;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.story-header>h2 {
+    font-family: Urbanist;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+
+.story-header>p {
+    width: 85%;
+    font-family: Plus Jakarta Sans;
+    font-size: 1.618rem;
+    font-weight: 500;
+    line-height: 1.618;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+}
+
+.story-video {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 26px;
+}
+
+.story-media {
+    width: 100%;
+    object-fit: cover;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    border-radius: 26px;
+}
+
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.lightbox.hidden {
+    display: none;
+}
+
+.close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.lightbox-content {
+    position: relative;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.lightbox video {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .story {
+        padding: 40px;
+    }
+    
+    .story-header>h2 {
+        font-size: 4.235rem;
+    }
+    
+    .story-header>p {
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.618;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    
+    .story {
+        padding: 40px 20px;
+    }
+    
+    .story-header>h2 {
+        font-size: 2.617rem;
+    }
+}
+
+/* Our Story ends */
+
+/* Management Section */
+
+.founders-container {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.founder-header {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.founder-header-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.founder-header-inner>span {
+    font-family: Urbanist, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.founder-header-inner>h2 {
+    width: 40%;
+    font-family: Urbanist, sans-serif;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.founder-content {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #979797;
+    padding: 32px 0;
+}
+
+.founder-content>h3 {
+    width: 50%;
+    font-family: Urbanist, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.founder-content-description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.founder-content-description>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.founder-row {
+    display: flex;
+    flex-wrap: wrap;    
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.founder-col {
+    width: auto;
+    flex: 1 1 30%;   
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.founder-image>img {
+    width: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.founder-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.founder-meta>h3 {
+    font-family: Urbanist, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.founder-meta>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+@media screen and (max-width:768px) {
+
+    .founders-container {
+        gap: 16px;
+    }
+
+    .founder-header-inner>h2 {
+        width: 100%;
+    }
+
+    .founder-content {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .founder-content>h3 {
+        width: 100%;
+    }
+
+    .founder-content-description {
+        width: 100%;
+    }
+
+    .founder-row {
+        display: flex;
+        gap: 32px;
+    }
+
+    .founder-col {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .founder-meta {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+}
+
+@media screen and (max-width:430px) {
+
+    .founders-container {
+        padding: 64px 0;
+        gap: 16px;
+    }
+
+    .founder-header-inner>h2 {
+        width: 100%;
+        font-size: 2.617rem;
+    }
+
+    .founder-content {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 16px 0;
+    }
+
+    .founder-content>h3 {
+        width: 100%;
+    }
+
+    .founder-content-description {
+        width: 100%;
+    }
+
+}
+
+/* Awards and Accolades */
+.awards {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.awards-row {
+    display: flex;
+    gap: 16px;
+}
+
+.award {
+    border-left: 1px solid #979797;
+    padding: 50px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.award:nth-child(1) {
+    border-left: none;
+}
+
+.award-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.award-icon>span {
+    font-family: Urbanist;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+span::after {
+    content: '';
+    border-bottom: 1px solid #000000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.award-content>h3 {
+    font-family: Urbanist;
+    font-size: 1.618rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.award-image {
+    margin-top: 24px;
+}
+
+@media screen and (max-width:768px) {
+    .awards {
+        gap: 32px;
+    }
+
+    .awards-row {
+        flex-direction: column;
+    }
+
+    .award {
+        padding: 32px;
+        border-left: none;
+        border-top: 1px solid #979797;
+        padding: 40px 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .award:nth-child(1) {
+        border-left: none;
+        border-top: none;
+    }
+
+    .award-icon {
+        gap: 8px;
+    }
+}
+
+/* ----Awards and Accolades---- */
+
+/* CSR Section */
+
+.csr {
+    padding: 50px;
+    background-color: #0f52ba09;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.csr-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.csr-header>h2 {
+    width: 50%;
+    font-family: Urbanist;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.csr-header>p {
+    width: 50%;
+    font-family: Plus Jakarta Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.618;
+    letter-spacing: -0.02em;
+}
+
+.csr-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.csr-container {
+    padding: 40px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border-left: 1px solid #979797;
+}
+
+.csr-container-header>h3 {
+    font-family: Urbanist, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.csr-container-body {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.csr-container-body>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.618;
+    letter-spacing: -0.02em;
+}
+
+.navigation-link {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-family: Urbanist, sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1.618;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    color: #003366;
+}
+
+.navigation-link,
+.fa-arrow-right {
+    transition: all ease 0.5s;
+}
+
+.navigation-link:hover .fa-arrow-right {
+    transform: translateX(10px);
+}
+
+@media screen and (max-width:768px) {
+    .csr {
+        padding: 40px;
+    }
+
+    .csr-header {
+        flex-direction: column;
+    }
+
+    .csr-header>h2,
+    .csr-header>p {
+        width: 100%;
+    }
+
+    .csr-body {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+    }
+
+    .csr-container {
+        flex: 1 1 40%;
+        padding: 40px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        border-left: 1px solid #979797;
+    }
+
+    .csr-container-header>h3 {
+        font-family: Urbanist, sans-serif;
+        font-size: 1.618rem;
+        font-weight: 600;
+        line-height: 1.2;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+
+    .csr-container-body {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .csr-container-body>p {
+        font-family: Plus Jakarta Sans, sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.618;
+        letter-spacing: -0.02em;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .csr {
+        padding: 40px 20px;
+    }
+
+    .csr-header>h2 {
+        font-size: 2.617rem;
+    }
+}
+
+/* CSR Section ends */
+
+/* CTA Section */
+
+.footer-cta-section{
+    display: flex;
+    background-color: #212121;
+}
+
+.cta-section-left, .cta-section-right{
+    width: 50%;
+}
+
+.cta-section-left {
+    padding: 128px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 64px;
+}
+
+.cta-header{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cta-header > h4{
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    color: #fff;
+}
+
+.cta-header > p{
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    color: #fff;
+}
+
+.cta-section-right{
+    padding: 50px;
+    background-image: url('../../assets/corporate-meeting.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:768px) {
+    .footer-cta-section{
+        display: flex;
+        flex-direction: column;
+        background-color: #212121;
+    }
+    
+    .cta-section-left, .cta-section-right{
+        width: 100%;
+    }
+    
+    .cta-section-left {
+        padding: 64px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 64px;
+    }
+    
+    .cta-header{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+           
+    .cta-section-right{
+        display: none;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .cta-section-left {
+        padding: 64px 40px;
+        gap: 32px;
+    }
+
+    .cta-header{
+        gap: 8px;
+    }
+    
+    .cta-header > h4{
+        font-family: Urbanist, sans-serif;
+        font-size: 1.618rem;
+        font-weight: 600;
+        line-height: 1.2;
+        text-align: left;
+        color: #fff;
+    }
+    
+    .cta-header > p{
+        font-family: Plus Jakarta Sans, sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+        color: #fff;
+    }
+}

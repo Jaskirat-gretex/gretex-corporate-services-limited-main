@@ -1,0 +1,798 @@
+@import url(../global.css);
+
+.main-hero {
+    height: 100vh;
+    padding: 128px 50px;
+    background: linear-gradient(89.53deg, rgba(0, 0, 0, 0.8) 38.02%, rgba(0, 0, 0, 0.3) 60.4%, rgba(0, 0, 0, 0) 71.79%), url("../../assets/corporate-skyline.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+}
+
+.hero-header>h1 {
+    width: 70%;
+    font-family: Urbanist, sans-serif;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+
+.hero-header>p {
+    width: 60%;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.618;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+
+.hero-footer {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 26px 0 0 0;
+    bottom: 0;
+    right: 0;
+}
+
+.hero-footer::before {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background: transparent;
+    top: -50px;
+    right: 0;
+    border-radius: 50px;
+    box-shadow: 26px 26px 0 #fff;
+}
+
+.hero-footer::after {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: transparent;
+    bottom: 0px;
+    left: -50px;
+    border-radius: 50px;
+    box-shadow: 26px 26px 0 #fff;
+}
+
+.breadcrumbs>a,
+.breadcrumbs>span {
+    font-family: Urbanist, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.618;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.breadcrumbs>a {
+    color: #141E47;
+}
+
+@media screen and (max-width:768px) {
+    .main-hero {
+        background: linear-gradient(180deg, rgba(137, 137, 137, 0) 0%, #000000 100%),  url("../../assets/corporate-skyline.png");
+        padding: 40px;
+        align-items: center;
+    }
+
+    .hero-header>h1 {
+        width: 100%;
+    }
+
+    .hero-header>p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .main-hero {
+        padding: 20px;
+    }
+
+    .hero-header>h1 {
+        font-size: 2.617rem;
+    }
+
+    .hero-header>p {
+        font-size: 1rem;
+        width: 100%;
+    }
+}
+
+
+.issue {
+    padding: 64px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.issue-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.issue-1:nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.issue-content {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+    .issue {
+        padding: 20px;
+    }
+
+    .issue-content {
+        width: 100%;
+    }
+
+    .issue-1,
+    .issue-1:nth-child(2) {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 32px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .issue {
+        padding: 20px 0px;
+    }
+}
+
+.ipo-headline {
+    font-family: Urbanist;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.ipo-description {
+    width: 90%;
+    margin-left: 40px;
+    font-family: Urbanist;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-wrap: wrap;
+}
+
+.listing-benefits{
+    background-color: #104b88;
+    display: flex;
+    flex-direction: column;
+}
+
+.listing-benefits-header{
+    padding: 128px 50px 64px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+}
+
+.listing-benefits-header > h2{
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    color: #fff;
+}
+
+.listing-benefits-row{
+    max-width: 1440px;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+.listing-benefits-content > h2{
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.listing {
+    background: linear-gradient(100.54deg, #C4FB9F 2.13%, #AEBDFF 96.81%);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.listing-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+    align-items: center;
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+
+.listing-box {
+    background-color: #ffffff;
+    width: 400px;
+    height: auto;
+    border-radius: 24px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 0px;
+}
+
+.listing-box>img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.listing-headline {
+    padding: 20px;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.cta-button {
+    display: flex;
+    justify-content: center;
+}
+
+.listing-heading {
+    font-family: Urbanist;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.listing-description {
+    font-family: Urbanist;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.criteria {
+    padding: 64px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.criteria-box1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.criteria-box1:nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.criteria-content {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.criteria-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.listing-heading {
+    font-family: Urbanist;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.listing-description {
+    font-family: Urbanist;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.issue-image>img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.view-button:hover span{
+    transform: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .criteria {
+        padding: 20px;
+    }
+
+    .criteria-content {
+        width: 100%;
+    }
+
+    .criteria-box1,
+    .criteria-box1:nth-child(2) {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 32px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .criteria {
+        padding: 20px 0px;
+    }
+}
+
+.ipo-metrics {
+    background: #EEF1FB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9fafc;
+    border-radius: 20px;
+    padding: 60px 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.metric {
+    flex: 1 1 30%;
+    text-align: center;
+    border-left: 1px solid #141E4733;
+    padding: 10px;
+}
+
+.metric:first-child {
+    border-left: none;
+}
+
+.number {
+    font-family: Urbanist;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--heading);
+}
+
+.metric-description {
+    font-family: Urbanist;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+@media screen and (max-width:1024px) {
+    .number {
+        font-family: Urbanist;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 64px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: var(--heading);
+    }
+
+    .metric-description {
+        font-family: Urbanist;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .metric {
+        flex: 1 1 100%;
+        /* Responsive resizing */
+        padding: 10px;
+        border: none;
+        border-top: 1px solid #141E4733;
+    }
+
+    .metric:first-child {
+        border-top: none;
+    }
+
+    .number {
+        font-family: Urbanist;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 64px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: var(--heading);
+    }
+
+    .metric-description {
+        font-family: Urbanist;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+}
+
+
+
+
+.section-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-header > h2{
+    font-family: Urbanist, sans-serif;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.section-header > p{
+    width: 80%;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+}
+
+@media screen and (max-width:430px) {
+    .section-header{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .section-header > h2{
+        font-size: 2.617rem;
+        text-align: left;
+    }
+    
+    .section-header > p{
+        width: 100%;
+        font-size: 1rem;
+        text-align: left;
+    }
+}
+
+.ipo-container {
+    padding-top: 50px;
+}
+
+.ipo-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+
+.ipo-col{
+    flex: 1 1 calc(20% - 16px);
+    width: auto;
+}
+
+/* .ipo-col:last-child{
+    flex: none;
+} */
+
+.ipo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.ipo-image{
+    position: relative;
+}
+
+.ipo-image > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 26px 26px 0 26px;
+}
+
+.ipo-image > span{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #fff;
+    padding: 8px 16px;
+    border-radius: 26px;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.ipo-cta-button {
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 26px 0 0 0;
+    bottom: 0;
+    right: 0;
+}
+
+.ipo-cta-button::before {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background: transparent;
+    top: -50px;
+    right: 0;
+    border-radius: 50%;
+    box-shadow: 20px 20px 0 #fff;
+}
+
+.ipo-cta-button::after {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 0;
+    left: -50px;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: 20px 20px 0 #fff;
+}
+
+
+.ipo-cta-button > a{
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    border: 16px solid #fff;
+    border-radius: 100%;
+}
+
+.ipo-content> a{
+    font-family: Urbanist, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* CTA Section */
+
+.footer-cta-section{
+    display: flex;
+    background-color: #212121;
+}
+
+.cta-section-left, .cta-section-right{
+    width: 50%;
+}
+
+.cta-section-left {
+    padding: 128px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 64px;
+}
+
+.cta-header{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cta-header > h4{
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    color: #fff;
+}
+
+.cta-header > p{
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    color: #fff;
+}
+
+.cta-section-right{
+    padding: 50px;
+    background-image: url('../../assets/corporate-meeting.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:768px) {
+    .footer-cta-section{
+        display: flex;
+        flex-direction: column;
+        background-color: #212121;
+    }
+    
+    .cta-section-left, .cta-section-right{
+        width: 100%;
+    }
+    
+    .cta-section-left {
+        padding: 64px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 64px;
+    }
+    
+    .cta-header{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+           
+    .cta-section-right{
+        display: none;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .cta-section-left {
+        padding: 64px 40px;
+        gap: 32px;
+    }
+
+    .cta-header{
+        gap: 8px;
+    }
+    
+    .cta-header > h4{
+        font-family: Urbanist, sans-serif;
+        font-size: 1.618rem;
+        font-weight: 600;
+        line-height: 1.2;
+        text-align: left;
+        color: #fff;
+    }
+    
+    .cta-header > p{
+        font-family: Plus Jakarta Sans, sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+        color: #fff;
+    }
+}

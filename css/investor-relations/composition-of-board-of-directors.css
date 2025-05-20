@@ -1,0 +1,644 @@
+@import url(../global.css);
+
+.main-hero {
+    background: linear-gradient(89.53deg, rgba(0, 0, 0, 0.8) 38.02%, rgba(0, 0, 0, 0.3) 60.4%, rgba(0, 0, 0, 0) 71.79%), url("../../assets/notice-for-shareholders-banner.jpg");
+    height: 100vh;
+    padding: 128px 50px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+}
+
+.hero-header>h1 {
+    width: 45%;
+    font-family: Urbanist, sans-serif;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+
+.hero-header>p {
+    width: 50%;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.618;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+
+.hero-footer {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 26px 0 0 0;
+    bottom: 0;
+    right: 0;
+}
+
+.hero-footer::before {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background: transparent;
+    top: -50px;
+    right: 0;
+    border-radius: 50px;
+    box-shadow: 26px 26px 0 #fff;
+}
+
+.hero-footer::after {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: transparent;
+    bottom: 0px;
+    left: -50px;
+    border-radius: 50px;
+    box-shadow: 26px 26px 0 #fff;
+}
+
+.breadcrumbs>a,
+.breadcrumbs>span {
+    font-family: Urbanist;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.618;
+    text-align: left;
+    text-decoration: none;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.breadcrumbs > a{
+    color: #141E47;
+}
+
+@media screen and (max-width:768px) {
+    .main-hero {
+        background: linear-gradient(180deg, rgba(137, 137, 137, 0) 0%, #000000 100%), url("../../assets/notice-for-shareholders-banner.jpg");
+        background-position: right;
+        align-items: center;
+        padding: 40px;
+    }
+
+    .hero-header>h1 {
+        width: 100%;
+        font-family: Urbanist;
+        font-size: 4.235rem;
+        font-weight: 700;
+        line-height: 1.2;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #ffffff;
+    }
+
+    .hero-header>p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .main-hero {
+        padding: 20px;
+        height: 90vh;
+    }
+
+    .hero-header>h1 {
+        font-family: Urbanist;
+        font-size: 2.617rem;
+        font-weight: 700;
+        line-height: 1.2;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #ffffff;
+    }
+
+    .hero-header>p {
+        font-size: 1rem;
+        width: 100%;
+    }
+}
+
+.board-committee {
+    /* max-width: 1440px; */
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+.board-committee-content{
+    display: flex;
+    flex-direction: column;
+    gap: 128px;
+}
+
+
+.board-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+}
+
+.board-col{
+    width: 50%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.board-col-header{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.board-col-header>span {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.board-col-header>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.board-col-header>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+
+.board-col > hr{
+    width: 100%;
+    height: 1px;
+    background-color: #E5E5E5;
+    border: none;
+}
+
+.board-col > img{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+
+
+.board-metrics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .board-row{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .board-col{
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .board-col-header>h2 {
+        font-family: Urbanist, sans-serif;
+        font-size: 2.617rem;
+        font-weight: 700;
+        line-height: 1.2;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+.board {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.board-header {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.board-header>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.board-header>p {
+    width: 100%;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.table-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.table-contents>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+@media screen and (max-width:768px) {
+    .board {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .board-header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .table-contents {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        display: none;
+    }
+    
+    .table-contents>h2 {
+        font-family: Urbanist, sans-serif;
+        font-size: 1.618rem;
+        font-weight: 600;
+        line-height: 1.2;
+        letter-spacing: -0.03em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    
+    .board-header>h2 {
+        font-family: Urbanist, sans-serif;
+        font-size: 4.235rem;
+        font-weight: 700;
+        line-height: 1.2;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    
+    .board-header>p {
+        width: 100%;
+        font-family: Plus Jakarta Sans, sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: -0.03em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .board-header>h2 {
+        font-family: Urbanist, sans-serif;
+        font-size: 2.617rem;
+        font-weight: 700;
+        line-height: 1.2;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    
+    .board-header>p {
+        width: 100%;
+        font-family: Plus Jakarta Sans, sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: -0.03em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+}
+
+
+.board-member-header>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.board-main {
+    padding: 64px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.board-row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 64px;
+}
+
+.board-row-reverse {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 64px;
+}
+
+.board-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.board-content > span{
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.board-headline {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.board-headline>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.board-headline>p {
+    width: 100%;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.board-image{
+    width: 50%;
+}
+
+.board-image > img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+    .board-main {
+        padding: 40px 0;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 64px;
+    }
+    
+    .board-row {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 64px;
+    }
+    
+    .board-row-reverse {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row-reverse;
+        gap: 64px;
+    }
+    
+    .board-content {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+    
+    .board-content > span{
+        font-family: Plus Jakarta Sans, sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.2;
+        letter-spacing: -0.03em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    
+    .board-headline {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .board-headline>h2 {
+        font-family: Urbanist, sans-serif;
+        font-size: 2.617rem;
+        font-weight: 700;
+        line-height: 1.2;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    
+    .board-headline>p {
+        width: 100%;
+        font-family: Plus Jakarta Sans, sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.2;
+        letter-spacing: -0.03em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    
+    .board-image{
+        width: 50%;
+    }   
+}
+
+@media screen and (max-width:430px) {
+    .board-main {
+        padding: 20px 0;
+        margin: 32px auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 64px;
+    }
+    
+    .board-row {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .board-row-reverse {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 32px;
+    }
+
+    .board-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .board-content > span{
+        font-family: Plus Jakarta Sans, sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.618;
+        letter-spacing: -0.03em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    
+    .board-headline {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .board-headline>h2 {
+        font-family: Urbanist, sans-serif;
+        font-size: 1.618rem;
+        font-weight: 700;
+        line-height: 1.2;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    
+    .board-headline>p {
+        width: 100%;
+        font-family: Plus Jakarta Sans, sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.618;
+        letter-spacing: -0.03em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    
+    .board-image{
+        width: 100%;
+    }
+    
+    .board-image > img{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

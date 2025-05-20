@@ -1,0 +1,1284 @@
+@import url(../global.css);
+
+.main-hero {
+    height: 100vh;
+    padding: 128px 50px;
+    background: linear-gradient(89.53deg, rgba(0, 0, 0, 0.8) 38.02%, rgba(0, 0, 0, 0.3) 60.4%, rgba(0, 0, 0, 0) 71.79%), url("../../assets/banners/careers-banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+}
+
+.hero-header>h1 {
+    width: 70%;
+    font-family: Urbanist, sans-serif;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+
+.hero-header>p {
+    width: 60%;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.618;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+
+.hero-footer {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 26px 0 0 0;
+    bottom: 0;
+    right: 0;
+}
+
+.hero-footer::before {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background: transparent;
+    top: -50px;
+    right: 0;
+    border-radius: 50px;
+    box-shadow: 26px 26px 0 #fff;
+}
+
+.hero-footer::after {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: transparent;
+    bottom: 0px;
+    left: -50px;
+    border-radius: 50px;
+    box-shadow: 26px 26px 0 #fff;
+}
+
+.breadcrumbs>a,
+.breadcrumbs>span {
+    font-family: Urbanist;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.618;
+    text-align: left;
+    text-decoration: none;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.breadcrumbs>a {
+    color: #141E47;
+}
+
+@media screen and (max-width:768px) {
+    .main-hero {
+        background: linear-gradient(180deg, rgba(137, 137, 137, 0) 0%, #000000 100%), url("../../assets/banners/careers-banner.png");
+        background-position: center;
+        padding: 40px;
+    }
+
+    .hero-header>h1 {
+        width: 100%;
+        font-family: Urbanist;
+        font-size: 4.235rem;
+        font-weight: 700;
+        line-height: 1.2;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #ffffff;
+    }
+
+    .hero-header>p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .main-hero {
+        padding: 20px;
+        align-items: center;
+    }
+
+    .hero-header>h1 {
+        font-family: Urbanist;
+        font-size: 2.617rem;
+        font-weight: 700;
+        line-height: 1.2;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #ffffff;
+    }
+
+    .hero-header>p {
+        font-size: 1rem;
+        width: 100%;
+    }
+}
+
+/* Main USPs */
+.company-usps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    padding: 50px 0;
+}
+
+.company-usp-image,
+.company-usp-content {
+    width: 50%;
+    position: relative;
+    padding: 0;
+}
+
+.company-usp-image>img {
+    border-radius: 26px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.serve-image-content {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 26px;
+    border-radius: 26px 0 0 0;
+    background-color: #fff;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.serve-image-content::before {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background: transparent;
+    top: -50px;
+    right: 0;
+    border-radius: 50px;
+    box-shadow: 26px 26px 0 #fff;
+}
+
+.serve-image-content::after {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: transparent;
+    bottom: 0px;
+    left: -50px;
+    border-radius: 50px;
+    box-shadow: 26px 26px 0 #fff;
+}
+
+.serve-image-content-left>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.serve-image-content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.serve-image-content-right>h3 {
+    font-family: Urbanist, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.serve-image-content-right>span {
+    font-family: Urbanist, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.company-usp-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.company-usp-content-header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.company-usp-content-header>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #000;
+}
+
+.company-usp-content-header>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #000;
+}
+
+.main-usps {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.usp-icon-box {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.usp-icon-box > h3{
+    font-family: Urbanist, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+@media screen and (max-width:1024px) {
+    .company-usps {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .company-usp-image,
+    .company-usp-content {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .company-usp-content-header>h2 {
+        font-size: 2.617rem;
+    }
+
+    .company-usp-content-header>p {
+        font-size: 1rem;
+    }
+
+    .serve-image-content-left>h2 {
+        font-family: Urbanist, sans-serif;
+        font-size: 2.617rem;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+
+    .serve-image-content-right>h3 {
+        font-family: Urbanist, sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    .serve-image-content-right>span {
+        font-family: Urbanist, sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+}
+
+/* Values section */
+
+.section-heading{
+    text-align: center;
+}
+
+.section-description{
+    width: 80%;
+    align-self: center;
+    text-align: center;
+}
+
+.values-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 50px 0;
+}
+
+.values {
+    border-radius: 24px;
+    width: 30%;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-grow: 1;
+    gap: 32px;
+    height: 600px;
+    padding: 0 20px 32px 20px;
+}
+
+.value-1 {
+    background: linear-gradient(180deg, rgba(137, 137, 137, 0) 0%, #000000 100%), url("../../assets/people-investment.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.value-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.value-content>h3 {
+    font-family: Urbanist;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+
+.value-content>p {
+    font-family: Urbanist;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+
+.view-button {
+    height: 48px;
+    padding: 16px 16px 16px 24px;
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    border-radius: 24px;
+    opacity: 0px;
+    background-color: var(--white-text);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-decoration: none;
+    color: var(--heading);
+}
+
+.value-2 {
+    background: linear-gradient(180deg, rgba(137, 137, 137, 0) 0%, #000000 100%), url("../../assets/strategic-development.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.value-3 {
+    background: linear-gradient(180deg, rgba(137, 137, 137, 0) 0%, #000000 100%), url("../../assets/teamwork.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+/* Testimonial section */
+.testimonial-container {
+    padding: 64px 24px;
+    height: 80vh;
+    background: linear-gradient(180deg, rgba(137, 137, 137, 0) 0%, #000000 100%), url('../../assets/employee-testimonial-banner.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 26px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 0px;
+    position: relative;
+}
+
+.testimonial-header {
+    width: 50%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonial-header>span {
+    font-family: Urbanist, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.618;
+    color: #fff;
+}
+
+.testimonial-header>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.testimonial-header>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.testimonial-main {
+    width: 40%;
+    height: 80%;
+    padding: 64px 32px;
+    border-radius: 26px;
+    background-color: #212121;
+    padding: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.testimonial-content>h3 {
+    font-family: Urbanist, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.swipe-buttons {
+    background: #fff;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    gap: 24px;
+    z-index: 10;
+    border: 1px solid #fff;
+    margin: 0;
+    border-radius: 26px 0 0 0;
+}
+
+.swipe-buttons::before {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background: transparent;
+    top: -50px;
+    right: 0;
+    border-radius: 50px;
+    box-shadow: 30px 30px 0 #fff;
+}
+
+.swipe-buttons::after {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: transparent;
+    bottom: 0;
+    left: -50px;
+    border-radius: 50px;
+    box-shadow: 26px 26px 0 #fff;
+}
+
+.button-prev,
+.button-next {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    transition: background 1s ease-in;
+}
+
+.button-prev:hover,
+.button-next:hover {
+    background: linear-gradient(100.54deg, #003366 2.13%, #0f52ba 96.81%);
+    border: 1px solid linear-gradient(100.54deg, #003366 2.13%, #0f52ba 96.81%);
+}
+
+.button-prev:hover .button-prev svg {
+    background: #fff;
+}
+
+@media screen and (max-width:768px) {
+    .testimonial-container {
+        padding: 0;
+        height: max-content;
+        flex-direction: column;
+    }
+
+    .testimonial-header {
+        width: 100%;
+    }
+
+    .testimonial-main,
+    .testimonial-header {
+        width: 100%;
+        height: max-content;
+        position: relative;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .testimonial-header {
+        padding: 64px 20px;
+    }
+
+    .testimonial-header>h2 {
+        font-family: Urbanist, sane-serif;
+        font-size: 2.617rem;
+        color: #fff;
+    }
+
+    .testimonial-header>p {
+        font-family: Plus Jakarta Sans, sans-serif;
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 1.5;
+        color: #fff;
+    }
+}
+
+.company-culture {
+    background: linear-gradient(to bottom, #141E47 40%, #ffffff 40%);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.company-culture-header>span {
+    font-family: Urbanist;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+}
+
+.company-culture-header>h2 {
+    width: 80%;
+    font-family: Urbanist;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+}
+
+.careers-video {
+    position: relative;
+}
+
+.story-header {
+    position: relative;
+}
+
+.story-video {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.story-media {
+    width: 100%;
+    object-fit: cover;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.lightbox.hidden {
+    display: none;
+}
+
+.close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.lightbox-content {
+    position: relative;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.lightbox video {
+    width: 100%;
+    height: auto;
+}
+
+.company-culture-footer {
+    padding: 50px 0;
+}
+
+.company-culture-content-header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.company-culture-content-header>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.company-culture-content-header>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.company-culture-metrics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+    flex-wrap: wrap;
+    width: auto;
+    width: auto;
+    gap: 32px;
+}
+
+.metric {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 32px;
+    flex: 1 1 20%;
+}
+
+.metric-number {
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.metric-description {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+@media screen and (max-width:1024px) {
+    .company-culture-header>h2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .company-culture {
+        background: linear-gradient(to bottom, #141E47 40%, #ffffff 40%);
+    }
+
+    .company-culture-header>h2 {
+        font-size: 2.617rem;
+        width: 100%;
+    }
+
+    .company-culture-content-header>p {
+        font-size: 1rem;
+    }
+
+    .company-culture-metrics {
+        padding: 40px 0;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .company-culture {
+        background: linear-gradient(to bottom, #141E47 30%, #ffffff 30%);
+        padding: 64px 20px;
+        gap: 32px;
+    }
+}
+
+/* Catylst connect */
+.catalyst-connect {
+    padding: 50px;
+    height: 80vh;
+    background: linear-gradient(180deg, rgba(137, 137, 137, 0) 0%, #000000 100%), url("../../assets/catalyst-connect.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 32px;
+}
+
+.catalyst-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+}
+
+.catalyst-content>h2 {
+    font-family: Urbanist;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+
+.catalyst-content>p {
+    width: 80%;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+
+@media screen and (max-width:430px) {
+    .catalyst-connect {
+        background: linear-gradient(180deg, rgba(137, 137, 137, 0) 0%, #000000 100%), url("../assets/catalyst-connect.png");
+        background-position: center;
+        background-size: cover;
+        padding: 20px;
+        height: 70vh;
+        gap: 32px;
+    }
+
+}
+
+/* Open roles */
+
+.open-roles {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.open-roles>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.document-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.document {
+    background-color: var(--accentcolor);
+    border-radius: 24px;
+    width: 400px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 25%;
+    gap: 32px;
+}
+
+.icon-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.icon-box>h1 {
+    font-family: Plus Jakarta Sans;
+    font-size: 1.618rem;
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.icon-box-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.icon-box-content>span {
+    font-family: Plus Jakarta Sans;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+@media screen and (max-width: 930px) {
+    .document-container {
+        padding: 20px;
+    }
+
+    .document {
+        background-color: var(--accentcolor);
+        border-radius: 24px;
+        width: auto;
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+}
+
+/* FAQ Section */
+.section-header {
+    font-family: Urbanist, sans-serif;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+
+.faqs {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding: 50px;
+}
+
+.faq-col {
+    width: 40%;
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq-item {
+    padding: 20px;
+    border-bottom: 1px solid #a0a9cf;
+}
+
+.faq-item.open .faq-answer {
+    max-height: 500px;
+    opacity: 1;
+    padding: 10px;
+}
+
+.faq-question svg {
+    transition: transform 0.3s ease;
+}
+
+.faq-item.open .faq-question svg {
+    transform: rotate(45deg);
+}
+
+.faq-question {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.faq-question>h2 {
+    font-family: Urbanist;
+    font-size: 1.9rem;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.5s ease, opacity 0.3s ease;
+    padding: 0 10px;
+}
+
+.faq-answer>p {
+    font-family: Plus Jakarta Sans;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.618;
+    text-align: left;
+    color: var(--body-text);
+}
+
+@media screen and (max-width: 768px) {
+    .faqs {
+        padding: 20px 0;
+        flex-direction: column;
+    }
+
+    .faq-col {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .section-header>h2 {
+        font-size: 2.617rem;
+    }
+
+    .faq-question>h2 {
+        font-size: 1.618rem;
+    }
+
+    .faq-answer>p {
+        font-size: 1rem;
+    }
+}
+
+.contact-cta {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-content,
+.contact-image {
+    width: 50%;
+}
+
+.contact-content {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contact-image {
+    padding: 50px;
+    background-image: url('../../assets/corporate-meeting.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-header>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000;
+}
+
+.contact-header>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.618;
+    text-align: left;
+    color: #000;
+}
+
+@media screen and (max-width:768px) {
+    .contact-cta {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contact-content,
+    .contact-image {
+        width: 100%;
+    }
+
+    .contact-image {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .contact-cta {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contact-content,
+    .contact-image {
+        width: 100%;
+    }
+
+    .contact-content {
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-image {
+        height: 100%;
+    }
+
+    .contact-header>h2 {
+        width: 80%;
+    }
+
+}
+
+/* CTA Section */
+
+.footer-cta-section {
+    display: flex;
+    background-color: #212121;
+}
+
+.cta-section-left,
+.cta-section-right {
+    width: 50%;
+}
+
+.cta-section-left {
+    padding: 128px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 64px;
+}
+
+.cta-header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cta-header>h4 {
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    color: #fff;
+}
+
+.cta-header>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    color: #fff;
+}
+
+.cta-section-right {
+    padding: 50px;
+    background-image: url('../../assets/corporate-meeting.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:768px) {
+    .footer-cta-section {
+        display: flex;
+        flex-direction: column;
+        background-color: #212121;
+    }
+
+    .cta-section-left,
+    .cta-section-right {
+        width: 100%;
+    }
+
+    .cta-section-left {
+        padding: 64px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 64px;
+    }
+
+    .cta-header {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .cta-section-right {
+        display: none;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .cta-section-left {
+        padding: 64px 40px;
+        gap: 32px;
+    }
+
+    .cta-header {
+        gap: 8px;
+    }
+
+    .cta-header>h4 {
+        font-family: Urbanist, sans-serif;
+        font-size: 1.618rem;
+        font-weight: 600;
+        line-height: 1.2;
+        text-align: left;
+        color: #fff;
+    }
+
+    .cta-header>p {
+        font-family: Plus Jakarta Sans, sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+        color: #fff;
+    }
+}

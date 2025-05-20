@@ -1,0 +1,1273 @@
+@import url(global.css);
+
+/* body carousel starts */
+
+.swiper {
+    width: 100%;
+    height: 100vh;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+}
+
+.swiper-slide>.background-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.background-image {
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+}
+
+.main-tagline {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 50px;
+}
+
+.headline {
+    width: 60%;
+    font-family: Urbanist, sans-serif;
+    font-size: 4.235rem;
+    font-weight: 900;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #fff;
+}
+
+.description {
+    width: 65%;
+    font-family: Plus Jakarta Sans, sans serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.618;
+    text-align: left;
+    color: #fff;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+}
+
+.swipe-buttons {
+    background: #fff;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    gap: 24px;
+    z-index: 10;
+    border: 1px solid #fff;
+    margin: 0;
+    border-radius: 26px 0 0 0;
+}
+
+.swipe-buttons::before {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background: transparent;
+    top: -50px;
+    right: 0;
+    border-radius: 50px;
+    box-shadow: 30px 30px 0 #fff;
+}
+
+.swipe-buttons::after {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: transparent;
+    bottom: 0;
+    left: -50px;
+    border-radius: 50px;
+    box-shadow: 26px 26px 0 #fff;
+}
+
+.button-prev,
+.button-next {
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    transition: background 1s ease-in;
+}
+
+.button-prev:hover,
+.button-next:hover {
+    background: linear-gradient(100.54deg, #003366 2.13%, #0f52ba 96.81%);
+    border: 1px solid linear-gradient(100.54deg, #003366 2.13%, #0f52ba 96.81%);
+}
+
+.button-prev:hover .button-prev svg {
+    background: #fff;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .swiper {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .swiper-slide>.background-image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main-tagline {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 50px;
+    }
+
+    .headline {
+        width: 100%;
+        font-family: Urbanist, sans-serif;
+        font-size: 3.235rem;
+        font-weight: 900;
+        line-height: 1.2;
+        letter-spacing: -0.03em;
+        text-align: left;
+        color: #fff;
+    }
+
+    .description {
+        width: 80%;
+        font-family: Plus Jakarta Sans, sans serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        line-height: 1.5;
+        text-align: left;
+        color: #fff;
+    }
+
+    .cta-buttons {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 24px;
+    }
+    
+}
+
+@media screen and (max-width:430px) {
+    .swiper {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .swiper-slide>.background-image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main-tagline {
+        gap: 0px;
+        padding: 20px;
+    }
+
+    .headline {
+        width: 100%;
+        font-family: Urbanist, sans-serif;
+        font-size: 2.617rem;
+        font-weight: 900;
+        line-height: 1.2;
+        letter-spacing: -0.03em;
+        text-align: left;
+        color: #fff;
+    }
+
+    .description {
+        width: 100%;
+        font-family: Plus Jakarta Sans, sans serif;
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.5;
+        text-align: left;
+        color: #fff;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    
+}
+
+.about-gretex {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.about-visual {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.about-video-container {
+    position: relative;
+}
+
+.about-video-container>img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 26px;
+}
+
+.about-video-play {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 16px 32px;
+    border-radius: 26px 0 0 0;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.about-video-play>span {
+    font-family: Plus Jakarta Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.618;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.play-button-wrapper {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.play-icon {
+    position: relative;
+    z-index: 10;
+}
+
+.pulse-circle {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border: 2px solid black;
+    border-radius: 50%;
+    animation: pulse 2s ease-out infinite;
+    z-index: 1;
+}
+
+.pulse-circle:nth-child(2) {
+    animation-delay: 1s;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.6;
+    }
+
+    70% {
+        opacity: 0.3;
+    }
+
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+.about-video-play::before {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background: transparent;
+    top: -50px;
+    right: 0;
+    border-radius: 50px;
+    box-shadow: 26px 26px 0 #fff;
+}
+
+.about-video-play::after {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: transparent;
+    bottom: 0px;
+    left: -50px;
+    border-radius: 50px;
+    box-shadow: 26px 26px 0 #fff;
+}
+
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.lightbox.hidden {
+    display: none;
+}
+
+.close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.lightbox-content {
+    position: relative;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.lightbox video {
+    width: 100%;
+    height: auto;
+}
+
+.about-metrics {
+    padding: 18px;
+    background: linear-gradient(100.54deg, #003366 2.13%, #0f52ba 96.81%);
+    border-radius: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.metric {
+    flex: 1 1 30%;
+    text-align: center;
+    border-left: 1px solid #f0f2f4;
+    padding: 10px;
+}
+
+.metric:first-child {
+    border-left: none;
+}
+
+.number {
+    font-family: Urbanist;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+}
+
+.metric-description {
+    font-family: Urbanist;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+}
+
+@media screen and (max-width:430px) {
+    .about-metrics {
+        padding: 24px;
+    }
+
+    .metric {
+        flex: 1 1 30%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .metric:last-child {
+        border-top: 1px solid #f0f2f4;
+        border-left: none;
+    }
+}
+
+.about-content {
+    width: 60%;
+    padding: 64px;
+    background-color: #f0f2f4;
+    border-radius: 26px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.content-header>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000
+}
+
+.content-body>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.618;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.about-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    gap: 16px;
+    padding: 16px 24px;
+    border-radius: 80px;
+    background: transparent;
+    border: 1px solid #000;
+    text-decoration: none;
+    color: #000;
+    position: relative;
+    overflow: hidden;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+    text-align: center;
+    transition: background 0.5s ease, color 0.5s ease, box-shadow 0.5s ease;
+}
+
+.arrow-dissapear,
+.arrow-appear {
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    position: relative;
+}
+
+.arrow-dissapear {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.arrow-appear {
+    opacity: 0;
+    transform: translateX(20px);
+}
+
+.button-text {
+    transition: transform 0.5s ease, margin-right 0.5s ease;
+}
+
+.about-button:hover {
+    background: linear-gradient(100.54deg, #003366 2.13%, #0f52ba 96.81%);
+    color: #fff;
+    border: 1px solid transparent;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.about-button:hover .arrow-dissapear {
+    opacity: 0;
+    transform: translateX(-20px);
+}
+
+.about-button:hover .arrow-appear {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.about-button:hover .button-text {
+    transform: translateX(-20px);
+    /* Move the text left to close the gap */
+    margin-right: -10px;
+    /* Adjust spacing between text and right arrow */
+}
+
+@media screen and (max-width:768px) {
+    .about-gretex {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about-visual,
+    .about-content {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .about-content {
+        padding: 64px 32px;
+        background-color: #f0f2f4;
+        border-radius: 26px;
+        justify-content: center;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .content-header>h2 {
+        font-family: Urbanist, sans-serif;
+        font-size: 2.617rem;
+        font-weight: 600;
+        line-height: 1.2;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000
+    }
+
+    .content-body>p {
+        font-family: Plus Jakarta Sans, sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.618;
+        letter-spacing: -0.02em;
+        text-align: left;
+    }
+}
+
+.services {
+    background-color: #f0f2f4;
+    padding: 64px 24px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    border-radius: 24px;
+}
+
+.service-col-1 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.service-col-2 {
+    width: 25%;
+    background: url('../assets/business-meeting-min.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 24px;
+}
+
+.service-col-3 {
+    width: 25%;
+}
+
+.service-header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.service-header>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.service-header>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.services-main-col {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.service {
+    padding: 16px 32px;
+    border: 1px solid #000000;
+    border-radius: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-content {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.service-content>h3 {
+    font-family: Urbanist, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.service-col-2>img {
+    width: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 24px;
+}
+
+.service-col-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.see-work {
+    height: 100%;
+    background-color: #0f52ba;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 64px;
+    padding: 24px;
+    border-radius: 24px;
+    align-self: stretch;
+    align-content: stretch;
+}
+
+.see-work-header>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.618;
+}
+
+.see-work-cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.see-work-cta>h3 {
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.see-work-cta-button {
+    border: 1px solid #f0f2f4;
+    padding: 12px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:1024px) {
+    .services {
+        flex-direction: column;
+    }
+
+    .services>* {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .service-header>h2 {
+        font-size: 2.617rem;
+    }
+
+    .service {
+        padding: 12px 24px;
+    }
+
+    .service-content>h3 {
+        font-size: 1.2rem;
+    }
+}
+
+
+/* case studies section */
+
+.case-studies {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.case-studies-header>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.case-study-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.case-study-row {
+    display: flex;
+    gap: 16px;
+}
+
+.case-study-col-main {
+    width: 60%;
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.case-study-container {
+    border-radius: 26px;
+    height: 60vh;
+    background: linear-gradient(89.53deg, #000000, transparent), url('../assets/case-study-banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.case-study-meta {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+
+.case-category {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 32px;
+    border-radius: 80px;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.case-date {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.case-study-container>h3 {
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #fff;
+}
+
+/* .case-study-container > p{
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #fff;
+} */
+
+.case-study-col-metric {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.case-study-metric-container {
+    height: 50%;
+    background-color: #212121;
+    border-radius: 26px;
+    padding: 32px;
+}
+
+.case-study-metric-container>h3 {
+    font-family: Urbanist, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.case-study-financials-container {
+    height: 50%;
+    background-color: #f0f2f4;
+    border-radius: 26px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.case-study-financials-container>h3 {
+    font-family: Urbanist, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+
+
+.financial-icon-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+
+.icon-content > h4{
+    font-family: Urbanist, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #000;
+}
+
+.icon-content > p{
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.case-study-challenges-container,
+.case-study-strategy-container,
+.case-study-subscription-container {
+    padding: 32px;
+    border-radius: 26px;
+    background-color: #f0f2f4;
+    width: 33%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Why us USPs section */
+
+.why-usp-header>h2 {
+    width: 60%;
+    font-family: Urbanist, sans-serif;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.why-usp-header>p {
+    width: 60%;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.why-usp-body {
+    padding: 64px 0;
+}
+
+.usp-rows {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+.usp-col {
+    flex: 1 1 20%;
+}
+
+.usp-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.usp-content>h3 {
+    font-family: Urbanist, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.usp-content>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.brochure-download {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .why-usp-header>h2 {
+        width: 100%;
+    }
+
+    .why-usp-header>p {
+        width: 100%;
+    }
+
+    .why-usp-body {
+        padding: 64px 0;
+    }
+
+    .usp-rows {
+        display: flex;
+        gap: 32px;
+    }
+
+    .usp-content {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .usp-content>h3 {
+        font-family: Urbanist, sans-serif;
+        font-size: 1.618rem;
+        font-weight: 600;
+        line-height: 1.2;
+        text-align: left;
+    }
+
+    .usp-content>p {
+        font-family: Plus Jakarta Sans, sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+}
+
+@media screen and (max-width:430px) {
+    .why-usp-header>h2 {
+        width: 100%;
+        font-size: 2.617rem;
+    }
+
+    .why-usp-header>p {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .why-usp-body {
+        padding: 64px 0;
+    }
+
+    .usp-rows {
+        display: flex;
+        gap: 32px;
+    }
+
+    .usp-content {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .usp-content>h3 {
+        font-family: Urbanist, sans-serif;
+        font-size: 1.618rem;
+        font-weight: 600;
+        line-height: 1.2;
+        text-align: left;
+    }
+
+    .usp-content>p {
+        font-family: Plus Jakarta Sans, sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+}
+
+/* -------- Why us USPs section ends -------- */
+
+
+/* Client grid */
+
+.clientele {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.client-header>h2 {
+    width: 70%;
+    font-family: Urbanist, sans-serif;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000;
+    margin: 0 auto;
+}
+
+.client-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: auto;
+    gap: 16px;
+}
+
+.client-logo {
+    width: 15%;
+    flex: 1 1 15%;
+    border: 1px solid #f0f2f4;
+    border-radius: 12px;
+    /* padding: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:768px) {
+    .client-header>h2 {
+        width: 100%;
+    }
+
+    .client-logo {
+        flex: 1 1 30%;
+    }
+
+}
+
+@media screen and (max-width:430px) {
+    .client-header>h2 {
+        width: 90%;
+        font-size: 2.617rem;
+    }
+
+    .client-logo {
+        flex: 1 1 45%;
+
+    }
+
+}
+
+/* ---------- Client grid ends ---------- */
+
+/* CTA Section */
+
+.footer-cta-section {
+    display: flex;
+    background-color: #212121;
+}
+
+.cta-section-left,
+.cta-section-right {
+    width: 50%;
+}
+
+.cta-section-left {
+    padding: 128px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 64px;
+}
+
+.cta-header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cta-header>h4 {
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    color: #fff;
+}
+
+.cta-header>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    color: #fff;
+}
+
+.cta-section-right {
+    padding: 50px;
+    background-image: url('../assets/corporate-meeting.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:768px) {
+    .footer-cta-section {
+        display: flex;
+        flex-direction: column;
+        background-color: #212121;
+    }
+
+    .cta-section-left,
+    .cta-section-right {
+        width: 100%;
+    }
+
+    .cta-section-left {
+        padding: 64px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 64px;
+    }
+
+    .cta-header {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .cta-section-right {
+        display: none;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .cta-section-left {
+        padding: 64px 40px;
+        gap: 32px;
+    }
+
+    .cta-header {
+        gap: 8px;
+    }
+
+    .cta-header>h4 {
+        font-family: Urbanist, sans-serif;
+        font-size: 1.618rem;
+        font-weight: 600;
+        line-height: 1.2;
+        text-align: left;
+        color: #fff;
+    }
+
+    .cta-header>p {
+        font-family: Plus Jakarta Sans, sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+        color: #fff;
+    }
+}
