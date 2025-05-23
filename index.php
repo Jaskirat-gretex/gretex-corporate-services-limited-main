@@ -1,3 +1,6 @@
+<?php include_once 'helpers.php'; ?>
+<?php $baseUrl = getBaseUrl(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -517,167 +520,88 @@
         </div>
     </div> -->
 
-    <!-- Blog section main -->
-    <div class="general-container">
-        <div class="blog-main">
-            <div class="blog-main-header">
-                <div class="blog-main-header-content">
-                    <span>Insights</span>
-                    <h3>Strategic Insights for Forward-Thinking Businesses</h3>
-                </div>
-                <a class="native-links" href="">Explore all Insights</a>
-            </div>
-            <div class="blog-content-main">
 
-                <div class="blog-main-col">
-                    <div class="blog-image-main">
+    <!-- Blog section main -->
+    <div class="blog-main">
+        <div class="blog-main-header">
+            <div class="blog-main-header-content">
+                <span>Insights</span>
+                <h3>Strategic Insights for Forward-Thinking Businesses</h3>
+            </div>
+            <a class="native-links" href="">Explore all Insights</a>
+        </div>
+        <div class="blog-content-main">
+
+            <div class="blog-main-col">
+                <div class="blog-image-main">
+                    <img src="./assets/blog-banners/capital-markets-thumbnail.png" alt="">
+                </div>
+                <div class="blog-content">
+                    <div class="blog-heading">
+                        <span class="blog-category">Financial Markets</span>
+                        <h3 class="blog-primary-heading">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Magnam, sed enim? Saepe?</h3>
+                        <div class="blog-meta">
+                            <span class="read-time">5 mins</span> | <span class="blog-author">May 01, 2025</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-sidebar-col">
+                <div class="blog-sidebar">
+                    <div class="blog-image-sidebar">
                         <img src="./assets/blog-banners/capital-markets-thumbnail.png" alt="">
                     </div>
-                    <div class="blog-content">
+                    <div class="blog-sidebar-content">
                         <div class="blog-heading">
                             <span class="blog-category">Financial Markets</span>
-                            <h3 class="blog-primary-heading">Capital Markets</h3>
+                            <h3 class="blog-primary-heading">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Sapiente unde consectetur assumenda!</h3>
                             <div class="blog-meta">
-                                <span class="read-time">5 mins</span> | <span class="blog-author">May 01, 2025</span>
+                                <span class="read-time">5 mins</span> |
+                                <span class="blog-author">May 01, 2025</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="blog-sidebar-col">
-                    <div class="blog-sidebar">
-                        <div class="blog-image-sidebar">
-                            <img src="./assets/blog-banners/capital-markets-thumbnail.png" alt="">
-                        </div>
-                        <div class="blog-sidebar-content">
-                            <div class="blog-heading">
-                                <span class="blog-category">Financial Markets</span>
-                                <h3 class="blog-primary-heading">Capital Markets</h3>
-                                <div class="blog-meta">
-                                    <span class="read-time">5 mins</span> |
-                                    <span class="blog-author">May 01, 2025</span>
-                                </div>
-                            </div>
-                        </div>
+                <div class="blog-sidebar">
+                    <div class="blog-image-sidebar">
+                        <img src="./assets/blog-banners/capital-markets-thumbnail.png" alt="">
                     </div>
-
-                    <div class="blog-sidebar">
-                        <div class="blog-image-sidebar">
-                            <img src="./assets/blog-banners/capital-markets-thumbnail.png" alt="">
-                        </div>
-                        <div class="blog-sidebar-content">
-                            <div class="blog-heading">
-                                <span class="blog-category">Financial Markets</span>
-                                <h3 class="blog-primary-heading">Capital Markets</h3>
-                                <div class="blog-meta">
-                                    <span class="read-time">5 mins</span> |
-                                    <span class="blog-author">May 01, 2025</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>  
-
-                    <div class="blog-sidebar">
-                        <div class="blog-image-sidebar">
-                            <img src="./assets/blog-banners/capital-markets-thumbnail.png" alt="">
-                        </div>
-                        <div class="blog-sidebar-content">
-                            <div class="blog-heading">
-                                <span class="blog-category">Financial Markets</span>
-                                <h3 class="blog-primary-heading">Capital Markets</h3>
-                                <div class="blog-meta">
-                                    <span class="read-time">5 mins</span> |
-                                    <span class="blog-author">May 01, 2025</span>
-                                </div>
+                    <div class="blog-sidebar-content">
+                        <div class="blog-heading">
+                            <span class="blog-category">Financial Markets</span>
+                            <h3 class="blog-primary-heading">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Sapiente unde consectetur assumenda!</h3>
+                            <div class="blog-meta">
+                                <span class="read-time">5 mins</span> |
+                                <span class="blog-author">May 01, 2025</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                <div class="blog-sidebar">
+                    <div class="blog-image-sidebar">
+                        <img src="./assets/blog-banners/capital-markets-thumbnail.png" alt="">
+                    </div>
+                    <div class="blog-sidebar-content">
+                        <div class="blog-heading">
+                            <span class="blog-category">Financial Markets</span>
+                            <h3 class="blog-primary-heading">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Sapiente unde consectetur assumenda!</h3>
+                            <div class="blog-meta">
+                                <span class="read-time">5 mins</span> |
+                                <span class="blog-author">May 01, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <!-- Blog Section -->
-    <div class="general-container">
-        <div class="blog">
-            <div class="blog-body">
-                <div class="blog-row">
-
-                    <div class="blog-col">
-                        <div class="blog-image">
-                            <img src="./assets/blog-thumbnail-min.png" alt="">
-                            <span>Beyond the bench</span>
-                            <div class="blog-cta-button">
-                                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-                                        viewBox="0 0 24 24">
-                                        <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
-                                            stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
-                                    </svg></a>
-                            </div>
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-heading">
-                                <h3>What are the 3 horizons of transformative innovation</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corporis eius
-                                    obcaecati quisquam, neque velit asperiores.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="blog-col">
-                        <div class="blog-image">
-                            <img src="./assets/blog-thumbnail-min.png" alt="">
-                            <span>Beyond the bench</span>
-                            <div class="blog-cta-button">
-                                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-                                        viewBox="0 0 24 24">
-                                        <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
-                                            stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
-                                    </svg></a>
-                            </div>
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-heading">
-                                <h3>What are the 3 horizons of transformative innovation</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corporis eius
-                                    obcaecati quisquam, neque velit asperiores.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="blog-col">
-                        <div class="blog-image">
-                            <img src="./assets/blog-thumbnail-min.png" alt="">
-                            <span>Beyond the bench</span>
-                            <div class="blog-cta-button">
-                                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-                                        viewBox="0 0 24 24">
-                                        <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
-                                            stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
-                                    </svg></a>
-                            </div>
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-heading">
-                                <h3>What are the 3 horizons of transformative innovation</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corporis eius
-                                    obcaecati quisquam, neque velit asperiores.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="blog-cta">
-                    <a class="view-more-cta" href="">View all Insights <svg xmlns="http://www.w3.org/2000/svg"
-                            width="24" height="24" viewBox="0 0 24 24">
-                            <path fill="#000" d="M4 11v2h12l-5.5 5.5l1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5L16 11z" />
-                        </svg></a>
-                </div>
-
-            </div>
-
-        </div>
     </div>
 
     <!-- Contact CTA section -->

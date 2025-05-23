@@ -80,7 +80,6 @@ html {
 
 }
 
-
 .nav-cta-button:hover i {
     transition: transform 0.5s;
     /* Smooth transition for arrow movement */
@@ -518,7 +517,33 @@ li > a{
 
 
 
+@media screen and (max-width:768px){
+    .header-cta{
+        display: none;
+    }
 
+    .menu{
+        justify-content: flex-start;
+    }
+    .menu > li > a{
+        color: #000;
+        margin: unset;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 

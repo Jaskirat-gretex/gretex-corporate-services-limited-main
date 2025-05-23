@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <?php include '../header.php'; ?>
+     <?php include "../header copy 3.php"; ?>
 
     <!-- Main section -->
     <div class="main-hero">

@@ -9,28 +9,34 @@
                     d="M4 18h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1m0-5h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1M3 7c0 .55.45 1 1 1h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1" />
             </svg></span>
         <ul class="menu">
-            <li><a href="#">About Us</a></li>
+            <li><a href="<?php echo $baseUrl; ?>about">About Us</a></li>
 
             <li>
-                <a href="#">What We Do <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
-                        viewBox="0 0 16 16">
+                <a href="<?php echo $baseUrl; ?>what-we-do">What We Do <svg xmlns="http://www.w3.org/2000/svg"
+                        width="18" height="18" viewBox="0 0 16 16">
                         <path fill="none" stroke="#fff" d="M4.5 6L8 9.5L11.5 6" stroke-width="1" />
                     </svg></a>
                 <ul class="dropdown">
                     <li>
-                        <a href="#">Capital Markets <svg class="down-caret" xmlns="http://www.w3.org/2000/svg"
-                                width="24" height="24" viewBox="0 0 24 24">
+                        <a href="<?php echo $baseUrl; ?>what-we-do/capital-markets">Capital Markets <svg
+                                class="down-caret" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
                                 <path fill="#000" fill-rule="evenodd"
                                     d="M9.97 7.47a.75.75 0 0 1 1.06 0l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06L13.44 12L9.97 8.53a.75.75 0 0 1 0-1.06"
                                     clip-rule="evenodd" />
                             </svg></a>
                         <ul class="dropdown-content">
-                            <li><a href="#">IPO</a></li>
-                            <li><a href="#">FPO</a></li>
+                            <li><a href="<?php echo $baseUrl; ?>what-we-do/capital-markets/ipo">IPO</a></li>
+                            <li><a href="<?php echo $baseUrl; ?>what-we-do/capital-markets/fpo">FPO</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">Corporate Finance</a>
+                        <a href="#">Corporate Finance <svg class="down-caret" xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="#000" fill-rule="evenodd"
+                                    d="M9.97 7.47a.75.75 0 0 1 1.06 0l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06L13.44 12L9.97 8.53a.75.75 0 0 1 0-1.06"
+                                    clip-rule="evenodd" />
+                            </svg></a>
                         <ul class="dropdown-content">
                             <li><a href="#">Valuation</a></li>
                             <li><a href="#">Private Equity</a></li>
@@ -39,14 +45,24 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">Corporate Restructuring</a>
+                        <a href="#">Corporate Restructuring <svg class="down-caret" xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="#000" fill-rule="evenodd"
+                                    d="M9.97 7.47a.75.75 0 0 1 1.06 0l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06L13.44 12L9.97 8.53a.75.75 0 0 1 0-1.06"
+                                    clip-rule="evenodd" />
+                            </svg></a>
                         <ul class="dropdown-content">
                             <li><a href="#">Mergers & Acquisitions</a></li>
                             <li><a href="#">Takeover</a></li>
                             <li><a href="#">Demergers</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Compliance Advisory</a></li>
+                    <li><a href="#">Compliance Advisory <svg class="down-caret" xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="#000" fill-rule="evenodd"
+                                    d="M9.97 7.47a.75.75 0 0 1 1.06 0l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06L13.44 12L9.97 8.53a.75.75 0 0 1 0-1.06"
+                                    clip-rule="evenodd" />
+                            </svg></a></li>
                 </ul>
             </li>
 
@@ -93,12 +109,13 @@
                     <li><a href="#">Investor Complaints</a></li>
                 </ul>
             </li>
-            <li><a href="#">Join Us</a></li>
+            <li><a href="<?php echo $baseUrl; ?>careers">Join Us</a></li>
             <li><a href="#">Blog</a></li>
         </ul>
         <a href="#" class="header-cta">Contact</a>
     </div>
 </nav>
+
 <!-- 
 <nav>
     <div class="navbar">
