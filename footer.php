@@ -17,27 +17,6 @@
                     alt="Gretex-main-logo">
             </a>
         </div>
-
-        <!-- <div class="footer-logo">
-            <a href="http://localhost/Gretex%20Corporate%20main/">
-                <img src="http://localhost/Gretex%20Corporate%20main/assets/Gretex.png" height="128px" width="128px"
-                    alt="Gretex-main-logo">
-            </a>
-        </div>
-        <div class="newsletter">
-            <form action="">
-                <div class="newsletter-header">
-                    <h2>Get the latest news on mail</h2>
-                    <div class="form">
-                        <input type="email" name="email" id="newsletter-email" placeholder="Enter your email here">
-                        <button><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="M17 7L7 17M8 7h9v9" />
-                            </svg></button>
-                    </div>
-                </div>
-            </form>
-        </div> -->
     </div>
 
     <div class="footer-body">
@@ -95,7 +74,7 @@
 
     <div class="footer-footer">
         <div class="copyright">
-            <p>© 2024 Gretex Corporate Services Limited</p>
+            <p>Copyright © 2024 Gretex Corporate Services Limited</p>
         </div>
         <div class="legal">
             <ul>

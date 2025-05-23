@@ -1,4 +1,4 @@
-<?php include_once 'helpers.php'; ?>
+<?php include_once 'helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/index.css">
 
 </head>
 
@@ -34,18 +34,14 @@
                     <div id="slide-1" class="background-image"
                         style="background: linear-gradient(89.53deg, rgba(0, 0, 0, 0.8) 38.02%, rgba(0, 0, 0, 0.3) 60.4%, rgba(0, 0, 0, 0) 71.79%), url(assets/swiper-main-image.png); height: 100vh;">
                         <div class="main-tagline" id="main-headline-text">
-                            <h1 class="headline">
-                                <span> Don't </span> <span>just </span> <span>look </span> <span> for </span>
-                                <span>Money</span>, <span> Look </span> <span> for </span> <span> the </span>
-                                <span> right</span> <span>Advisors!</span>
-                            </h1>
+                            <h1 class="headline">Don't just look for money, Look for the right Advisors!</h1>
                             <p class="description">Gretex is a SEBI Registered Category- I Merchant Banker with
                                 established track record of more than 6 years in the Merchant Banking field. We earned
                                 the prestigious award as a 'Top Volume Performer for SME IPO in India in FY 2017-18 and
                                 FY 2020-21' by BSE Limited.</p>
 
                             <div class="cta-buttons">
-                                <a class="main-cta-button" href="http://localhost/Gretex%20Corporate%20main/services/">
+                                <a class="main-cta-button" href="<?php echo $baseUrl; ?>what-we-do">
                                     <i class="arrow-dissapear fa-solid fa-arrow-right"></i>
                                     <span class="button-text">Our Services</span>
                                     <i class="arrow-appear fa-solid fa-arrow-right"></i>
@@ -59,18 +55,14 @@
                     <div id="slide-2" class="background-image"
                         style="background: linear-gradient(89.53deg, rgba(0, 0, 0, 0.8) 38.02%, rgba(0, 0, 0, 0.3) 60.4%, rgba(0, 0, 0, 0) 71.79%), url(assets/swiper-main-image.png); height: 100vh;">
                         <div class="main-tagline" id="main-headline-text">
-                            <h1 class="headline">
-                                <span> Don't </span> <span>just </span> <span>look </span> <span> for </span>
-                                <span>Money</span>, <span> Look </span> <span> for </span> <span> the </span>
-                                <span> right</span> <span>Advisors!</span>
-                            </h1>
+                            <h1 class="headline">Don't just look for money, Look for the right Advisors!</h1>
                             <p class="description">Gretex is a SEBI Registered Category- I Merchant Banker with
                                 established track record of more than 6 years in the Merchant Banking field. We earned
                                 the prestigious award as a 'Top Volume Performer for SME IPO in India in FY 2017-18 and
                                 FY 2020-21' by BSE Limited.</p>
 
                             <div class="cta-buttons">
-                                <a class="about-button" href="http://localhost/Gretex%20Corporate%20main/services/">
+                                <a class="about-button" href="<?php echo $baseUrl; ?>what-we-do">
                                     <i class="arrow-dissapear fa-solid fa-arrow-right"></i>
                                     <span class="button-text">Our Services</span>
                                     <i class="arrow-appear fa-solid fa-arrow-right"></i>
@@ -84,18 +76,14 @@
                     <div id="slide-3" class="background-image"
                         style="background: linear-gradient(89.53deg, rgba(0, 0, 0, 0.8) 38.02%, rgba(0, 0, 0, 0.3) 60.4%, rgba(0, 0, 0, 0) 71.79%), url(assets/swiper-main-image.png); height: 100vh;">
                         <div class="main-tagline" id="main-headline-text">
-                            <h1 class="headline">
-                                <span> Don't </span> <span>just </span> <span>look </span> <span> for </span>
-                                <span>Money</span>, <span> Look </span> <span> for </span> <span> the </span>
-                                <span> right</span> <span>Advisors!</span>
-                            </h1>
+                            <h1 class="headline">Don't just look for money, Look for the right Advisors!</h1>
                             <p class="description">Gretex is a SEBI Registered Category- I Merchant Banker with
                                 established track record of more than 6 years in the Merchant Banking field. We earned
                                 the prestigious award as a 'Top Volume Performer for SME IPO in India in FY 2017-18 and
                                 FY 2020-21' by BSE Limited.</p>
 
                             <div class="cta-buttons">
-                                <a class="about-button" href="http://localhost/Gretex%20Corporate%20main/services/">
+                                <a class="about-button" href="<?php echo $baseUrl; ?>what-we-do">
                                     <i class="arrow-dissapear fa-solid fa-arrow-right"></i>
                                     <span class="button-text">Our Services</span>
                                     <i class="arrow-appear fa-solid fa-arrow-right"></i>
@@ -192,7 +180,7 @@
                         financial services.</p>
                 </div>
                 <div class="about-cta">
-                    <a class="about-button" href="http://localhost/Gretex%20Corporate%20main/what-we-do/">
+                    <a class="about-button" href="<?php echo $baseUrl; ?>what-we-do">
                         <i class="arrow-dissapear fa-solid fa-arrow-right"></i>
                         <span class="button-text">Our Services</span>
                         <i class="arrow-appear fa-solid fa-arrow-right"></i>
@@ -224,7 +212,7 @@
                                 <h3>Capital Markets</h3>
                                 <p>End-to-end capital market solutions for fundraising, regulatory compliance, and
                                     successful market entry or listing.</p>
-                                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                <a href="<?php echo $baseUrl; ?>what-we-do/capital-markets"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24">
                                         <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
@@ -241,7 +229,7 @@
                                 <h3>Corporate Finance</h3>
                                 <p>Customized financial strategies that align capital structure with long-term business
                                     objectives and growth opportunities.</p>
-                                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                <a href="<?php echo $baseUrl; ?>corporate-finance"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24">
                                         <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
@@ -258,7 +246,7 @@
                                 <h3>Corporate Restructuring</h3>
                                 <p>Strategic restructuring services to optimize operations, restore financial health,
                                     and enhance shareholder value.</p>
-                                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                <a href="<?php echo $baseUrl; ?>what-we-do/corporate-restructuring"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24">
                                         <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
@@ -275,7 +263,7 @@
                                 <h3>Compliance Advisiory</h3>
                                 <p>End-to-end regulatory guidance to ensure corporate compliance, reduce risk, and build
                                     stakeholder trust..</p>
-                                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                <a href="<?php echo $baseUrl; ?>what-we-do/compliance-advisiory"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24">
                                         <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
@@ -308,7 +296,7 @@
 
     <div class="core-usps">
         <div class="usp-image-container">
-            <img src="./assets/employees-working.png" alt="">
+            <img src="<?php echo $baseUrl; ?>assets/employees-working.png" alt="">
         </div>
         <div class="usp-header">
             <span>Our Capabilities</span>
@@ -443,7 +431,7 @@
                 <h3>Trusted by Leaders from various industries</h3>
                 <p>Learn why professionals trust our solutions to complete their financial journeys</p>
                 <div class="testimonial-cta">
-                    <a class="about-button" href="http://localhost/Gretex%20Corporate%20main/services/">
+                    <a class="about-button" href="<?php echo $baseUrl; ?>what-we-do">
                         <i class="arrow-dissapear fa-solid fa-arrow-right"></i>
                         <span class="button-text">Read More</span>
                         <i class="arrow-appear fa-solid fa-arrow-right"></i>
@@ -528,7 +516,7 @@
                 <span>Insights</span>
                 <h3>Strategic Insights for Forward-Thinking Businesses</h3>
             </div>
-            <a class="native-links" href="">Explore all Insights</a>
+            <a class="native-links" href="<?php echo $baseUrl; ?>insights">Explore all Insights</a>
         </div>
         <div class="blog-content-main">
 
