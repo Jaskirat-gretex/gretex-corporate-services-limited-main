@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="http://localhost/Gretex%20Corporate%20main/js/script.js"></script>
+    <script src="<?php echo $baseUrl; ?>js/script.js"></script>
 
     <title>Initial Public Offer (IPO) - Gretex Corporate Services Limited</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -20,7 +20,6 @@
 <body>
     <?php include '../../header copy 3.php'; ?>
     
-
     <div class="main-hero">
         <div class="hero-header">
             <h1>Initial Public Offer (IPO)</h1>
@@ -30,9 +29,9 @@
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main/">Home</a> / <a
-                    href="http://localhost/Gretex%20Corporate%20main/what-we-do">What we do</a> /
-                <a href="http://localhost/Gretex%20Corporate%20main/what-we-do/capital-markets">Capital Markets</a> /
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
+                    href="<?php echo $baseUrl; ?>what-we-do">What we do</a> /
+                <a href="<?php echo $baseUrl; ?>what-we-do/capital-markets">Capital Markets</a> /
                 <span>IPO</span>
             </div>
         </div>
@@ -52,7 +51,7 @@
                         corporis cumque pariatur, esse ullam id?</p>
                 </div>
                 <!-- <div class="service-section-col-cta">
-                    <a href="http://localhost/Gretex%20Corporate%20main/contact-us" class="cta-button">Contact us</a>
+                    <a href="<?php echo $baseUrl; ?>contact-us" class="cta-button">Contact us</a>
                 </div> -->
                 <div class="ruler">
                     <hr>
@@ -956,7 +955,7 @@
                     financial future together!</p>
             </div>
             <div class="cta-section-button">
-                <a class="cta-button-main" href="http://localhost/Gretex%20Corporate%20main/careers/">
+                <a class="cta-button-main" href="<?php echo $baseUrl; ?>careers/">
                     <span class="button-text">Mail us</span>
                     <svg class="cta-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                         viewBox="0 0 24 24">
