@@ -35,6 +35,10 @@
                                 <div class="mega-menu-col-sub-container">
                                     <a class="mega-menu-nav-item" href="<?php echo $baseUrl; ?>what-we-do/capital-markets/ipo">IPO</a>
                                     <a class="mega-menu-nav-item" href="<?php echo $baseUrl; ?>what-we-do/capital-markets/fpo">FPO</a>
+                                    <a class="mega-menu-nav-item" href="<?php echo $baseUrl; ?>what-we-do/capital-markets/de-listing">De-Listing</a>
+                                    <a class="mega-menu-nav-item" href="<?php echo $baseUrl; ?>what-we-do/capital-markets/open-offer">Open Offer</a>
+                                    <a class="mega-menu-nav-item" href="<?php echo $baseUrl; ?>what-we-do/capital-markets/exit-offer">Exit Offer</a>
+                                    <a class="mega-menu-nav-item" href="<?php echo $baseUrl; ?>what-we-do/capital-markets/rights-issue">Rights Issue</a>
                                 </div>
                             </div>
                             <div class="mega-menu-col">

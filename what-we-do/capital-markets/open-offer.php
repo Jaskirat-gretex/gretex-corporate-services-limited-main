@@ -72,7 +72,7 @@
                 </div>
             </div>
             <div class="service-col-image">
-                <img src="../../assets/services-image-1.png" alt="">
+                <img src="<?php echo $baseUrl; ?>assets/services-image-1.png" alt="">
             </div>
         </div>
     </div>
@@ -87,7 +87,7 @@
                 <a class="know-more" href="">View all stories </a>
             </div>
             <div class="service-strategy-image">
-                <img src="../../assets/employee-consultation.png" alt="">
+                <img src="<?php echo $baseUrl; ?>assets/employee-consultation.png" alt="">
             </div>
         </div>
     </div>

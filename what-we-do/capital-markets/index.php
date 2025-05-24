@@ -1,3 +1,6 @@
+<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php $baseUrl = getBaseUrl(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,7 +19,7 @@
 </head>
 
 <body>
-    <?php include '../../header.php'; ?>
+    <?php include '../../header copy 3.php'; ?>
 
     <div class="main-hero">
         <div class="hero-header">
@@ -33,6 +36,9 @@
             </div>
         </div>
     </div>
+
+    
+
 
     <div class="services-main-container">
         <div class="services-row">

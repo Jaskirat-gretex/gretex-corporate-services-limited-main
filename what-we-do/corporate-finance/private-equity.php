@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="<?php echo $baseUrl; ?>js/script.js"></script>
 
-    <title>Follow up Public Offer (FPO) - Gretex Corporate Services Limited</title>
+    <title>Private Equity - Gretex Corporate Services Limited</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,7 +22,7 @@
 
     <div class="main-hero">
         <div class="hero-header">
-            <h1>Follow up Public Offer (FPO)</h1>
+            <h1>Private Equity</h1>
             <p>At Gretex, we are committed to maintaining strong and transparent relationships with our investors. We
                 believe that open communication and timely disclosures are essential to building trust and credibility
                 with our stakeholders.</p>
@@ -32,7 +32,7 @@
                 <a href="<?php echo $baseUrl; ?>">Home</a> / <a
                     href="<?php echo $baseUrl; ?>what-we-do">What we do</a> /
                 <a href="<?php echo $baseUrl; ?>what-we-do/capital-markets">Capital Markets</a> /
-                <span>FPO</span>
+                <span>Private Equity</span>
             </div>
         </div>
     </div>
