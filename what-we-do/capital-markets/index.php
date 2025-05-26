@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="http://localhost/Gretex%20Corporate%20main/js/script.js"></script>
+    <script src="<?php echo $baseUrl; ?>js/script.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="http://localhost/Gretex%20Corporate%20main/css/what-we-do/what-we-do-main.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/what-we-do/what-we-do-main.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/what-we-do/capital-markets/capital-markets.css">
 </head>
 
 <body>
@@ -37,411 +38,265 @@
         </div>
     </div>
 
-    
+    <div class="service-intro">
 
+        <div class="service-intro-col1">
+            <div class="service-intro-header">
+                <h2>Collaborate to build the innovative tech ecosystem</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus aspernatur veritatis
+                    illo architecto, eveniet, voluptatem molestias autem commodi nobis unde vitae ullam quod quam
+                    quia. Eaque ad minima dolore voluptatibus non impedit excepturi temporibus?</p>
+            </div>
 
-    <div class="services-main-container">
-        <div class="services-row">
-            <div class="ghost-container">
-                <div class="services-content-container">
-                    <h2>IPO</h2>
-                    <p>At the heart of every ambitious business lies the need for efficient capital. Our Capital Markets
-                        advisory empowers companies to raise funds, unlock value, and meet regulatory objectives with
-                        confidence. Whether you're going public for the first time or managing shareholder transitions,
-                        we bring deep expertise and seamless execution to every stage of your capital journey.
-                    </p>
-                    <a href="#" class="know-more">Know more <svg class="cta-arrow" xmlns="http://www.w3.org/2000/svg"
-                            width="18" height="18" viewBox="0 0 24 24">
-                            <path fill="#fff" fill-rule="evenodd"
-                                d="M9 6.75a.75.75 0 0 1 0-1.5h9a.75.75 0 0 1 .75.75v9a.75.75 0 0 1-1.5 0V7.81L6.53 18.53a.75.75 0 0 1-1.06-1.06L16.19 6.75z"
-                                clip-rule="evenodd" />
+            <div class="service-intro-usp-main">
+
+                <div class="service-intro-usp-row">
+                    <div class="service-icon-box">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-briefcase">
+                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                <path d="M16 3H8a2 2 0 0 0-2 2v4h12V5a2 2 0 0 0-2-2z"></path>
+                                <line x1="12" y1="11" x2="12" y2="17"></line>
+                            </svg>
+                        </div>
+                        <div class="icon-content">
+                            <h3>Fund with Expert Strategies</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-intro-usp-row">
+                    <div class="service-icon-box">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-briefcase">
+                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                <path d="M16 3H8a2 2 0 0 0-2 2v4h12V5a2 2 0 0 0-2-2z"></path>
+                                <line x1="12" y1="11" x2="12" y2="17"></line>
+                            </svg>
+                        </div>
+                        <div class="icon-content">
+                            <h3>Fund with Expert Strategies</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="service-intro-col2">
+            <img src="<?php echo $baseUrl; ?>assets/service-banner-employees-working.png" alt="">
+        </div>
+
+        <div class="service-intro-col3">
+            <div class="service-intro-col3-header">
+                <h2>Collaboration is the key to success</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nam fuga, odit vitae consequuntur
+                    corrupti aspernatur.</p>
+                <div class="service-intro-col3-cta">
+                    <a href="">More about Us <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
                         </svg></a>
                 </div>
             </div>
-            <div class="services-image-container">
-                <img src="../../assets/corporate-finance.png" alt="Corporate Finance">
+            <div class="service-intro-col3-body">
+                <img src="<?php echo $baseUrl; ?>assets/corporate-employees-potrait.png" alt="">
             </div>
         </div>
     </div>
 
-
-    <div class="services-main-container">
-        <div class="services-row">
-            <div class="services-image-container">
-                <img src="../../assets/corporate-finance.png" alt="Corporate Finance">
-            </div>
-            <div class="ghost-container">
-                <div class="services-content-container-reverse">
-                    <h2>FPO</h2>
-                    <p>We earned the prestigious award as a 'Top Volume Performer for SME IPO in India in FY 2017-18 and
-                        FY
-                        2020-21' by BSE Limited. Wealth Creation and providing Unique Solutions for clients is our
-                        forte...
-                    </p>
-                    <a href="#" class="know-more">Know more <svg class="cta-arrow" xmlns="http://www.w3.org/2000/svg"
-                            width="18" height="18" viewBox="0 0 24 24">
-                            <path fill="#fff" fill-rule="evenodd"
-                                d="M9 6.75a.75.75 0 0 1 0-1.5h9a.75.75 0 0 1 .75.75v9a.75.75 0 0 1-1.5 0V7.81L6.53 18.53a.75.75 0 0 1-1.06-1.06L16.19 6.75z"
-                                clip-rule="evenodd" />
-                        </svg></a>
-                </div>
-            </div>
+    <div class="service-metrics">
+        <div class="service-metrics-image">
+            <img src="<?php echo $baseUrl; ?>assets/service-metrics-banner-employees.png" alt="">
         </div>
-    </div>
-
-    <div class="services-main-container">
-        <div class="services-row">
-            <div class="ghost-container">
-                <div class="services-content-container">
-                    <h2>De-Listing</h2>
-                    <p>We earned the prestigious award as a 'Top Volume Performer for SME IPO in India in FY 2017-18 and
-                        FY
-                        2020-21' by BSE Limited. Wealth Creation and providing Unique Solutions for clients is our
-                        forte...
-                    </p>
-                    <a href="#" class="know-more">Know more <svg class="cta-arrow" xmlns="http://www.w3.org/2000/svg"
-                            width="18" height="18" viewBox="0 0 24 24">
-                            <path fill="#fff" fill-rule="evenodd"
-                                d="M9 6.75a.75.75 0 0 1 0-1.5h9a.75.75 0 0 1 .75.75v9a.75.75 0 0 1-1.5 0V7.81L6.53 18.53a.75.75 0 0 1-1.06-1.06L16.19 6.75z"
-                                clip-rule="evenodd" />
-                        </svg></a>
+        <div class="service-metrics-content">
+            <h2>With a decade of excellence, we deliver tailored solutions that empower your business to grow</h2>
+            <div class="service-metrics-main">
+                <div class="service-metrics-item">
+                    <h3>100+</h3>
+                    <p>Successful IPOs</p>
                 </div>
-            </div>
-            <div class="services-image-container">
-                <img src="../../assets/corporate-finance.png" alt="Corporate Finance">
-            </div>
-        </div>
-    </div>
-
-
-    <div class="services-main-container">
-        <div class="services-row">
-            <div class="services-image-container">
-                <img src="../../assets/corporate-finance.png" alt="Corporate Finance">
-            </div>
-            <div class="ghost-container">
-                <div class="services-content-container-reverse">
-                    <h2>Open Offer</h2>
-                    <p>We earned the prestigious award as a 'Top Volume Performer for SME IPO in India in FY 2017-18 and
-                        FY
-                        2020-21' by BSE Limited. Wealth Creation and providing Unique Solutions for clients is our
-                        forte...
-                    </p>
-                    <a href="#" class="know-more">Know more <svg class="cta-arrow" xmlns="http://www.w3.org/2000/svg"
-                            width="18" height="18" viewBox="0 0 24 24">
-                            <path fill="#fff" fill-rule="evenodd"
-                                d="M9 6.75a.75.75 0 0 1 0-1.5h9a.75.75 0 0 1 .75.75v9a.75.75 0 0 1-1.5 0V7.81L6.53 18.53a.75.75 0 0 1-1.06-1.06L16.19 6.75z"
-                                clip-rule="evenodd" />
-                        </svg></a>
+                <div class="service-metrics-item">
+                    <h3>50+</h3>
+                    <p>FPOs and Rights Issues</p>
+                </div>
+                <div class="service-metrics-item">
+                    <h3>200+</h3>
+                    <p>Open Offers and Delistings</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="services-main-container">
-        <div class="services-row">
-            <div class="ghost-container">
-                <div class="services-content-container">
-                    <h2>Exit Offer</h2>
-                    <p>We earned the prestigious award as a 'Top Volume Performer for SME IPO in India in FY 2017-18 and
-                        FY
-                        2020-21' by BSE Limited. Wealth Creation and providing Unique Solutions for clients is our
-                        forte...
-                    </p>
-                    <a href="#" class="know-more">Know more <svg class="cta-arrow" xmlns="http://www.w3.org/2000/svg"
-                            width="18" height="18" viewBox="0 0 24 24">
-                            <path fill="#fff" fill-rule="evenodd"
-                                d="M9 6.75a.75.75 0 0 1 0-1.5h9a.75.75 0 0 1 .75.75v9a.75.75 0 0 1-1.5 0V7.81L6.53 18.53a.75.75 0 0 1-1.06-1.06L16.19 6.75z"
-                                clip-rule="evenodd" />
-                        </svg></a>
+    <div class="general-container">
+        <div class="service-video">
+            <div class="video-container">
+                <div class="video">
+                    <div class="video-wrapper">
+                        <video class="story-media" id="customVideo" preload="metadata">
+                            <source src="<?php echo $baseUrl; ?>assets/videos/gretex-corporate-timeline-min.mp4"
+                                type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="custom-play-button" id="playBtn"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="services-image-container">
-                <img src="../../assets/corporate-finance.png" alt="Corporate Finance">
-            </div>
-        </div>
-    </div>
-
-
-    <div class="services-main-container">
-        <div class="services-row">
-            <div class="services-image-container">
-                <img src="../../assets/corporate-finance.png" alt="Corporate Finance">
-            </div>
-            <div class="ghost-container">
-                <div class="services-content-container-reverse">
-                    <h2>Right Issue</h2>
-                    <p>We earned the prestigious award as a 'Top Volume Performer for SME IPO in India in FY 2017-18 and
-                        FY
-                        2020-21' by BSE Limited. Wealth Creation and providing Unique Solutions for clients is our
-                        forte...
-                    </p>
-                    <a href="#" class="know-more">Know more <svg class="cta-arrow" xmlns="http://www.w3.org/2000/svg"
-                            width="18" height="18" viewBox="0 0 24 24">
-                            <path fill="#fff" fill-rule="evenodd"
-                                d="M9 6.75a.75.75 0 0 1 0-1.5h9a.75.75 0 0 1 .75.75v9a.75.75 0 0 1-1.5 0V7.81L6.53 18.53a.75.75 0 0 1-1.06-1.06L16.19 6.75z"
-                                clip-rule="evenodd" />
+                <div class="video-description">
+                    <h3>Financing a Generational Demand for Capital</h3>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ducimus earum, at laudantium
+                        excepturi fugit vero cupiditate libero quo non dignissimos deleniti, nemo nulla explicabo
+                        quaerat vitae laborum animi! Et, sunt quia!"</p>
+                    <a href="">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
                         </svg></a>
                 </div>
             </div>
         </div>
     </div>
 
-
-
-
-
-
-    <!-- service faq -->
-    <div class="general-container faq-container">
-        <div class="faq-header">
-            <h2>Frequently Asked Questions</h2>
+    <div class="services-main">
+        <div class="services-main-header">
+            <span>What We Do</span>
+            <h2>Our Services</h2>
         </div>
-        <div class="faqs">
-            <div class="faq-col">
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M20 0C31.0457 0 40 8.95431 40 20C40 31.0457 31.0457 40 20 40C8.95431 40 0 31.0457 0 20C0 8.95431 8.95431 0 20 0Z"
-                                fill="#141E47" />
-                            <path
-                                d="M20 30.0002L17.9423 22.0579L10 20.0002L17.9423 17.9425L20 10.0002L22.0577 17.9425L30 20.0002L22.0577 22.0579L20 30.0002Z"
-                                fill="white" />
-                        </svg>
-                        <h2>What is IPO?</h2>
+        <div class="services-main-content">
+            <!-- Slider main container -->
+            <div class="services-swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+
+                    <div class="swiper-slide">
+                        <div class="services-container">
+                            <div class="services-container-image">
+                                <img src="<?php echo $baseUrl; ?>assets/capital-markets-thumbnail.png" alt="">
+                            </div>
+                            <div class="services-container-content">
+                                <h3>Initial Public Offer (IPO)</h3>
+                                <p>End-to-end capital market solutions for fundraising, regulatory compliance, and
+                                    successful market entry or listing.</p>
+                                <a href="<?php echo $baseUrl; ?>what-we-do/capital-markets"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
+                                    </svg></a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="faq-answer">
-                        <p>We are absolutely glad to share our journey with Gretex. It has been a professional mentor &
-                            advisor
-                            for us. Their SME IPO expertise played a critical role in creating wealth, helping us get
-                            listed.
-                        </p>
+                    <div class="swiper-slide">
+                        <div class="services-container">
+                            <div class="services-container-image">
+                                <img src="<?php echo $baseUrl; ?>assets/corporate-finance-thumbnail.png" alt="">
+                            </div>
+                            <div class="services-container-content">
+                                <h3>Follow up Public Offer (FPO)</h3>
+                                <p>Customized financial strategies that align capital structure with long-term business
+                                    objectives and growth opportunities.</p>
+                                <a href="<?php echo $baseUrl; ?>corporate-finance"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
+                                    </svg></a>
+                            </div>
+                        </div>
                     </div>
+                    <div class="swiper-slide">
+                        <div class="services-container">
+                            <div class="services-container-image">
+                                <img src="<?php echo $baseUrl; ?>assets/corporate-restructuring-min.png" alt="">
+                            </div>
+                            <div class="services-container-content">
+                                <h3>De-Listing</h3>
+                                <p>Strategic restructuring services to optimize operations, restore financial health,
+                                    and enhance shareholder value.</p>
+                                <a href="<?php echo $baseUrl; ?>what-we-do/corporate-restructuring"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="services-container">
+                            <div class="services-container-image">
+                                <img src="<?php echo $baseUrl; ?>assets/corporate-advisiory-thumbnail.png" alt="">
+                            </div>
+                            <div class="services-container-content">
+                                <h3>Open Offer</h3>
+                                <p>End-to-end regulatory guidance to ensure corporate compliance, reduce risk, and build
+                                    stakeholder trust..</p>
+                                <a href="<?php echo $baseUrl; ?>what-we-do/compliance-advisiory"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="services-container">
+                            <div class="services-container-image">
+                                <img src="<?php echo $baseUrl; ?>assets/corporate-advisiory-thumbnail.png" alt="">
+                            </div>
+                            <div class="services-container-content">
+                                <h3>Exit Offer</h3>
+                                <p>End-to-end regulatory guidance to ensure corporate compliance, reduce risk, and build
+                                    stakeholder trust..</p>
+                                <a href="<?php echo $baseUrl; ?>what-we-do/compliance-advisiory"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="services-container">
+                            <div class="services-container-image">
+                                <img src="<?php echo $baseUrl; ?>assets/corporate-advisiory-thumbnail.png" alt="">
+                            </div>
+                            <div class="services-container-content">
+                                <h3>Rights Issue</h3>
+                                <p>End-to-end regulatory guidance to ensure corporate compliance, reduce risk, and build
+                                    stakeholder trust..</p>
+                                <a href="<?php echo $baseUrl; ?>what-we-do/compliance-advisiory"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M20 0C31.0457 0 40 8.95431 40 20C40 31.0457 31.0457 40 20 40C8.95431 40 0 31.0457 0 20C0 8.95431 8.95431 0 20 0Z"
-                                fill="#141E47" />
-                            <path
-                                d="M20 30.0002L17.9423 22.0579L10 20.0002L17.9423 17.9425L20 10.0002L22.0577 17.9425L30 20.0002L22.0577 22.0579L20 30.0002Z"
-                                fill="white" />
-                        </svg>
-                        <h2>How to raise funds?</h2>
-                    </div>
-                    <div class="faq-answer">
-                        <p>We are absolutely glad to share our journey with Gretex. It has been a professional mentor &
-                            advisor
-                            for us. Their SME IPO expertise played a critical role in creating wealth, helping us get
-                            listed.
-                        </p>
-                    </div>
+
+            </div>
+            <div class="services-custom-buttons">
+                <div class="service-button-prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
                 </div>
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M20 0C31.0457 0 40 8.95431 40 20C40 31.0457 31.0457 40 20 40C8.95431 40 0 31.0457 0 20C0 8.95431 8.95431 0 20 0Z"
-                                fill="#141E47" />
-                            <path
-                                d="M20 30.0002L17.9423 22.0579L10 20.0002L17.9423 17.9425L20 10.0002L22.0577 17.9425L30 20.0002L22.0577 22.0579L20 30.0002Z"
-                                fill="white" />
-                        </svg>
-                        <h2>What is Gretex?</h2>
-                    </div>
-                    <div class="faq-answer">
-                        <p>We are absolutely glad to share our journey with Gretex. It has been a professional mentor &
-                            advisor
-                            for us. Their SME IPO expertise played a critical role in creating wealth, helping us get
-                            listed.
-                        </p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M20 0C31.0457 0 40 8.95431 40 20C40 31.0457 31.0457 40 20 40C8.95431 40 0 31.0457 0 20C0 8.95431 8.95431 0 20 0Z"
-                                fill="#141E47" />
-                            <path
-                                d="M20 30.0002L17.9423 22.0579L10 20.0002L17.9423 17.9425L20 10.0002L22.0577 17.9425L30 20.0002L22.0577 22.0579L20 30.0002Z"
-                                fill="white" />
-                        </svg>
-                        <h2>What is IPO?</h2>
-                    </div>
-                    <div class="faq-answer">
-                        <p>We are absolutely glad to share our journey with Gretex. It has been a professional mentor &
-                            advisor
-                            for us. Their SME IPO expertise played a critical role in creating wealth, helping us get
-                            listed.
-                        </p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M20 0C31.0457 0 40 8.95431 40 20C40 31.0457 31.0457 40 20 40C8.95431 40 0 31.0457 0 20C0 8.95431 8.95431 0 20 0Z"
-                                fill="#141E47" />
-                            <path
-                                d="M20 30.0002L17.9423 22.0579L10 20.0002L17.9423 17.9425L20 10.0002L22.0577 17.9425L30 20.0002L22.0577 22.0579L20 30.0002Z"
-                                fill="white" />
-                        </svg>
-                        <h2>How to raise funds?</h2>
-                    </div>
-                    <div class="faq-answer">
-                        <p>We are absolutely glad to share our journey with Gretex. It has been a professional mentor &
-                            advisor
-                            for us. Their SME IPO expertise played a critical role in creating wealth, helping us get
-                            listed.
-                        </p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M20 0C31.0457 0 40 8.95431 40 20C40 31.0457 31.0457 40 20 40C8.95431 40 0 31.0457 0 20C0 8.95431 8.95431 0 20 0Z"
-                                fill="#141E47" />
-                            <path
-                                d="M20 30.0002L17.9423 22.0579L10 20.0002L17.9423 17.9425L20 10.0002L22.0577 17.9425L30 20.0002L22.0577 22.0579L20 30.0002Z"
-                                fill="white" />
-                        </svg>
-                        <h2>What is Gretex?</h2>
-                    </div>
-                    <div class="faq-answer">
-                        <p>We are absolutely glad to share our journey with Gretex. It has been a professional mentor &
-                            advisor
-                            for us. Their SME IPO expertise played a critical role in creating wealth, helping us get
-                            listed.
-                        </p>
-                    </div>
+                <div class="service-button-next">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
                 </div>
             </div>
-            <div class="faq-col">
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M20 0C31.0457 0 40 8.95431 40 20C40 31.0457 31.0457 40 20 40C8.95431 40 0 31.0457 0 20C0 8.95431 8.95431 0 20 0Z"
-                                fill="#141E47" />
-                            <path
-                                d="M20 30.0002L17.9423 22.0579L10 20.0002L17.9423 17.9425L20 10.0002L22.0577 17.9425L30 20.0002L22.0577 22.0579L20 30.0002Z"
-                                fill="white" />
-                        </svg>
-                        <h2>What is IPO?</h2>
-                    </div>
-                    <div class="faq-answer">
-                        <p>We are absolutely glad to share our journey with Gretex. It has been a professional mentor &
-                            advisor
-                            for us. Their SME IPO expertise played a critical role in creating wealth, helping us get
-                            listed.
-                        </p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M20 0C31.0457 0 40 8.95431 40 20C40 31.0457 31.0457 40 20 40C8.95431 40 0 31.0457 0 20C0 8.95431 8.95431 0 20 0Z"
-                                fill="#141E47" />
-                            <path
-                                d="M20 30.0002L17.9423 22.0579L10 20.0002L17.9423 17.9425L20 10.0002L22.0577 17.9425L30 20.0002L22.0577 22.0579L20 30.0002Z"
-                                fill="white" />
-                        </svg>
-                        <h2>How to raise funds?</h2>
-                    </div>
-                    <div class="faq-answer">
-                        <p>We are absolutely glad to share our journey with Gretex. It has been a professional mentor &
-                            advisor
-                            for us. Their SME IPO expertise played a critical role in creating wealth, helping us get
-                            listed.
-                        </p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M20 0C31.0457 0 40 8.95431 40 20C40 31.0457 31.0457 40 20 40C8.95431 40 0 31.0457 0 20C0 8.95431 8.95431 0 20 0Z"
-                                fill="#141E47" />
-                            <path
-                                d="M20 30.0002L17.9423 22.0579L10 20.0002L17.9423 17.9425L20 10.0002L22.0577 17.9425L30 20.0002L22.0577 22.0579L20 30.0002Z"
-                                fill="white" />
-                        </svg>
-                        <h2>What is Gretex?</h2>
-                    </div>
-                    <div class="faq-answer">
-                        <p>We are absolutely glad to share our journey with Gretex. It has been a professional mentor &
-                            advisor
-                            for us. Their SME IPO expertise played a critical role in creating wealth, helping us get
-                            listed.
-                        </p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M20 0C31.0457 0 40 8.95431 40 20C40 31.0457 31.0457 40 20 40C8.95431 40 0 31.0457 0 20C0 8.95431 8.95431 0 20 0Z"
-                                fill="#141E47" />
-                            <path
-                                d="M20 30.0002L17.9423 22.0579L10 20.0002L17.9423 17.9425L20 10.0002L22.0577 17.9425L30 20.0002L22.0577 22.0579L20 30.0002Z"
-                                fill="white" />
-                        </svg>
-                        <h2>What is IPO?</h2>
-                    </div>
-                    <div class="faq-answer">
-                        <p>We are absolutely glad to share our journey with Gretex. It has been a professional mentor &
-                            advisor
-                            for us. Their SME IPO expertise played a critical role in creating wealth, helping us get
-                            listed.
-                        </p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M20 0C31.0457 0 40 8.95431 40 20C40 31.0457 31.0457 40 20 40C8.95431 40 0 31.0457 0 20C0 8.95431 8.95431 0 20 0Z"
-                                fill="#141E47" />
-                            <path
-                                d="M20 30.0002L17.9423 22.0579L10 20.0002L17.9423 17.9425L20 10.0002L22.0577 17.9425L30 20.0002L22.0577 22.0579L20 30.0002Z"
-                                fill="white" />
-                        </svg>
-                        <h2>How to raise funds?</h2>
-                    </div>
-                    <div class="faq-answer">
-                        <p>We are absolutely glad to share our journey with Gretex. It has been a professional mentor &
-                            advisor
-                            for us. Their SME IPO expertise played a critical role in creating wealth, helping us get
-                            listed.
-                        </p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M20 0C31.0457 0 40 8.95431 40 20C40 31.0457 31.0457 40 20 40C8.95431 40 0 31.0457 0 20C0 8.95431 8.95431 0 20 0Z"
-                                fill="#141E47" />
-                            <path
-                                d="M20 30.0002L17.9423 22.0579L10 20.0002L17.9423 17.9425L20 10.0002L22.0577 17.9425L30 20.0002L22.0577 22.0579L20 30.0002Z"
-                                fill="white" />
-                        </svg>
-                        <h2>What is Gretex?</h2>
-                    </div>
-                    <div class="faq-answer">
-                        <p>We are absolutely glad to share our journey with Gretex. It has been a professional mentor &
-                            advisor
-                            for us. Their SME IPO expertise played a critical role in creating wealth, helping us get
-                            listed.
-                        </p>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
 
@@ -471,14 +326,6 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
-
     <?php include '../../footer.php'; ?>
 
 </body>
@@ -504,6 +351,41 @@
             el: '.swiper-scrollbar',
         },
     });
+
+    const servicesSswiper = new Swiper('.services-swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: false,
+        slidesPerView: 1,
+        spaceBetween: 30,
+        breakpoints: {
+            // When screen width is ≥ 640px (tablet)
+            640: {
+                slidesPerView: 2,
+            },
+            // When screen width is ≥ 1024px (desktop)
+            1024: {
+                slidesPerView: 3,
+            }
+        },
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.service-button-next',
+            prevEl: '.service-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    });
+
     document.querySelectorAll('.faq-question').forEach(function (faqQuestion) {
         faqQuestion.addEventListener('click', function () {
             var faqItem = faqQuestion.closest('.faq-item');
@@ -519,6 +401,28 @@
             faqItem.classList.toggle('open');
         });
     });
+
+    const video = document.getElementById('customVideo');
+    const playBtn = document.getElementById('playBtn');
+
+    playBtn.addEventListener('click', () => {
+        playBtn.style.display = 'none';               // Hide the custom play button
+        video.setAttribute('controls', 'controls');   // Enable native controls
+        video.play();                                 // Start playback
+    });
+
+    video.addEventListener('play', () => {
+        playBtn.style.display = 'none';               // Redundant fallback in case user clicks video directly
+        video.setAttribute('controls', 'controls');
+    });
+
+    video.addEventListener('ended', () => {
+        playBtn.style.display = 'block';              // Show play button again if video ends
+        video.removeAttribute('controls');            // Remove controls
+        video.currentTime = 0;                        // Rewind to start (optional)
+    });
+
+
 </script>
 
 </html>

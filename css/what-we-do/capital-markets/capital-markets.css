@@ -1,0 +1,473 @@
+.service-intro {
+    padding: 128px 50px;
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.service-intro-col1 {
+    width: 30%;
+    flex: 1 1 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.service-intro-header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.service-intro-header>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.service-intro-header>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.service-intro-usp-main {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.service-intro-usp-row {
+    background-color: #f0f2f4;
+    padding: 12px 16px;
+    border-radius: 16px;
+}
+
+.service-icon-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.service-icon {
+    background-color: #141E47;
+    padding: 16px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.icon-content>h3 {
+    font-family: Urbanist, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.icon-content>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.service-intro-col2 {
+    width: 50%;
+    flex: 1 1 50%;
+}
+
+
+.service-intro-col2>img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.service-intro-col3 {
+    width: 20%;
+    display: flex;
+    flex: 1 1 20%;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.service-intro-col3-header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.service-intro-col3-header>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.service-intro-col3-header>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.service-intro-col3-cta > a{
+    width: fit-content;
+    background-color: #104b88;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 32px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.service-intro-col3-body > img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+@media screen and (max-width:1024px){
+    .service-intro{
+        flex-direction: column;
+        width: 100%;
+    }
+    .service-intro-col1, .service-intro-col2, .service-intro-col3 {
+        width: 100%;
+        flex: 1 1 100%;
+    }
+}
+
+@media screen and (max-width:430px){
+    .service-intro{
+        padding: 64px 20px;
+    }
+}
+
+
+
+.service-metrics{
+    background: #f0f2f4;
+    padding: 64px 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+}
+
+.service-metrics-image{
+    width: 45%;
+}
+
+.service-metrics-image > img{
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.service-metrics-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 64px;
+}
+
+.service-metrics-content > h2{
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #000;
+}
+
+.service-metrics-main{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+
+.service-metrics-item{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.service-metrics-item > h3{
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #000;
+}
+
+.service-metrics-item > p{
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #000;
+}
+
+
+@media screen and (max-width:768px){
+    .service-metrics{
+        flex-direction: column-reverse;
+    }
+    .service-metrics-image{
+        width: 100%;
+    }
+    .service-metrics-content{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:430px){
+    .service-metrics{
+        padding: 64px 20px;
+    }
+    .service-metrics-main{
+        flex-direction: column;        
+    }
+}
+
+
+.video-container{
+    display: flex;
+    align-items: stretch;
+    height: auto;
+    min-height: 100%;
+}
+
+.video{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.story-media {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    cursor: pointer;
+}
+
+/* Custom Play Button */
+.custom-play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.custom-play-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    width: 0;
+    height: 0;
+    border-left: 24px solid white;
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+}
+
+.video > video{
+    width: 100%;
+    height: 100%;
+    position: relative; 
+}
+
+.video-description{
+    width: 30%;
+    background-color: #000;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.video-description > h3{
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.video-description > p{
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #fff;
+}
+
+.video-description > a{
+    width: fit-content;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.video-description > a:hover{
+    text-decoration: underline;
+}   
+
+@media screen and (max-width: 768px){
+    .video-container{
+        flex-direction: column;
+    }
+    .video, .video-description{
+        width: 100%;
+    }
+}
+
+.services-main {
+    background: #f0f2f4;
+    margin-top: 50px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    overflow: hidden;
+}
+
+.services-main-header {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.services-main-header>span {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 1.618;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.services-main-header>h2 {
+    width: 60%;
+    font-family: Urbanist, sans-serif;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000;
+}
+
+.services-main-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.services-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.services-container-image>img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.services-container-content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.services-container-content>h3 {
+    font-family: Urbanist, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+
+}
+
+.services-container-content>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.services-custom-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    padding: 0 24px 0 0;
+}
+
+@media screen and (max-width:768px) {
+    .services-main-header>h2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .services-main {
+        padding: 64px 20px;
+    }
+
+    .services-main-header>h2 {
+        font-size: 2.617rem;
+    }
+}
