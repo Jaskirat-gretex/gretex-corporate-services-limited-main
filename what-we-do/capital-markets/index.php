@@ -330,6 +330,15 @@
 
 </body>
 <script>
+
+    document.querySelectorAll('.toggle-button').forEach(btn => {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+            const dropdown = this.nextElementSibling;
+            dropdown.classList.toggle('mobile-dropdown-show');
+        });
+    });
+
     const swiper = new Swiper('.swiper', {
         // Optional parameters
         direction: 'horizontal',
