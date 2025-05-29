@@ -235,31 +235,172 @@
                     <li>
                         <a class="nav-link-mobile" href="<?php echo $baseUrl; ?>about">About</a>
                     </li>
+
                     <li>
-                        <a class="nav-link-mobile toggle-button" href="#">What We Do</a>
+                        <a class="nav-link-mobile toggle-button" href="#">
+                            What We Do
+                            <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 24 24">
+                                <path fill="#fff" fill-rule="evenodd" d="m9.005 4l8 8l-8 8L7 18l6.005-6L7 6z" />
+                            </svg>
+                        </a>
+
                         <div class="mobile-dropdown">
-                            <a class="nav-link-mobile"
-                                href="<?php echo $baseUrl; ?>what-we-do/capital-markets/ipo">IPO</a>
-                            <a class="nav-link-mobile"
-                                href="<?php echo $baseUrl; ?>what-we-do/capital-markets/fpo">FPO</a>
-                            <a class="nav-link-mobile"
-                                href="<?php echo $baseUrl; ?>what-we-do/capital-markets/de-listing">De-Listing</a>
-                            <a class="nav-link-mobile"
-                                href="<?php echo $baseUrl; ?>what-we-do/capital-markets/open-offer">Open
-                                Offer</a>
-                            <a class="nav-link-mobile"
-                                href="<?php echo $baseUrl; ?>what-we-do/capital-markets/exit-offer">Exit
-                                Offer</a>
-                            <a class="nav-link-mobile"
-                                href="<?php echo $baseUrl; ?>what-we-do/capital-markets/rights-issue">Rights
-                                Issue</a>
+                            <ul>
+                                <li>
+                                    <a class="nav-link-mobile nav-link-inner toggle-button"
+                                        href="<?php echo $baseUrl; ?>what-we-do/capital-markets">Capital
+                                        Markets <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 24 24">
+                                            <path fill="#fff" fill-rule="evenodd"
+                                                d="m9.005 4l8 8l-8 8L7 18l6.005-6L7 6z" />
+                                        </svg></a>
+                                    <div class="mobile-dropdown">
+                                        <a class="nav-link-mobile nav-link-inner"
+                                            href="<?php echo $baseUrl; ?>what-we-do/corporate-finance">Corporate
+                                            Finance</a>
+                                        <a class="nav-link-mobile nav-link-inner"
+                                            href="<?php echo $baseUrl; ?>what-we-do/corporate-finance">Corporate
+                                            Finance</a>
+                                        <a class="nav-link-mobile nav-link-inner"
+                                            href="<?php echo $baseUrl; ?>what-we-do/corporate-finance">Corporate
+                                            Finance</a>
+                                        <a class="nav-link-mobile nav-link-inner"
+                                            href="<?php echo $baseUrl; ?>what-we-do/corporate-finance">Corporate
+                                            Finance</a>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a class="nav-link-mobile nav-link-inner toggle-button"
+                                        href="<?php echo $baseUrl; ?>what-we-do/capital-markets">Corporate Finance
+                                        <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 24 24">
+                                            <path fill="#fff" fill-rule="evenodd"
+                                                d="m9.005 4l8 8l-8 8L7 18l6.005-6L7 6z" />
+                                        </svg></a>
+                                    <div class="mobile-dropdown">
+                                        <a class="nav-link-mobile nav-link-inner"
+                                            href="<?php echo $baseUrl; ?>what-we-do/corporate-finance">Corporate
+                                            Finance</a>
+                                        <a class="nav-link-mobile nav-link-inner"
+                                            href="<?php echo $baseUrl; ?>what-we-do/corporate-finance">Corporate
+                                            Finance</a>
+                                        <a class="nav-link-mobile nav-link-inner"
+                                            href="<?php echo $baseUrl; ?>what-we-do/corporate-finance">Corporate
+                                            Finance</a>
+                                        <a class="nav-link-mobile nav-link-inner"
+                                            href="<?php echo $baseUrl; ?>what-we-do/corporate-finance">Corporate
+                                            Finance</a>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a class="nav-link-mobile nav-link-inner toggle-button"
+                                        href="<?php echo $baseUrl; ?>what-we-do/capital-markets">Corporate Restructuring
+                                        <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 24 24">
+                                            <path fill="#fff" fill-rule="evenodd"
+                                                d="m9.005 4l8 8l-8 8L7 18l6.005-6L7 6z" />
+                                        </svg></a>
+                                    <div class="mobile-dropdown">
+                                        <a class="nav-link-mobile nav-link-inner"
+                                            href="<?php echo $baseUrl; ?>what-we-do/corporate-finance">Corporate
+                                            Finance</a>
+                                        <a class="nav-link-mobile nav-link-inner"
+                                            href="<?php echo $baseUrl; ?>what-we-do/corporate-finance">Corporate
+                                            Finance</a>
+                                        <a class="nav-link-mobile nav-link-inner"
+                                            href="<?php echo $baseUrl; ?>what-we-do/corporate-finance">Corporate
+                                            Finance</a>
+                                        <a class="nav-link-mobile nav-link-inner"
+                                            href="<?php echo $baseUrl; ?>what-we-do/corporate-finance">Corporate
+                                            Finance</a>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a class="nav-link-mobile nav-link-inner toggle-button"
+                                        href="<?php echo $baseUrl; ?>what-we-do/capital-markets">Compliance Advisiory
+                                    </a>
+                                </li>
+
+                            </ul>
+
                         </div>
                     </li>
 
+                    <li>
+                        <a class="nav-link-mobile toggle-button" href="#">
+                            Investor Relations
+                            <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 24 24">
+                                <path fill="#fff" fill-rule="evenodd" d="m9.005 4l8 8l-8 8L7 18l6.005-6L7 6z" />
+                            </svg>
+                        </a>
+
+                        <div class="mobile-dropdown">
+                            <ul>
+                                <li>
+                                    <a class="nav-link-mobile nav-link-inner toggle-button"
+                                        href="<?php echo $baseUrl; ?>what-we-do/capital-markets">Disclosures under Reg
+                                        46 of LODR <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 24 24">
+                                            <path fill="#fff" fill-rule="evenodd"
+                                                d="m9.005 4l8 8l-8 8L7 18l6.005-6L7 6z" />
+                                        </svg></a>
+                                    <div class="mobile-dropdown">
+                                        <a class="nav-link-mobile nav-link-inner"
+                                            href="<?php echo $baseUrl; ?>what-we-do/corporate-finance">Business Details</a>
+                                        <a class="nav-link-mobile nav-link-inner"
+                                            href="<?php echo $baseUrl; ?>what-we-do/corporate-finance">Composition of Board of Directors</a>
+                                        <a class="nav-link-mobile nav-link-inner"
+                                            href="<?php echo $baseUrl; ?>what-we-do/corporate-finance">Corporate
+                                            Finance</a>
+                                        <a class="nav-link-mobile nav-link-inner"
+                                            href="<?php echo $baseUrl; ?>what-we-do/corporate-finance">Corporate
+                                            Finance</a>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a class="nav-link-mobile nav-link-inner toggle-button"
+                                        href="<?php echo $baseUrl; ?>what-we-do/capital-markets">Codes & Policies
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="nav-link-mobile nav-link-inner toggle-button"
+                                        href="<?php echo $baseUrl; ?>what-we-do/capital-markets">Gretex Rights Issue
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="nav-link-mobile nav-link-inner toggle-button"
+                                        href="<?php echo $baseUrl; ?>what-we-do/capital-markets">Investor Charter
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="nav-link-mobile nav-link-inner toggle-button"
+                                        href="<?php echo $baseUrl; ?>what-we-do/capital-markets">Investor Complaints
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </li>
+
+
+
                 </ul>
+
             </div>
 
-            <div class="mobile-navbar-body">
+        </div>
+
+        <!-- <div class="mobile-navbar-body">
                 <ul class="navbar-mobile">
                     <li class="nav-item-mobile">
                         <a class="nav-link-mobile" href="https://staging.gretexcorporate.com/about">About</a>
@@ -274,7 +415,6 @@
                         <a class="nav-link-mobile" href="https://staging.gretexcorporate.com/ipo">IPO</a>
                     </li>
 
-                    <!-- Investor Relations -->
                     <li class="nav-item-mobile">
                         <a class="nav-link-mobile toggle-btn" href="#">Investor Relations <svg
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -358,9 +498,9 @@
                         <a class="nav-link-mobile" href="#">Blog</a>
                     </li>
                 </ul>
-            </div>
+            </div> -->
 
-        </div>
+    </div>
 
     </div>
 
