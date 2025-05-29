@@ -44,6 +44,8 @@
 
 
     <?php include '../../footer.php'; ?>
+    <script src="<?php echo $baseUrl; ?>js/mobilemenu.js"></script>
+
 
 </body>
 

@@ -212,8 +212,8 @@
                                 <h3>Capital Markets</h3>
                                 <p>End-to-end capital market solutions for fundraising, regulatory compliance, and
                                     successful market entry or listing.</p>
-                                <a href="<?php echo $baseUrl; ?>what-we-do/capital-markets"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24">
+                                <a href="<?php echo $baseUrl; ?>what-we-do/capital-markets"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
                                     </svg></a>
@@ -229,8 +229,8 @@
                                 <h3>Corporate Finance</h3>
                                 <p>Customized financial strategies that align capital structure with long-term business
                                     objectives and growth opportunities.</p>
-                                <a href="<?php echo $baseUrl; ?>corporate-finance"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24">
+                                <a href="<?php echo $baseUrl; ?>corporate-finance"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
                                     </svg></a>
@@ -246,8 +246,8 @@
                                 <h3>Corporate Restructuring</h3>
                                 <p>Strategic restructuring services to optimize operations, restore financial health,
                                     and enhance shareholder value.</p>
-                                <a href="<?php echo $baseUrl; ?>what-we-do/corporate-restructuring"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24">
+                                <a href="<?php echo $baseUrl; ?>what-we-do/corporate-restructuring"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
                                     </svg></a>
@@ -263,8 +263,8 @@
                                 <h3>Compliance Advisiory</h3>
                                 <p>End-to-end regulatory guidance to ensure corporate compliance, reduce risk, and build
                                     stakeholder trust..</p>
-                                <a href="<?php echo $baseUrl; ?>what-we-do/compliance-advisiory"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24">
+                                <a href="<?php echo $baseUrl; ?>what-we-do/compliance-advisiory"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
                                     </svg></a>
@@ -619,6 +619,7 @@
     </div>
 
     <?php include "footer.php"; ?>
+    <script src="<?php echo $baseUrl; ?>js/mobilemenu.js"></script>
 
     <script>
 

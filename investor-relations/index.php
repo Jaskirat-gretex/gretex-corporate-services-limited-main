@@ -479,16 +479,9 @@
         </div>
     </div>
 
-    <!-- <div class="footer-cta-main">
-        <div class="footer-cta-left">
-            
-        </div>
-        <div class="footer-cta-left">
-
-        </div>
-    </div> -->
-
     <?php include "../footer.php" ?>
+    <script src="<?php echo $baseUrl; ?>js/mobilemenu.js"></script>
+
 
 </body>
 <script>
@@ -499,20 +492,20 @@
         spaceBetween: 30,
         slidesPerView: 1,
 
-            breakpoints: {
-                430: {
-                    slidesPerView: 1, // For screens >= 768px
-                    spaceBetween: 30,
-                },
-                1024: {
-                    slidesPerView: 2,
-                    spaceBetween: 40,
-                },
-                1440: {
-                    slidesPerView: 3,
-                    spaceBetween: 40,
-                }
+        breakpoints: {
+            430: {
+                slidesPerView: 1, // For screens >= 768px
+                spaceBetween: 30,
             },
+            1024: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+            },
+            1440: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+            }
+        },
 
         // Navigation arrows
         navigation: {
