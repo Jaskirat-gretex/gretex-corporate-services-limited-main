@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="http://localhost/Gretex%20Corporate%20main/css/what-we-do/what-we-do-main.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/what-we-do/what-we-do-main.css">
 </head>
 
 <body>
@@ -27,7 +27,7 @@
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main/">Home</a> / <span>What we do</span>
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <span>What we do</span>
             </div>
         </div>
     </div>
@@ -83,7 +83,7 @@
                         advisory empowers companies to raise funds, unlock value, and meet regulatory objectives with
                         confidence.
                     </p>
-                    <a href="http://localhost/Gretex%20Corporate%20main/what-we-do/capital-markets/index.php"
+                    <a href="<?php echo $baseUrl; ?>what-we-do/capital-markets"
                         class="know-more">Know more <svg class="cta-arrow" xmlns="http://www.w3.org/2000/svg" width="18"
                             height="18" viewBox="0 0 24 24">
                             <path fill="#fff" fill-rule="evenodd"
@@ -93,7 +93,7 @@
                 </div>
             </div>
             <div class="services-image-container">
-                <img src="../assets/corporate-finance.png" alt="Corporate Finance">
+                <img src="<?php echo $baseUrl; ?>assets/corporate-finance.png" alt="Corporate Finance">
             </div>
         </div>
     </div>
@@ -101,7 +101,7 @@
     <div class="services-main-container">
         <div class="services-row">
             <div class="services-image-container">
-                <img src="../assets/corporate-finance.png" alt="Corporate Finance">
+                <img src="<?php echo $baseUrl; ?>assets/corporate-finance.png" alt="Corporate Finance">
             </div>
             <div class="ghost-container">
                 <div class="services-content-container-reverse">
@@ -110,7 +110,7 @@
                         right time. Our Corporate Finance solutions are built on deep industry insights, rigorous
                         analysis, and a commitment to long-term value creation.
                     </p>
-                    <a href="http://localhost/Gretex%20Corporate%20main/what-we-do/corporate-finance/index.php"
+                    <a href="<?php echo $baseUrl; ?>what-we-do/corporate-finance/index.php"
                         class="know-more">Know more <svg class="cta-arrow" xmlns="http://www.w3.org/2000/svg" width="18"
                             height="18" viewBox="0 0 24 24">
                             <path fill="#fff" fill-rule="evenodd"
@@ -132,7 +132,7 @@
                         structure, consolidate operations, and pursue growth opportunities through seamless execution
                         and regulatory compliance.
                     </p>
-                    <a href="http://localhost/Gretex%20Corporate%20main/what-we-do/corporate-restructuring/index.php"
+                    <a href="<?php echo $baseUrl; ?>what-we-do/corporate-restructuring/index.php"
                         class="know-more">Know more <svg class="cta-arrow" xmlns="http://www.w3.org/2000/svg" width="18"
                             height="18" viewBox="0 0 24 24">
                             <path fill="#fff" fill-rule="evenodd"
@@ -142,7 +142,7 @@
                 </div>
             </div>
             <div class="services-image-container">
-                <img src="../assets/corporate-finance.png" alt="Corporate Finance">
+                <img src="<?php echo $baseUrl; ?>assets/corporate-finance.png" alt="Corporate Finance">
             </div>
         </div>
     </div>
@@ -150,7 +150,7 @@
     <div class="services-main-container">
         <div class="services-row">
             <div class="services-image-container">
-                <img src="../assets/corporate-finance.png" alt="Corporate Finance">
+                <img src="<?php echo $baseUrl; ?>assets/corporate-finance.png" alt="Corporate Finance">
             </div>
             <div class="ghost-container">
                 <div class="services-content-container-reverse">
@@ -159,7 +159,7 @@
                         stakeholder relationships. We provide hands-on support to help you meet regulatory requirements
                         with accuracy and efficiency.
                     </p>
-                    <a href="http://localhost/Gretex%20Corporate%20main/what-we-do/compliance-advisory/index.php"
+                    <a href="<?php echo $baseUrl; ?>what-we-do/compliance-advisory/index.php"
                         class="know-more">Know more <svg class="cta-arrow" xmlns="http://www.w3.org/2000/svg" width="18"
                             height="18" viewBox="0 0 24 24">
                             <path fill="#fff" fill-rule="evenodd"
@@ -434,7 +434,7 @@
                     with us today and let's unlock new growth possibilities together.</p>
             </div>
             <div class="cta-section-button">
-                <a class="cta-button-main" href="http://localhost/Gretex%20Corporate%20main/contact.php">
+                <a class="cta-button-main" href="<?php echo $baseUrl; ?>contact.php">
                     <span class="button-text">Contact us</span>
                     <svg class="cta-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                         viewBox="0 0 24 24">

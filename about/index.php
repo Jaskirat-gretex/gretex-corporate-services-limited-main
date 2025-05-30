@@ -1,10 +1,13 @@
+<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php $baseUrl = getBaseUrl(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="http://localhost/Gretex%20Corporate%20main/js/script.js"></script>
+    <script src="<?php echo $baseUrl; ?>js/script.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
@@ -12,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="http://localhost/Gretex%20Corporate%20main/css/about/about.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/about/about.css">
 
 </head>
 
@@ -148,7 +151,7 @@
                 </div>
                 <div class="vision-col">
                     <div class="vision-image">
-                        <img src="http://localhost/Gretex%20Corporate%20main/assets/gcsl-vision.png" alt="">
+                        <img src="<?php echo $baseUrl; ?>assets/gcsl-vision.png" alt="">
                     </div>
                 </div>
             </div>
@@ -164,7 +167,7 @@
                 </div>
                 <div class="mission-col">
                     <div class="mission-image">
-                        <img src="http://localhost/Gretex%20Corporate%20main/assets/gcsl-vision.png" alt="">
+                        <img src="<?php echo $baseUrl; ?>assets/gcsl-vision.png" alt="">
                     </div>
                 </div>
             </div>
@@ -379,7 +382,7 @@
                         empowered communities, supported sustainable development, and contributed to social progress.
                         From education and healthcare to environmental conservation, we take a proactive approach to
                         creating a lasting impact.</p>
-                    <a class="navigation-link" href="http://localhost/Gretex%20Corporate%20main/csr/">Learn about our
+                    <a class="navigation-link" href="<?php echo $baseUrl; ?>csr/">Learn about our
                         impact <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
@@ -393,7 +396,7 @@
                         community development, and technological advancements that enhance lives. Our initiatives
                         address critical challenges and pave the way for a more inclusive and forward-thinking society.
                     </p>
-                    <a class="navigation-link" href="http://localhost/Gretex%20Corporate%20main/csr/#initiatives">View
+                    <a class="navigation-link" href="<?php echo $baseUrl; ?>csr/#initiatives">View
                         our Initiatives <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
@@ -425,7 +428,7 @@
                     Join us today and let's shape the future together!.</p>
             </div>
             <div class="cta-section-button">
-                <a class="cta-button-main" href="http://localhost/Gretex%20Corporate%20main/careers/">
+                <a class="cta-button-main" href="<?php echo $baseUrl; ?>careers/">
                     <span class="button-text">Join us</span>
                     <svg class="cta-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                         viewBox="0 0 24 24">
@@ -518,7 +521,7 @@
             }
         });
     </script>
-    <script src="http://localhost/Gretex%20Corporate%20main/js/about-page-animations.js"></script>
+    <script src="<?php echo $baseUrl; ?>js/about-page-animations.js"></script>
 </body>
 
 </html>

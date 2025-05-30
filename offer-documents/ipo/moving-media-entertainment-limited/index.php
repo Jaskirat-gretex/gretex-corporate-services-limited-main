@@ -1,14 +1,17 @@
+<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php $baseUrl = getBaseUrl(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="http://localhost/Gretex%20Corporate%20main/js/script.js"></script>
+    <script src="<?php echo $baseUrl; ?>js/script.js"></script>
 
     <title>Moving Media Entertainment Limited | Gretex Corporate Services Limited</title>
-    <link rel="stylesheet" href="http://localhost/Gretex%20Corporate%20main/css/Ipo/ipo-global.css">
-    <link rel="stylesheet" href="http://localhost/Gretex%20Corporate%20main/css/Ipo/moving-media-entertainment-limited.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/Ipo/ipo-global.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/Ipo/moving-media-entertainment-limited.css">
 
 </head>
 
@@ -26,7 +29,7 @@
         <div class="hero-footer">
             <div class="breadcrumbs">
                 <a href="http://localhost/Gretex%20Corporate%20main">Home</a> / <a
-                    href="http://localhost/Gretex%20Corporate%20main/ipo">IPO</a> / <span>Moving Media Entertainment
+                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Moving Media Entertainment
                     Limited</span>
             </div>
         </div>
@@ -67,7 +70,7 @@
                     with us today and let's unlock new growth possibilities together.</p>
             </div>
             <div class="cta-section-button">
-                <a class="cta-button-main" href="http://localhost/Gretex%20Corporate%20main/contact.php">
+                <a class="cta-button-main" href="<?php echo $baseUrl; ?>contact.php">
                     <span class="button-text">Contact us</span>
                     <svg class="cta-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                         viewBox="0 0 24 24">

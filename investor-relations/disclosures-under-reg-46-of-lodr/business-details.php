@@ -1,3 +1,6 @@
+<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php $baseUrl = getBaseUrl(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="http://localhost/Gretex%20Corporate%20main/css/investor-relations/business-details.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/investor-relations/business-details.css">
 
 
 </head>
@@ -29,8 +32,8 @@
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main/">Home</a> / <a
-                    href="http://localhost/Gretex%20Corporate%20main/investor-relations">Investor Relations</a> /
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
+                    href="<?php echo $baseUrl; ?>investor-relations">Investor Relations</a> /
                 <span>Business Details</span>
             </div>
         </div>

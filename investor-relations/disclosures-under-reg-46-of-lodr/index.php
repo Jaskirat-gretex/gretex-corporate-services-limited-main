@@ -1,3 +1,6 @@
+<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php $baseUrl = getBaseUrl(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,8 +32,8 @@
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main/">Home</a> / <a
-                    href="http://localhost/Gretex%20Corporate%20main/investor-relations">Investor Relations</a> /
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
+                    href="<?php echo $baseUrl; ?>investor-relations">Investor Relations</a> /
                 <span>Disclosures Under Reg 46 of LODR</span>
             </div>
         </div>

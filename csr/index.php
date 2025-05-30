@@ -1,10 +1,13 @@
+<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php $baseUrl = getBaseUrl(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="http://localhost/Gretex%20Corporate%20main/js/script.js"></script>
+    <script src="<?php echo $baseUrl; ?>js/script.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
@@ -12,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../css/csr/csr.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/csr/csr.css">
 
 </head>
 
@@ -27,7 +30,7 @@
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main">Home</a> / <span>CSR</span>
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <span>CSR</span>
             </div>
         </div>
     </div>
@@ -522,7 +525,7 @@
                     an impact together!.</p>
             </div>
             <div class="cta-section-button">
-                <a class="cta-button-main" href="http://localhost/Gretex%20Corporate%20main/contact.php">
+                <a class="cta-button-main" href="<?php echo $baseUrl; ?>contact.php">
                     <span class="button-text">Join us</span>
                     <svg class="cta-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                         viewBox="0 0 24 24">

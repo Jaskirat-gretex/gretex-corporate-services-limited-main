@@ -1,10 +1,13 @@
+<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php $baseUrl = getBaseUrl(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="http://localhost/Gretex%20Corporate%20main/js/script.js"></script>
+    <script src="<?php echo $baseUrl; ?>js/script.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
@@ -13,7 +16,7 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet"
-        href="http://localhost/Gretex%20Corporate%20main/css/investor-relations/investor-complaints.css">
+        href="<?php echo $baseUrl; ?>css/investor-relations/investor-complaints.css">
 
 </head>
 
@@ -29,9 +32,9 @@
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main/">Home</a> / <a
-                    href="http://localhost/Gretex%20Corporate%20main/investor-relations">Investor Relations</a> / <a
-                    href="http://localhost/Gretex%20Corporate%20main/investor-relations/disclosures-under-reg-46-of-lodr">Disclosures
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
+                    href="<?php echo $baseUrl; ?>investor-relations">Investor Relations</a> / <a
+                    href="<?php echo $baseUrl; ?>investor-relations/disclosures-under-reg-46-of-lodr">Disclosures
                     under reg 46 of LODR</a> /
                 <span>Terms And Condition For Appointment Of Independent Director</span>
             </div>

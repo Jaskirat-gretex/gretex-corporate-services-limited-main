@@ -1,10 +1,13 @@
+<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php $baseUrl = getBaseUrl(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="http://localhost/Gretex%20Corporate%20main/js/script.js"></script>
+    <script src="<?php echo $baseUrl; ?>js/script.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
@@ -12,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="http://localhost/Gretex%20Corporate%20main/css/Ipo/ipo.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/Ipo/ipo.css">
 
 </head>
 
@@ -27,8 +30,8 @@
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main/">Home</a> / <a
-                    href="http://localhost/Gretex%20Corporate%20main/">Offer Documents</a> / <span>IPO</span>
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
+                    href="<?php echo $baseUrl; ?>">Offer Documents</a> / <span>IPO</span>
             </div>
         </div>
     </div>
@@ -269,7 +272,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/veeram-ornaments-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/veeram-ornaments-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -278,7 +281,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/veeram-ornaments-limited">Veeram
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/veeram-ornaments-limited">Veeram
                                 Ornaments <br> Limited</a>
                         </div>
                     </div>
@@ -291,7 +294,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/jash-dealmark-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/jash-dealmark-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -300,7 +303,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/jash-dealmark-limited">Jash
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/jash-dealmark-limited">Jash
                                 Dealmark <br> Limited</a>
                         </div>
                     </div>
@@ -313,7 +316,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/yug-decor-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/yug-decor-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -321,7 +324,7 @@
                             </div>
                         </div>
                         <div class="ipo-content">
-                            <a href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/yug-decor-limited">Yug
+                            <a href="<?php echo $baseUrl; ?>offer-documents/ipo/yug-decor-limited">Yug
                                 Decor <br> Limited</a>
                         </div>
                     </div>
@@ -334,7 +337,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/riddhi-corporate-services-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/riddhi-corporate-services-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -343,7 +346,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/riddhi-corporate-services-limited">Riddhi
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/riddhi-corporate-services-limited">Riddhi
                                 Corporate <br> Services Limited</a>
 
                         </div>
@@ -357,7 +360,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/a-m-febcon-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/a-m-febcon-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -365,7 +368,7 @@
                             </div>
                         </div>
                         <div class="ipo-content">
-                            <a href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/a-m-febcon-limited">A
+                            <a href="<?php echo $baseUrl; ?>offer-documents/ipo/a-m-febcon-limited">A
                                 & M <br> Febcon Limited</a>
 
                         </div>
@@ -379,7 +382,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/diggi-multitrade-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/diggi-multitrade-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -388,7 +391,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/diggi-multitrade-limited">Diggi
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/diggi-multitrade-limited">Diggi
                                 Multitrade <br> Limited</a>
 
                         </div>
@@ -402,7 +405,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/dhruv-wellness-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/dhruv-wellness-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -411,7 +414,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/dhruv-wellness-limited">Dhruv
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/dhruv-wellness-limited">Dhruv
                                 Wellness <br> Limited</a>
 
                         </div>
@@ -425,7 +428,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/sagar-diamonds-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/sagar-diamonds-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -434,7 +437,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/sagar-diamonds-limited">Sagar
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/sagar-diamonds-limited">Sagar
                                 Diamonds <br> Limited</a>
 
                         </div>
@@ -448,7 +451,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/siddharth-education-services-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/siddharth-education-services-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -457,7 +460,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/siddharth-education-services-limited">Siddharth
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/siddharth-education-services-limited">Siddharth
                                 Education <br> Services Limited</a>
 
                         </div>
@@ -471,7 +474,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/kids-medical-system-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/kids-medical-system-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -480,7 +483,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/kids-medical-system-limited">Kids
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/kids-medical-system-limited">Kids
                                 Medical <br> System Limited</a>
 
                         </div>
@@ -494,7 +497,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/aki-india-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/aki-india-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -502,7 +505,7 @@
                             </div>
                         </div>
                         <div class="ipo-content">
-                            <a href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/aki-india-limited">AKI
+                            <a href="<?php echo $baseUrl; ?>offer-documents/ipo/aki-india-limited">AKI
                                 India <br> Limited</a>
 
                         </div>
@@ -516,7 +519,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/debock-sales-&-marketing-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/debock-sales-&-marketing-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -525,7 +528,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/debock-sales-&-marketing-limited">Debock
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/debock-sales-&-marketing-limited">Debock
                                 Sales & <br> Marketing Limited</a>
 
                         </div>
@@ -539,7 +542,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/mac-hotels-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/mac-hotels-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -547,7 +550,7 @@
                             </div>
                         </div>
                         <div class="ipo-content">
-                            <a href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/mac-hotels-limited">Mac
+                            <a href="<?php echo $baseUrl; ?>offer-documents/ipo/mac-hotels-limited">Mac
                                 Hotels <br> Limited</a>
 
                         </div>
@@ -561,7 +564,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/deep-polymers-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/deep-polymers-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -570,7 +573,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/deep-polymers-limited">Deep
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/deep-polymers-limited">Deep
                                 Polymers <br> Limited</a>
 
                         </div>
@@ -584,7 +587,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/aaron-industries-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/aaron-industries-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -593,7 +596,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/aaron-industries-limited">Aaron
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/aaron-industries-limited">Aaron
                                 Industries <br> Limited</a>
 
                         </div>
@@ -607,7 +610,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/bcpl-railway-infrastructure-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/bcpl-railway-infrastructure-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -616,7 +619,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/bcpl-railway-infrastructure-limited">BCPL
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/bcpl-railway-infrastructure-limited">BCPL
                                 Railway <br> Infrastructure Limited</a>
 
                         </div>
@@ -630,7 +633,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/b&b-triplewall-containers-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/b&b-triplewall-containers-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -639,7 +642,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/b&b-triplewall-containers-limited">B&B
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/b&b-triplewall-containers-limited">B&B
                                 Triplewall <br> Containers Limited</a>
 
                         </div>
@@ -653,7 +656,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/suumaya-lifestyle-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/suumaya-lifestyle-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -662,7 +665,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/suumaya-lifestyle-limited">Suumaya
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/suumaya-lifestyle-limited">Suumaya
                                 Lifestyle <br> Limited</a>
 
                         </div>
@@ -676,7 +679,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/misquita-engineering-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/misquita-engineering-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -685,7 +688,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/misquita-engineering-limited">Misquita
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/misquita-engineering-limited">Misquita
                                 Engineering <br> Limited</a>
 
                         </div>
@@ -699,7 +702,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/anuroop-packaging-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/anuroop-packaging-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -708,7 +711,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/anuroop-packaging-limited">Anuroop
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/anuroop-packaging-limited">Anuroop
                                 Packaging <br> Limited</a>
 
                         </div>
@@ -722,7 +725,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/bilwin-industries-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/bilwin-industries-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -731,7 +734,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/bilwin-industries-limited">Billwin
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/bilwin-industries-limited">Billwin
                                 Industries <br> Limited</a>
 
                         </div>
@@ -745,7 +748,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/platinumone-business-services-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/platinumone-business-services-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -754,7 +757,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/platinumone-business-services-limited">Platinumone
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/platinumone-business-services-limited">Platinumone
                                 Business <br> Services Limited</a>
 
                         </div>
@@ -768,7 +771,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/g-m-polyplast-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/g-m-polyplast-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -777,7 +780,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/g-m-polyplast-limited">G
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/g-m-polyplast-limited">G
                                 M Polyplast <br> Limited</a>
 
                         </div>
@@ -791,7 +794,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/niks-technology-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/niks-technology-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -800,7 +803,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/niks-technology-limited">Niks
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/niks-technology-limited">Niks
                                 Technology <br> Limited</a>
 
                         </div>
@@ -814,7 +817,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/markolines-traffic-controls-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/markolines-traffic-controls-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -823,7 +826,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/markolines-traffic-controls-limited">Markolines
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/markolines-traffic-controls-limited">Markolines
                                 Traffic <br> Controls Limited</a>
 
                         </div>
@@ -837,7 +840,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/clara-industries-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/clara-industries-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -846,7 +849,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/clara-industries-limited">Clara
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/clara-industries-limited">Clara
                                 Industries <br> Limited</a>
 
                         </div>
@@ -860,7 +863,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/goel-food-products-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/goel-food-products-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -869,7 +872,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/goel-food-products-limited">Goel
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/goel-food-products-limited">Goel
                                 Food <br> Products Limited</a>
 
                         </div>
@@ -883,7 +886,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/sailani-tours-n-travels-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/sailani-tours-n-travels-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -892,7 +895,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/sailani-tours-n-travels-limited">Sailani
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/sailani-tours-n-travels-limited">Sailani
                                 Tours N <br> Travels Limited</a>
 
                         </div>
@@ -906,7 +909,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/jayant-infratech-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/jayant-infratech-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -915,7 +918,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/jayant-infratech-limited">Jayant
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/jayant-infratech-limited">Jayant
                                 Infratech <br> Limited </a>
 
                         </div>
@@ -929,7 +932,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/b-right-realestate-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/b-right-realestate-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -938,7 +941,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/b-right-realestate-limited">B-Right
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/b-right-realestate-limited">B-Right
                                 Realestate <br> Limited</a>
 
                         </div>
@@ -972,7 +975,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/steelman-telecom-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/steelman-telecom-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -981,7 +984,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/steelman-telecom-limited">Steelman
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/steelman-telecom-limited">Steelman
                                 Telecom <br> Limited</a>
                         </div>
                     </div>
@@ -994,7 +997,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/sudarshan-pharma-industries-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/sudarshan-pharma-industries-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1003,7 +1006,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/sudarshan-pharma-industries-limited">Sudarshan
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/sudarshan-pharma-industries-limited">Sudarshan
                                 Pharma <br> Industries Limited</a>
 
                         </div>
@@ -1017,7 +1020,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/reetech-international-cargo-courier-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/reetech-international-cargo-courier-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1026,7 +1029,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/reetech-international-cargo-courier-limited">Reetech
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/reetech-international-cargo-courier-limited">Reetech
                                 International Cargo & Courier Limited</a>
 
                         </div>
@@ -1039,7 +1042,7 @@
                             <img src="../../assets/ipo/veeram-ornaments-limited.png" alt="">
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
-                                <a href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/resgen-limited"><svg
+                                <a href="<?php echo $baseUrl; ?>offer-documents/ipo/resgen-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1047,7 +1050,7 @@
                             </div>
                         </div>
                         <div class="ipo-content">
-                            <a href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/resgen-limited">Resgen
+                            <a href="<?php echo $baseUrl; ?>offer-documents/ipo/resgen-limited">Resgen
                                 <br> Limited</a>
 
                         </div>
@@ -1061,7 +1064,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/innokaiz-india-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/innokaiz-india-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1070,7 +1073,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/innokaiz-india-limited">Innokaiz
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/innokaiz-india-limited">Innokaiz
                                 <br> India</a>
 
                         </div>
@@ -1084,7 +1087,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/akme-fintrade-india-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/akme-fintrade-india-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1093,7 +1096,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/akme-fintrade-india-limited">Akme
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/akme-fintrade-india-limited">Akme
                                 Fintrade <br> (India) Limited</a>
 
                         </div>
@@ -1107,7 +1110,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/comrade-appliances-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/comrade-appliances-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1116,7 +1119,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/comrade-appliances-limited">Comrade
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/comrade-appliances-limited">Comrade
                                 Appliances <br> Limited</a>
 
                         </div>
@@ -1130,7 +1133,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/retina-paints-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/retina-paints-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1139,7 +1142,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/retina-paints-limited">Retina
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/retina-paints-limited">Retina
                                 Paints <br> Limited</a>
 
                         </div>
@@ -1153,7 +1156,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/shelter-pharma-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/shelter-pharma-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1162,7 +1165,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/shelter-pharma-limited">Shelter
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/shelter-pharma-limited">Shelter
                                 Pharma <br> Limited</a>
 
                         </div>
@@ -1176,7 +1179,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/transteel-seating-technologies-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/transteel-seating-technologies-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1185,7 +1188,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/transteel-seating-technologies-limited">Transteel
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/transteel-seating-technologies-limited">Transteel
                                 Seating <br> Technologies Limited</a>
 
                         </div>
@@ -1199,7 +1202,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/kalyani-cast-tech-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/kalyani-cast-tech-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1208,7 +1211,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/kalyani-cast-tech-limited">Kalyani
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/kalyani-cast-tech-limited">Kalyani
                                 Cast-Tech <br> Limited </a>
 
                         </div>
@@ -1222,7 +1225,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/interiors-and-more-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/interiors-and-more-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1231,7 +1234,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/interiors-and-more-limited">Interiors
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/interiors-and-more-limited">Interiors
                                 and <br> More Limited</a>
 
                         </div>
@@ -1245,7 +1248,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/amic-forging-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/amic-forging-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1254,7 +1257,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/amic-forging-limited">Amic
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/amic-forging-limited">Amic
                                 Forging <br> Limited</a>
 
                         </div>
@@ -1268,7 +1271,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/zenith-drugs-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/zenith-drugs-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1277,7 +1280,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/zenith-drugs-limited">Zenith
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/zenith-drugs-limited">Zenith
                                 Drugs <br> Limited</a>
 
                         </div>
@@ -1291,7 +1294,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/owais-metal-and-mineral-processing-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/owais-metal-and-mineral-processing-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1300,7 +1303,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/owais-metal-and-mineral-processing-limited">Owais
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/owais-metal-and-mineral-processing-limited">Owais
                                 Metal & Mineral <br> Processing Limited</a>
 
                         </div>
@@ -1314,7 +1317,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/retaggio-industries-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/retaggio-industries-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1323,7 +1326,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/retaggio-industries-limited">Retaggio
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/retaggio-industries-limited">Retaggio
                                 Industries <br> Limited</a>
 
                         </div>
@@ -1337,7 +1340,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/associated-coaters-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/associated-coaters-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1346,7 +1349,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/associated-coaters-limited">Associated
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/associated-coaters-limited">Associated
                                 Coaters <br> Limited</a>
 
                         </div>
@@ -1360,7 +1363,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/rapid-multimodal-logistics-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/rapid-multimodal-logistics-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1369,7 +1372,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/rapid-multimodal-logistics-limited">Rapid
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/rapid-multimodal-logistics-limited">Rapid
                                 Multimodal <br> Logistics Limited</a>
 
                         </div>
@@ -1383,7 +1386,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/trackpoint-gps-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/trackpoint-gps-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1392,7 +1395,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/trackpoint-gps-limited">Trackpoint
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/trackpoint-gps-limited">Trackpoint
                                 GPS <br> Limited</a>
 
                         </div>
@@ -1406,7 +1409,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/shreyas-fabtech-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/shreyas-fabtech-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1415,7 +1418,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/shreyas-fabtech-limited">Shreyas
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/shreyas-fabtech-limited">Shreyas
                                 Fabtech <br> Limited</a>
 
                         </div>
@@ -1429,7 +1432,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/gnh-india-pharmaceuticals-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/gnh-india-pharmaceuticals-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1438,7 +1441,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/gnh-india-pharmaceuticals-limited">GNH
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/gnh-india-pharmaceuticals-limited">GNH
                                 India <br> Pharmaceuticals Limited</a>
 
                         </div>
@@ -1452,7 +1455,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/paramount-dye-tec-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/paramount-dye-tec-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1461,7 +1464,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/paramount-dye-tec-limited">Paramount
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/paramount-dye-tec-limited">Paramount
                                 Dye <br> Tec Limited</a>
 
                         </div>
@@ -1475,7 +1478,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/rapid-fleet-management-services-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/rapid-fleet-management-services-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1484,7 +1487,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/rapid-fleet-management-services-limited">Rapid
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/rapid-fleet-management-services-limited">Rapid
                                 Fleet Management <br> Services Limited</a>
 
                         </div>
@@ -1498,7 +1501,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/subam-papers-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/subam-papers-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1507,7 +1510,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/subam-papers-limited">Subam
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/subam-papers-limited">Subam
                                 Papers <br> Limited</a>
 
                         </div>
@@ -1521,7 +1524,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/flywings-simulator-training-center-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/flywings-simulator-training-center-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1530,7 +1533,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/flywings-simulator-training-center-limited">Flywings
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/flywings-simulator-training-center-limited">Flywings
                                 Simulator Training <br> Centre Limited</a>
 
                         </div>
@@ -1544,7 +1547,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/silky-overseas-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/silky-overseas-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1553,7 +1556,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/silky-overseas-limited">Silky
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/silky-overseas-limited">Silky
                                 Overseas <br> Limited</a>
 
                         </div>
@@ -1567,7 +1570,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/moving-media-entertainment-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/moving-media-entertainment-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1576,7 +1579,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/moving-media-entertainment-limited">Moving
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/moving-media-entertainment-limited">Moving
                                 Media <br> Entertainment Limited</a>
 
                         </div>
@@ -1589,7 +1592,7 @@
                             <img src="../../assets/ipo/veeram-ornaments-limited.png" alt="">
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
-                                <a href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/tenty-limited"><svg
+                                <a href="<?php echo $baseUrl; ?>offer-documents/ipo/tenty-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1597,7 +1600,7 @@
                             </div>
                         </div>
                         <div class="ipo-content">
-                            <a href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/tenty-limited">Tenty
+                            <a href="<?php echo $baseUrl; ?>offer-documents/ipo/tenty-limited">Tenty
                                 <br> Limited</a>
 
                         </div>
@@ -1611,7 +1614,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/oan-industries-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/oan-industries-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1620,7 +1623,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/oan-industries-limited">Oan
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/oan-industries-limited">Oan
                                 Industries <br> Limited</a>
 
                         </div>
@@ -1634,7 +1637,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/omviras-marine-services-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/omviras-marine-services-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1643,7 +1646,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/omviras-marine-services-limited">Omviras
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/omviras-marine-services-limited">Omviras
                                 Marine <br> Services Limited</a>
 
                         </div>
@@ -1657,7 +1660,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/sellowrap-industries-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/sellowrap-industries-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1666,7 +1669,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/sellowrap-industries-limited">Sellowrap
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/sellowrap-industries-limited">Sellowrap
                                 Industries <br> Limited</a>
 
                         </div>
@@ -1680,7 +1683,7 @@
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
                                 <a
-                                    href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/ssg-furnishing-solution-limited"><svg
+                                    href="<?php echo $baseUrl; ?>offer-documents/ipo/ssg-furnishing-solution-limited"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1689,7 +1692,7 @@
                         </div>
                         <div class="ipo-content">
                             <a
-                                href="http://localhost/Gretex%20Corporate%20main/offer-documents/ipo/ssg-furnishing-solution-limited">SSG
+                                href="<?php echo $baseUrl; ?>offer-documents/ipo/ssg-furnishing-solution-limited">SSG
                                 Furnishing <br> Solution Limited</a>
 
                         </div>
@@ -1750,7 +1753,7 @@
                     with us today and let's unlock new growth possibilities together.</p>
             </div>
             <div class="cta-section-button">
-                <a class="cta-button-main" href="http://localhost/Gretex%20Corporate%20main/contact.php">
+                <a class="cta-button-main" href="<?php echo $baseUrl; ?>contact.php">
                     <span class="button-text">Contact us</span>
                     <svg class="cta-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                         viewBox="0 0 24 24">

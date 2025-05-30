@@ -19,7 +19,7 @@
 
 <body>
     <?php include '../../header copy 3.php'; ?>
-    
+
     <div class="main-hero">
         <div class="hero-header">
             <h1>Initial Public Offer (IPO)</h1>
@@ -29,65 +29,68 @@
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>what-we-do">What we do</a> /
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>what-we-do">What we do</a>
+                /
                 <a href="<?php echo $baseUrl; ?>what-we-do/capital-markets">Capital Markets</a> /
                 <span>IPO</span>
             </div>
         </div>
     </div>
 
-
     <div class="general-container">
-        <div class="service-section">
-            <div class="service-section-col">
-                <div class="service-section-col-header">
-                    <h2>About our Firm</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, nobis? Natus totam, nobis hic
-                        blanditiis obcaecati iusto eius dolor autem recusandae veniam fuga officia incidunt architecto,
-                        corporis cumque pariatur, esse ullam id?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, nobis? Natus totam, nobis hic
-                        blanditiis obcaecati iusto eius dolor autem recusandae veniam fuga officia incidunt architecto,
-                        corporis cumque pariatur, esse ullam id?</p>
-                </div>
-                <!-- <div class="service-section-col-cta">
-                    <a href="<?php echo $baseUrl; ?>contact-us" class="cta-button">Contact us</a>
-                </div> -->
-                <div class="ruler">
-                    <hr>
-                </div>
-                <div class="service-section-col-metrics">
-                    <div class="metric">
-                        <h2>50+</h2>
-                        <p>SME IPOs Listed</p>
-                    </div>
-                    <div class="metric">
-                        <h2>10+</h2>
-                        <p>Innovation & insights</p>
-                    </div>
-                    <div class="metric">
-                        <h2>$10m</h2>
-                        <p>Total capital raised</p>
-                    </div>
-                </div>
+        <div class="service-section-main">
+            <div class="service-image">
+                <img src="<?php echo $baseUrl; ?>assets/services-image-1.png" alt="">
             </div>
-            <div class="service-col-image">
-                <img src="../../assets/services-image-1.png" alt="">
+            <div class="service-main-content">
+                <h2>Protect Your Family's Future</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, quas reprehenderit. Earum eligendi
+                    quidem minus totam assumenda, nihil rem vel nostrum alias corrupti error cupiditate non quasi iusto
+                    voluptatum explicabo molestiae repellendus repudiandae harum officia. Enim, veritatis doloremque
+                    maiores quas at numquam blanditiis harum mollitia rem doloribus nulla!
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, quas reprehenderit. Earum eligendi
+                    quidem minus totam assumenda, nihil rem vel nostrum alias corrupti error cupiditate non quasi iusto
+                    voluptatum explicabo molestiae repellendus repudiandae harum officia. Enim, veritatis doloremque
+                    maiores quas at numquam blanditiis harum mollitia rem doloribus nulla!
+                </p>
+                <a class="service-main-cta" href="">Schedule a free call</a>
+            </div>
+        </div>
+
+        <div class="service-section-main-metrics">
+            <div class="service-metric">
+                <h2>50+</h2>
+                <p>SME IPOs Listed</p>
+            </div>
+            <div class="service-metric">
+                <h2>10+</h2>
+                <p>Innovation & insights</p>
+            </div>
+            <div class="service-metric">
+                <h2>$10m</h2>
+                <p>Total capital raised</p>
             </div>
         </div>
     </div>
-  
+
+
     <div class="service-strategy">
         <div class="service-strategy-inner-container">
             <div class="service-strategy-content">
                 <h3>Our consultation is always in sync with your strategy</h3>
-                <p>Lorem urna porttitor rhoncus dolor purus muct res uvene nriatisec tusgnaf rin gillad amhi maercenas
-                    ultricie lieyes mauteiusl lestie rutfnon esieros in cursus turpis massar cenas aultrlie tcenas
-                    ultrici eaincidunt ultricie lieyets moncus.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo molestiae odit repellendus sint ab
+                    quaerat facilis corrupti reiciendis ipsa distinctio, earum iure aspernatur fugit eum itaque aperiam
+                    veritatis ad quos quae tempora tempore in, minima eligendi. Hic corporis neque dolor praesentium
+                    voluptates voluptatibus perspiciatis beatae laborum aperiam aspernatur!.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo molestiae odit repellendus sint ab
+                    quaerat facilis corrupti reiciendis ipsa distinctio, earum iure aspernatur fugit eum itaque aperiam
+                    veritatis ad quos quae tempora tempore in, minima eligendi. Hic corporis neque dolor praesentium
+                    voluptates voluptatibus perspiciatis beatae laborum aperiam aspernatur!.</p>
                 <a class="know-more" href="">View all stories </a>
             </div>
             <div class="service-strategy-image">
-                <img src="../../assets/employee-consultation.png" alt="">
+                <img src="<?php echo $baseUrl; ?>assets/employee-consultation.png" alt="">
             </div>
         </div>
     </div>
@@ -665,6 +668,11 @@
         </div>
     </div>
 
+    <div class="quote-section">
+        <div class="quote-container">
+            
+        </div>
+    </div>
 
     <!-- service faq -->
     <div class="general-container">
@@ -687,11 +695,8 @@
                     </div>
                     <div class="faq-answer">
                         <p>We are absolutely glad to share our journey with Gretex. It has been a professional
-                            mentor &
-                            advisor
-                            for us. Their SME IPO expertise played a critical role in creating wealth, helping us
-                            get
-                            listed.
+                            mentor & advisor for us. Their SME IPO expertise played a critical role in creating wealth,
+                            helping us get listed.
                         </p>
                     </div>
                 </div>

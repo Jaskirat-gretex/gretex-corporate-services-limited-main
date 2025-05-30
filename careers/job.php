@@ -1,16 +1,19 @@
+<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php $baseUrl = getBaseUrl(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="http://localhost/Gretex%20Corporate%20main/js/script.js"></script>
+    <script src="<?php echo $baseUrl; ?>js/script.js"></script>
 
     <title>Careers - Gretex Corporate Services Limited</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="http://localhost/Gretex%20Corporate%20main/css/careers/job.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/careers/job.css">
 
 </head>
 
@@ -26,7 +29,7 @@
         <div class="hero-footer">
             <div class="breadcrumbs">
                 <a href="http://localhost/Gretex%20Corporate%20main">Home</a> / <a
-                    href="http://localhost/Gretex%20Corporate%20main/careers/">Careers</a> / <span>Job</span>
+                    href="<?php echo $baseUrl; ?>careers/">Careers</a> / <span>Job</span>
             </div>
         </div>
     </div>

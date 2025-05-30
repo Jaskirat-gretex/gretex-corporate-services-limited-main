@@ -1,14 +1,17 @@
+<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php $baseUrl = getBaseUrl(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="http://localhost/Gretex%20Corporate%20main/js/script.js"></script>
+    <script src="<?php echo $baseUrl; ?>js/script.js"></script>
 
     <title>Mac Hotels Limited | Gretex Corporate Services Limited</title>
-    <link rel="stylesheet" href="http://localhost/Gretex%20Corporate%20main/css/Ipo/ipo-global.css">
-    <link rel="stylesheet" href="http://localhost/Gretex%20Corporate%20main/css/Ipo/mac-hotels-limited.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/Ipo/ipo-global.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/Ipo/mac-hotels-limited.css">
 
 </head>
 
@@ -129,7 +132,7 @@
                     with us today and let's unlock new growth possibilities together.</p>
             </div>
             <div class="cta-section-button">
-                <a class="cta-button-main" href="http://localhost/Gretex%20Corporate%20main/contact.php">
+                <a class="cta-button-main" href="<?php echo $baseUrl; ?>contact.php">
                     <span class="button-text">Contact us</span>
                     <svg class="cta-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                         viewBox="0 0 24 24">

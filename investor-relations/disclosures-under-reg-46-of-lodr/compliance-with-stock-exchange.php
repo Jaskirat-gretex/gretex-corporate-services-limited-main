@@ -1,3 +1,6 @@
+<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php $baseUrl = getBaseUrl(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +13,7 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet"
-        href="http://localhost/Gretex%20Corporate%20main/css/investor-relations/compliance-with-stock-exchange.css">
+        href="<?php echo $baseUrl; ?>css/investor-relations/compliance-with-stock-exchange.css">
 
 </head>
 
@@ -26,9 +29,9 @@
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main/">Home</a> / <a
-                    href="http://localhost/Gretex%20Corporate%20main/investor-relations">Investor Relations</a> / <a
-                    href="http://localhost/Gretex%20Corporate%20main/investor-relations/disclosures-under-reg-46-of-lodr">Disclosures
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
+                    href="<?php echo $baseUrl; ?>investor-relations">Investor Relations</a> / <a
+                    href="<?php echo $baseUrl; ?>investor-relations/disclosures-under-reg-46-of-lodr">Disclosures
                     under reg 46 of LODR</a> /
                 <span>Compliance With Stock Exchange</span>
             </div>
@@ -63,7 +66,7 @@
                                     </div>
                                     <div class="download-cta">
                                         <a class="view-button"
-                                            href="http://localhost/Gretex%20Corporate%20main/assets/documents/compliance-with-stock-exchange/2024-25/q4/large-entity-annual-disclosure-fy-2024-2025-q4.pdf "><span>Download</span>
+                                            href="<?php echo $baseUrl; ?>assets/documents/compliance-with-stock-exchange/2024-25/q4/large-entity-annual-disclosure-fy-2024-2025-q4.pdf "><span>Download</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24">
                                                 <path fill="currentColor"
@@ -84,7 +87,7 @@
                                     </div>
                                     <div class="download-cta">
                                         <a class="view-button"
-                                            href="http://localhost/Gretex%20Corporate%20main/assets/documents/compliance-with-stock-exchange/2024-25/q4/large-entity-initial-disclosure-fy-2025-2026-q4.pdf"><span>Download</span>
+                                            href="<?php echo $baseUrl; ?>assets/documents/compliance-with-stock-exchange/2024-25/q4/large-entity-initial-disclosure-fy-2025-2026-q4.pdf"><span>Download</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24">
                                                 <path fill="currentColor"
@@ -105,7 +108,7 @@
                                     </div>
                                     <div class="download-cta">
                                         <a class="view-button"
-                                            href="http://localhost/Gretex%20Corporate%20main/assets/documents/compliance-with-stock-exchange/2024-25/q4/reconciliation-of-share-capital-q4.pdf"><span>Download</span>
+                                            href="<?php echo $baseUrl; ?>assets/documents/compliance-with-stock-exchange/2024-25/q4/reconciliation-of-share-capital-q4.pdf"><span>Download</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24">
                                                 <path fill="currentColor"
@@ -126,7 +129,7 @@
                                     </div>
                                     <div class="download-cta">
                                         <a class="view-button"
-                                            href="http://localhost/Gretex%20Corporate%20main/assets/documents/compliance-with-stock-exchange/2024-25/q4/regulation-24a-of-sebi-lodr-regulations-2015-q4.pdf"><span>Download</span>
+                                            href="<?php echo $baseUrl; ?>assets/documents/compliance-with-stock-exchange/2024-25/q4/regulation-24a-of-sebi-lodr-regulations-2015-q4.pdf"><span>Download</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24">
                                                 <path fill="currentColor"
@@ -148,7 +151,7 @@
                                     </div>
                                     <div class="download-cta">
                                         <a class="view-button"
-                                            href="http://localhost/Gretex%20Corporate%20main/assets/documents/compliance-with-stock-exchange/2024-25/q4/regulation-745-of-the-sebi-depositories-and-participants-regulations-2018-q4.pdf"><span>Download</span>
+                                            href="<?php echo $baseUrl; ?>assets/documents/compliance-with-stock-exchange/2024-25/q4/regulation-745-of-the-sebi-depositories-and-participants-regulations-2018-q4.pdf"><span>Download</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24">
                                                 <path fill="currentColor"
@@ -176,7 +179,7 @@
                                     </div>
                                     <div class="download-cta">
                                         <a class="view-button"
-                                            href="http://localhost/Gretex%20Corporate%20main/assets/documents/compliance-with-stock-exchange/2024-25/q3/sdd-compliance-certificate-q3.pdf"><span>Download</span>
+                                            href="<?php echo $baseUrl; ?>assets/documents/compliance-with-stock-exchange/2024-25/q3/sdd-compliance-certificate-q3.pdf"><span>Download</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24">
                                                 <path fill="currentColor"
@@ -197,7 +200,7 @@
                                     </div>
                                     <div class="download-cta">
                                         <a class="view-button"
-                                            href="http://localhost/Gretex%20Corporate%20main/assets/documents/compliance-with-stock-exchange/2024-25/q3/corporate-governance-q3.pdf"><span>Download</span>
+                                            href="<?php echo $baseUrl; ?>assets/documents/compliance-with-stock-exchange/2024-25/q3/corporate-governance-q3.pdf"><span>Download</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24">
                                                 <path fill="currentColor"
@@ -218,7 +221,7 @@
                                     </div>
                                     <div class="download-cta">
                                         <a class="view-button"
-                                            href="http://localhost/Gretex%20Corporate%20main/assets/documents/compliance-with-stock-exchange/2024-25/q3/investor-greivance-q3.pdf"><span>Download</span>
+                                            href="<?php echo $baseUrl; ?>assets/documents/compliance-with-stock-exchange/2024-25/q3/investor-greivance-q3.pdf"><span>Download</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24">
                                                 <path fill="currentColor"
@@ -239,7 +242,7 @@
                                     </div>
                                     <div class="download-cta">
                                         <a class="view-button"
-                                            href="http://localhost/Gretex%20Corporate%20main/assets/documents/compliance-with-stock-exchange/2024-25/q3/reconciliation-of-share-capital-q3.pdf"><span>Download</span>
+                                            href="<?php echo $baseUrl; ?>assets/documents/compliance-with-stock-exchange/2024-25/q3/reconciliation-of-share-capital-q3.pdf"><span>Download</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24">
                                                 <path fill="currentColor"
@@ -260,7 +263,7 @@
                                     </div>
                                     <div class="download-cta">
                                         <a class="view-button"
-                                            href="http://localhost/Gretex%20Corporate%20main/assets/documents/compliance-with-stock-exchange/2024-25/q3/regulation-745-of-the-sebi-depositories-and-participants-regulations-2018-q3.pdf"><span>Download</span>
+                                            href="<?php echo $baseUrl; ?>assets/documents/compliance-with-stock-exchange/2024-25/q3/regulation-745-of-the-sebi-depositories-and-participants-regulations-2018-q3.pdf"><span>Download</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24">
                                                 <path fill="currentColor"
@@ -290,7 +293,7 @@
                                     </div>
                                     <div class="download-cta">
                                         <a class="view-button"
-                                            href="http://localhost/Gretex%20Corporate%20main/assets/documents/compliance-with-stock-exchange/2024-25/q2/sdd-compliance-certificate-q2.pdf"><span>Download</span>
+                                            href="<?php echo $baseUrl; ?>assets/documents/compliance-with-stock-exchange/2024-25/q2/sdd-compliance-certificate-q2.pdf"><span>Download</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24">
                                                 <path fill="currentColor"
@@ -311,7 +314,7 @@
                                     </div>
                                     <div class="download-cta">
                                         <a class="view-button"
-                                            href="http://localhost/Gretex%20Corporate%20main/assets/documents/compliance-with-stock-exchange/2024-25/q2/corporate-governance-q2.pdf"><span>Download</span>
+                                            href="<?php echo $baseUrl; ?>assets/documents/compliance-with-stock-exchange/2024-25/q2/corporate-governance-q2.pdf"><span>Download</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24">
                                                 <path fill="currentColor"
@@ -332,7 +335,7 @@
                                     </div>
                                     <div class="download-cta">
                                         <a class="view-button"
-                                            href="http://localhost/Gretex%20Corporate%20main/assets/documents/compliance-with-stock-exchange/2024-25/q2/investor-greviance-q2.pdf"><span>Download</span>
+                                            href="<?php echo $baseUrl; ?>assets/documents/compliance-with-stock-exchange/2024-25/q2/investor-greviance-q2.pdf"><span>Download</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24">
                                                 <path fill="currentColor"
@@ -353,7 +356,7 @@
                                     </div>
                                     <div class="download-cta">
                                         <a class="view-button"
-                                            href="http://localhost/Gretex%20Corporate%20main/assets/documents/compliance-with-stock-exchange/2024-25/q2/reconciliation-of-share-capital-company-q2.pdf"><span>Download</span>
+                                            href="<?php echo $baseUrl; ?>assets/documents/compliance-with-stock-exchange/2024-25/q2/reconciliation-of-share-capital-company-q2.pdf"><span>Download</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24">
                                                 <path fill="currentColor"
@@ -375,7 +378,7 @@
                                     </div>
                                     <div class="download-cta">
                                         <a class="view-button"
-                                            href="http://localhost/Gretex%20Corporate%20main/assets/documents/compliance-with-stock-exchange/2024-25/q2/regulation-745-company-q2.pdf"><span>Download</span>
+                                            href="<?php echo $baseUrl; ?>assets/documents/compliance-with-stock-exchange/2024-25/q2/regulation-745-company-q2.pdf"><span>Download</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24">
                                                 <path fill="currentColor"
@@ -405,7 +408,7 @@
                                     </div>
                                     <div class="download-cta">
                                         <a class="view-button"
-                                            href="http://localhost/Gretex%20Corporate%20main/assets/documents/compliance-with-stock-exchange/2024-25/q1/sdd-compliance-certificate-q1.pdf"><span>Download</span>
+                                            href="<?php echo $baseUrl; ?>assets/documents/compliance-with-stock-exchange/2024-25/q1/sdd-compliance-certificate-q1.pdf"><span>Download</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24">
                                                 <path fill="currentColor"
@@ -426,7 +429,7 @@
                                     </div>
                                     <div class="download-cta">
                                         <a class="view-button"
-                                            href="http://localhost/Gretex%20Corporate%20main/assets/documents/compliance-with-stock-exchange/2024-25/q1/corporate-governance-q1.pdf"><span>Download</span>
+                                            href="<?php echo $baseUrl; ?>assets/documents/compliance-with-stock-exchange/2024-25/q1/corporate-governance-q1.pdf"><span>Download</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24">
                                                 <path fill="currentColor"
@@ -447,7 +450,7 @@
                                     </div>
                                     <div class="download-cta">
                                         <a class="view-button"
-                                            href="http://localhost/Gretex%20Corporate%20main/assets/documents/compliance-with-stock-exchange/2024-25/q1/investor-greivance133-june-24-final-q1.pdf"><span>Download</span>
+                                            href="<?php echo $baseUrl; ?>assets/documents/compliance-with-stock-exchange/2024-25/q1/investor-greivance133-june-24-final-q1.pdf"><span>Download</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24">
                                                 <path fill="currentColor"
@@ -468,7 +471,7 @@
                                     </div>
                                     <div class="download-cta">
                                         <a class="view-button"
-                                            href="http://localhost/Gretex%20Corporate%20main/assets/documents/compliance-with-stock-exchange/2024-25/q1/reconciliation-of-share-capital-q1.pdf"><span>Download</span>
+                                            href="<?php echo $baseUrl; ?>assets/documents/compliance-with-stock-exchange/2024-25/q1/reconciliation-of-share-capital-q1.pdf"><span>Download</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24">
                                                 <path fill="currentColor"
@@ -490,7 +493,7 @@
                                     </div>
                                     <div class="download-cta">
                                         <a class="view-button"
-                                            href="http://localhost/Gretex%20Corporate%20main/assets/documents/compliance-with-stock-exchange/2024-25/q1/regulation-745-of-the-sebi-depositories-and-participants-regulations-2018-q1.pdf"><span>Download</span>
+                                            href="<?php echo $baseUrl; ?>assets/documents/compliance-with-stock-exchange/2024-25/q1/regulation-745-of-the-sebi-depositories-and-participants-regulations-2018-q1.pdf"><span>Download</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24">
                                                 <path fill="currentColor"
@@ -520,7 +523,7 @@
                     Get in touch with us today and let's unlock new growth possibilities together.</p>
             </div>
             <div class="cta-section-button">
-                <a class="cta-button-main" href="http://localhost/Gretex%20Corporate%20main/contact.php">
+                <a class="cta-button-main" href="<?php echo $baseUrl; ?>contact.php">
                     <span class="button-text">Contact us</span>
                     <svg class="cta-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                         viewBox="0 0 24 24">

@@ -1,10 +1,13 @@
+<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php $baseUrl = getBaseUrl(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="http://localhost/Gretex%20Corporate%20main/js/script.js"></script>
+    <script src="<?php echo $baseUrl; ?>js/script.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
@@ -12,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="http://localhost/Gretex%20Corporate%20main/css/careers/catalyst-connect.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/careers/catalyst-connect.css">
 
 </head>
 
@@ -38,7 +41,7 @@
     <div class="general-container">
         <div class="company-usps">
             <div class="company-usp-image">
-                <img src="http://localhost/Gretex%20Corporate%20main/assets/interns-sitting.png" alt="">
+                <img src="<?php echo $baseUrl; ?>assets/interns-sitting.png" alt="">
                 <div class="serve-image-content">
                     <div class="serve-image-content-left">
                         <h2>20</h2>
@@ -101,7 +104,7 @@
             <div class="choose-path-row">
                 <div class="choose-path-col">
                     <div class="choose-path-col-image">
-                        <img src="http://localhost/Gretex%20Corporate%20main/assets/Investment-Banking.png" alt="">
+                        <img src="<?php echo $baseUrl; ?>assets/Investment-Banking.png" alt="">
                     </div>
                     <div class="choose-path-col-content">
                         <h3>Investment Banking</h3>
@@ -111,7 +114,7 @@
                 </div>
                 <div class="choose-path-col">
                     <div class="choose-path-col-image">
-                        <img src="http://localhost/Gretex%20Corporate%20main/assets/compliance.png" alt="">
+                        <img src="<?php echo $baseUrl; ?>assets/compliance.png" alt="">
                     </div>
                     <div class="choose-path-col-content">
                         <h3>Compliance</h3>
@@ -121,7 +124,7 @@
                 </div>
                 <div class="choose-path-col">
                     <div class="choose-path-col-image">
-                        <img src="http://localhost/Gretex%20Corporate%20main/assets/Investment-Banking.png" alt="">
+                        <img src="<?php echo $baseUrl; ?>assets/Investment-Banking.png" alt="">
                     </div>
                     <div class="choose-path-col-content">
                         <h3>IPO Execution</h3>
@@ -131,7 +134,7 @@
                 </div>
                 <div class="choose-path-col">
                     <div class="choose-path-col-image">
-                        <img src="http://localhost/Gretex%20Corporate%20main/assets/Marketing-&-Strategy.png" alt="">
+                        <img src="<?php echo $baseUrl; ?>assets/Marketing-&-Strategy.png" alt="">
                     </div>
                     <div class="choose-path-col-content">
                         <h3>Marketing & Strategy</h3>
@@ -283,7 +286,7 @@
                     part of our journey.</p>
             </div>
             <div class="cta-section-button">
-                <a class="cta-button-main" href="http://localhost/Gretex%20Corporate%20main/careers/">
+                <a class="cta-button-main" href="<?php echo $baseUrl; ?>careers/">
                     <span class="button-text">Mail us</span>
                     <svg class="cta-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                         viewBox="0 0 24 24">

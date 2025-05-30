@@ -1,3 +1,6 @@
+<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php $baseUrl = getBaseUrl(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="http://localhost/Gretex%20Corporate%20main/css/investor-relations/announcements.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/investor-relations/announcements.css">
 
 </head>
 
@@ -25,9 +28,9 @@
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main/">Home</a> / <a
-                    href="http://localhost/Gretex%20Corporate%20main/investor-relations">Investor Relations</a> / <a
-                    href="http://localhost/Gretex%20Corporate%20main/investor-relations/disclosures-under-reg-46-of-lodr">Disclosures
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
+                    href="<?php echo $baseUrl; ?>investor-relations">Investor Relations</a> / <a
+                    href="<?php echo $baseUrl; ?>investor-relations/disclosures-under-reg-46-of-lodr">Disclosures
                     under reg 46 of LODR</a> /
                 <span>Announcements</span>
             </div>
@@ -65,7 +68,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-intimation/2021-22/intimation-of-board-meeting-25-10-2021.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-intimation/2021-22/intimation-of-board-meeting-25-10-2021.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -86,7 +89,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-intimation/2021-22/intimation-of-board-meeting-14-11-2021.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-intimation/2021-22/intimation-of-board-meeting-14-11-2021.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -107,7 +110,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-intimation/2021-22/intimation-of-board-meeting-15-03-2022.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-intimation/2021-22/intimation-of-board-meeting-15-03-2022.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -128,7 +131,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-intimation/2021-22/cancellation-of-board-meeting-18-03-2022.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-intimation/2021-22/cancellation-of-board-meeting-18-03-2022.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -159,7 +162,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-intimation/2022-23/intimation-of-board-meeting-13-05-2022.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-intimation/2022-23/intimation-of-board-meeting-13-05-2022.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -180,7 +183,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-intimation/2022-23/intimation-of-board-meeting-19-05-2022.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-intimation/2022-23/intimation-of-board-meeting-19-05-2022.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -201,7 +204,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-intimation/2022-23/intimation-of-board-meeting-27-08-2022.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-intimation/2022-23/intimation-of-board-meeting-27-08-2022.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -222,7 +225,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-intimation/2022-23/intimation-of-board-meeting-17-10-2022.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-intimation/2022-23/intimation-of-board-meeting-17-10-2022.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -243,7 +246,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-intimation/2022-23/intimation-of-board-meeting-04-11-2022.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-intimation/2022-23/intimation-of-board-meeting-04-11-2022.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -264,7 +267,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-intimation/2022-23/postponement-the-meeting-10-11-2022.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-intimation/2022-23/postponement-the-meeting-10-11-2022.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -294,7 +297,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-intimation/2023-24/intimation-of-board-meeting-26-05.2023.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-intimation/2023-24/intimation-of-board-meeting-26-05.2023.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -315,7 +318,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-intimation/2023-24/intimation-of-board-meeting-09-06.2023.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-intimation/2023-24/intimation-of-board-meeting-09-06.2023.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -336,7 +339,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-intimation/2023-24/postponement-of-board-meeting-05-07-2023.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-intimation/2023-24/postponement-of-board-meeting-05-07-2023.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -357,7 +360,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-intimation/2023-24/intimation-of-board-meeting-29-07-2023.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-intimation/2023-24/intimation-of-board-meeting-29-07-2023.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -378,7 +381,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-intimation/2023-24/intimation-of-board-meeting-14-11-2023.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-intimation/2023-24/intimation-of-board-meeting-14-11-2023.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -399,7 +402,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-intimation/2023-24/postponement-of-board-meeting-09-02-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-intimation/2023-24/postponement-of-board-meeting-09-02-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -420,7 +423,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-intimation/2023-24/intimation-for-board-meeting-29-03-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-intimation/2023-24/intimation-for-board-meeting-29-03-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -450,7 +453,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-intimation/2024-25/intimation-for-board-meeting-17-04-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-intimation/2024-25/intimation-for-board-meeting-17-04-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -471,7 +474,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-intimation/2024-25/intimation-for-board-meeting-08-08-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-intimation/2024-25/intimation-for-board-meeting-08-08-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -492,7 +495,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-intimation/2024-25/intimation-for-board-meeting-05-09-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-intimation/2024-25/intimation-for-board-meeting-05-09-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -513,7 +516,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-intimation/2024-25/intimation-for-board-meeting-07-11-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-intimation/2024-25/intimation-for-board-meeting-07-11-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -534,7 +537,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -555,7 +558,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -576,7 +579,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -624,7 +627,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-outcome/2021-22/board-meeting-25-10-2021.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-outcome/2021-22/board-meeting-25-10-2021.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -645,7 +648,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-outcome/2021-22/board-meeting-14-11-2021.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-outcome/2021-22/board-meeting-14-11-2021.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -676,7 +679,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-outcome/2022-23/board-meeting-16-05-2022.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-outcome/2022-23/board-meeting-16-05-2022.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -697,7 +700,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-outcome/2022-23/board-meeting-29-05-2022.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-outcome/2022-23/board-meeting-29-05-2022.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -718,7 +721,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-outcome/2022-23/board-meeting-02-09-2022.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-outcome/2022-23/board-meeting-02-09-2022.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -739,7 +742,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-outcome/2022-23/board-meeting-13-11-2022.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-outcome/2022-23/board-meeting-13-11-2022.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -769,7 +772,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-outcome/2023-24/board-meeting-12-05-2023.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-outcome/2023-24/board-meeting-12-05-2023.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -790,7 +793,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-outcome/2023-24/board-meeting-26-05-2023.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-outcome/2023-24/board-meeting-26-05-2023.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -811,7 +814,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-outcome/2023-24/board-meeting-09-06-2023.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-outcome/2023-24/board-meeting-09-06-2023.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -832,7 +835,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-outcome/2023-24/board-meeting-06-07-2023.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-outcome/2023-24/board-meeting-06-07-2023.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -853,7 +856,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-outcome/2023-24/board-meeting-29-07-2023.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-outcome/2023-24/board-meeting-29-07-2023.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -874,7 +877,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-outcome/2023-24/board-meeting-14-11-2023.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-outcome/2023-24/board-meeting-14-11-2023.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -895,7 +898,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-outcome/2023-24/board-meeting-09-02-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-outcome/2023-24/board-meeting-09-02-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -925,7 +928,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-outcome/2024-25/outcome-of-board-meeting-08-08-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-outcome/2024-25/outcome-of-board-meeting-08-08-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -946,7 +949,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-outcome/2024-25/outcome-of-board-meeting-05-09-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-outcome/2024-25/outcome-of-board-meeting-05-09-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -967,7 +970,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-outcome/2024-25/outcome-of-board-meeting-07-11-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-outcome/2024-25/outcome-of-board-meeting-07-11-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1015,7 +1018,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2021-22/proceeding-of-13th-agm-held-on-30th-sep-2021.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2021-22/proceeding-of-13th-agm-held-on-30th-sep-2021.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1036,7 +1039,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2021-22/receipt-of-award-by-bse-limited.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2021-22/receipt-of-award-by-bse-limited.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1067,7 +1070,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-15-01-2024-aif.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-15-01-2024-aif.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1088,7 +1091,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-gsbl-drhp.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-gsbl-drhp.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1109,7 +1112,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-02-01-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-02-01-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1130,7 +1133,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-15-01-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-15-01-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1151,7 +1154,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-29-12-2023.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-29-12-2023.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1172,7 +1175,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-mandate-signing.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-mandate-signing.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1193,7 +1196,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-07-02-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-07-02-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1214,7 +1217,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-25-01-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-25-01-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1235,7 +1238,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-31-01-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-31-01-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1256,7 +1259,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-additional-place-of-business.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-additional-place-of-business.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1278,7 +1281,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-discontinuation-of-branch-office.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-discontinuation-of-branch-office.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1299,7 +1302,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-mandate-drhp.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-mandate-drhp.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1321,7 +1324,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-updates-filing-draft-red-herring-prospectus.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-updates-filing-draft-red-herring-prospectus.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1343,7 +1346,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-updates-listing-of-innokaiz-india-limited.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-updates-listing-of-innokaiz-india-limited.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1365,7 +1368,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-updates-outcome-of-board-meeting-dated-may-12-2023.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-lodr-updates-outcome-of-board-meeting-dated-may-12-2023.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1386,7 +1389,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-06-07-2023.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-06-07-2023.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1407,7 +1410,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-16-08-2023.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2022-23/announcement-under-regulation-30-16-08-2023.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1437,7 +1440,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2023-24/announcement-under-regulation-30-06-07-2023.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2023-24/announcement-under-regulation-30-06-07-2023.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1458,7 +1461,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2023-24/announcement-under-regulation-30-16-08-2023.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2023-24/announcement-under-regulation-30-16-08-2023.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1479,7 +1482,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2023-24/intimation-under-reg-30-02-01-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2023-24/intimation-under-reg-30-02-01-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1500,7 +1503,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2023-24/intimation-under-reg-30-15-01-2024 (2).pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2023-24/intimation-under-reg-30-15-01-2024 (2).pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1521,7 +1524,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2023-24/intimation-under-reg-30-15-01-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2023-24/intimation-under-reg-30-15-01-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1542,7 +1545,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/board-meeting-outcome/2023-24/board-meeting-29-07-2023.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/board-meeting-outcome/2023-24/board-meeting-29-07-2023.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1563,7 +1566,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2023-24/intimation-under-reg-30-31-01-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2023-24/intimation-under-reg-30-31-01-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1584,7 +1587,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2023-24/intimation-under-reg-30-05-02-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2023-24/intimation-under-reg-30-05-02-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1605,7 +1608,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2023-24/intimation-under-reg-30-07-02-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2023-24/intimation-under-reg-30-07-02-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1626,7 +1629,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2023-24/intimation-under-reg-30-04-03-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2023-24/intimation-under-reg-30-04-03-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1647,7 +1650,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2023-24/intimation-under-reg-30-28-03-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2023-24/intimation-under-reg-30-28-03-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1677,7 +1680,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2024-25/intimation-under-reg-30-03-04-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2024-25/intimation-under-reg-30-03-04-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1698,7 +1701,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2024-25/intimation-under-reg-30-08-10-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2024-25/intimation-under-reg-30-08-10-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1719,7 +1722,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2024-25/intimation-under-reg-30-09-09-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2024-25/intimation-under-reg-30-09-09-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1740,7 +1743,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2024-25/intimation-under-reg-30-12-07-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2024-25/intimation-under-reg-30-12-07-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1761,7 +1764,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2024-25/intimation-under-reg-30-12-08-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2024-25/intimation-under-reg-30-12-08-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1782,7 +1785,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2024-25/intimation-under-reg-30-15-07-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2024-25/intimation-under-reg-30-15-07-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1803,7 +1806,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2024-25/intimation-under-reg-30-26-04-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2024-25/intimation-under-reg-30-26-04-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1824,7 +1827,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2024-25/intimation-under-reg-30-31-07-2024-1.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2024-25/intimation-under-reg-30-31-07-2024-1.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1845,7 +1848,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2024-25/intimation-under-reg-30-31-07-2024-2.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2024-25/intimation-under-reg-30-31-07-2024-2.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1866,7 +1869,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2024-25/intimation-under-regulation-30-sebi-settlement-09-11-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2024-25/intimation-under-regulation-30-sebi-settlement-09-11-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1887,7 +1890,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2024-25/intimation-to-bse-aif-22-11-2024.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2024-25/intimation-to-bse-aif-22-11-2024.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1908,7 +1911,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2024-25/intimation-under-regulation-30-scn-sebi-gcsl.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2024-25/intimation-under-regulation-30-scn-sebi-gcsl.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1929,7 +1932,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2024-25/intimation-under-regulation-30-signing-of-new-mandate.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2024-25/intimation-under-regulation-30-signing-of-new-mandate.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1950,7 +1953,7 @@
                                 </div>
                                 <div class="download-cta">
                                     <a class="view-button"
-                                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/announcements/other-announcements/2024-25/intimation-under-regulation-30-migration-gcsl.pdf"><span>Download</span>
+                                        href="<?php echo $baseUrl; ?>assets/documents/announcements/other-announcements/2024-25/intimation-under-regulation-30-migration-gcsl.pdf"><span>Download</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24">
                                             <path fill="currentColor"
@@ -1977,7 +1980,7 @@
                     Get in touch with us today and let's unlock new growth possibilities together.</p>
             </div>
             <div class="cta-section-button">
-                <a class="cta-button-main" href="http://localhost/Gretex%20Corporate%20main/contact.php">
+                <a class="cta-button-main" href="<?php echo $baseUrl; ?>contact.php">
                     <span class="button-text">Contact us</span>
                     <svg class="cta-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                         viewBox="0 0 24 24">

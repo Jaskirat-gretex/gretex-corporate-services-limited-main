@@ -1,3 +1,6 @@
+<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php $baseUrl = getBaseUrl(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,7 +15,7 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet"
-        href="http://localhost/Gretex%20Corporate%20main/css/investor-relations/notice-for-shareholders.css">
+        href="<?php echo $baseUrl; ?>css/investor-relations/notice-for-shareholders.css">
 
 
 </head>
@@ -29,9 +32,9 @@
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main/">Home</a> / <a
-                    href="http://localhost/Gretex%20Corporate%20main/investor-relations">Investor Relations</a> / <a
-                    href="http://localhost/Gretex%20Corporate%20main/investor-relations/disclosures-under-reg-46-of-lodr">Disclosures
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
+                    href="<?php echo $baseUrl; ?>investor-relations">Investor Relations</a> / <a
+                    href="<?php echo $baseUrl; ?>investor-relations/disclosures-under-reg-46-of-lodr">Disclosures
                     under Reg 46 of LODR</a> /
                 <span>Statement Of Deviation</span>
             </div>
@@ -69,6 +72,6 @@
 
 </body>
 
-<script src="http://localhost/Gretex%20Corporate%20main/js/script.js"></script>
+<script src="<?php echo $baseUrl; ?>js/script.js"></script>
 
 </html>

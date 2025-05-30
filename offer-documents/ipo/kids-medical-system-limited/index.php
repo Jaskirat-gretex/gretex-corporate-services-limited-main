@@ -1,14 +1,17 @@
+<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php $baseUrl = getBaseUrl(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="http://localhost/Gretex%20Corporate%20main/js/script.js"></script>
+    <script src="<?php echo $baseUrl; ?>js/script.js"></script>
 
     <title>Kids Medical System Limited | Gretex Corporate Services Limited</title>
-    <link rel="stylesheet" href="http://localhost/Gretex%20Corporate%20main/css/Ipo/ipo-global.css">
-    <link rel="stylesheet" href="http://localhost/Gretex%20Corporate%20main/css/Ipo/kids-medical-system-limited.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/Ipo/ipo-global.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/Ipo/kids-medical-system-limited.css">
 
 </head>
 
@@ -25,7 +28,7 @@
         <div class="hero-footer">
             <div class="breadcrumbs">
                 <a href="http://localhost/Gretex%20Corporate%20main">Home</a> / <a
-                    href="http://localhost/Gretex%20Corporate%20main/ipo">IPO</a> / <span>Kids Medical System
+                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Kids Medical System
                     Limited</span>
             </div>
         </div>
@@ -45,7 +48,7 @@
                 </div>
                 <div class="download-cta">
                     <a class="view-button"
-                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/siddharth-education-services-limited/DRHP_Siddharth.pdf"><span>Download</span>
+                        href="<?php echo $baseUrl; ?>assets/documents/siddharth-education-services-limited/DRHP_Siddharth.pdf"><span>Download</span>
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M12 18L4.5 10.5L6.6 8.325L10.5 12.225V0H13.5V12.225L17.4 8.325L19.5 10.5L12 18ZM3 24C2.175 24 1.469 23.7065 0.882 23.1195C0.295 22.5325 0.001 21.826 0 21V16.5H3V21H21V16.5H24V21C24 21.825 23.7065 22.5315 23.1195 23.1195C22.5325 23.7075 21.826 24.001 21 24H3Z"
@@ -66,7 +69,7 @@
                 </div>
                 <div class="download-cta">
                     <a class="view-button"
-                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/siddharth-education-services-limited/RHP-Siddharth.pdf"><span>Download</span>
+                        href="<?php echo $baseUrl; ?>assets/documents/siddharth-education-services-limited/RHP-Siddharth.pdf"><span>Download</span>
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M12 18L4.5 10.5L6.6 8.325L10.5 12.225V0H13.5V12.225L17.4 8.325L19.5 10.5L12 18ZM3 24C2.175 24 1.469 23.7065 0.882 23.1195C0.295 22.5325 0.001 21.826 0 21V16.5H3V21H21V16.5H24V21C24 21.825 23.7065 22.5315 23.1195 23.1195C22.5325 23.7075 21.826 24.001 21 24H3Z"
@@ -86,7 +89,7 @@
                 </div>
                 <div class="download-cta">
                     <a class="view-button"
-                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/siddharth-education-services-limited/Final-Prospectus-Siddharth.pdf"><span>Download</span>
+                        href="<?php echo $baseUrl; ?>assets/documents/siddharth-education-services-limited/Final-Prospectus-Siddharth.pdf"><span>Download</span>
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M12 18L4.5 10.5L6.6 8.325L10.5 12.225V0H13.5V12.225L17.4 8.325L19.5 10.5L12 18ZM3 24C2.175 24 1.469 23.7065 0.882 23.1195C0.295 22.5325 0.001 21.826 0 21V16.5H3V21H21V16.5H24V21C24 21.825 23.7065 22.5315 23.1195 23.1195C22.5325 23.7075 21.826 24.001 21 24H3Z"
@@ -106,7 +109,7 @@
                 </div>
                 <div class="download-cta">
                     <a class="view-button"
-                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/siddharth-education-services-limited/Basis-of-Allotment-Advertisement.pdf"><span>Download</span>
+                        href="<?php echo $baseUrl; ?>assets/documents/siddharth-education-services-limited/Basis-of-Allotment-Advertisement.pdf"><span>Download</span>
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M12 18L4.5 10.5L6.6 8.325L10.5 12.225V0H13.5V12.225L17.4 8.325L19.5 10.5L12 18ZM3 24C2.175 24 1.469 23.7065 0.882 23.1195C0.295 22.5325 0.001 21.826 0 21V16.5H3V21H21V16.5H24V21C24 21.825 23.7065 22.5315 23.1195 23.1195C22.5325 23.7075 21.826 24.001 21 24H3Z"
@@ -126,7 +129,7 @@
                 </div>
                 <div class="download-cta">
                     <a class="view-button"
-                        href="http://localhost/Gretex%20Corporate%20main/assets/documents/siddharth-education-services-limited/Abridge-Prospectus.pdf"><span>Download</span>
+                        href="<?php echo $baseUrl; ?>assets/documents/siddharth-education-services-limited/Abridge-Prospectus.pdf"><span>Download</span>
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M12 18L4.5 10.5L6.6 8.325L10.5 12.225V0H13.5V12.225L17.4 8.325L19.5 10.5L12 18ZM3 24C2.175 24 1.469 23.7065 0.882 23.1195C0.295 22.5325 0.001 21.826 0 21V16.5H3V21H21V16.5H24V21C24 21.825 23.7065 22.5315 23.1195 23.1195C22.5325 23.7075 21.826 24.001 21 24H3Z"
@@ -147,7 +150,7 @@
                     with us today and let's unlock new growth possibilities together.</p>
             </div>
             <div class="cta-section-button">
-                <a class="cta-button-main" href="http://localhost/Gretex%20Corporate%20main/contact.php">
+                <a class="cta-button-main" href="<?php echo $baseUrl; ?>contact.php">
                     <span class="button-text">Contact us</span>
                     <svg class="cta-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                         viewBox="0 0 24 24">
