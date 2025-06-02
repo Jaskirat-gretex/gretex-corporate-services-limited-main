@@ -2,18 +2,19 @@
 
 .main-hero {
     height: 100vh;
-    padding: 50px;
-    background-image: url("../../assets/shareholding-pattern.jpg");
+    padding: 128px 50px;
+    background: linear-gradient(89.53deg, rgba(0, 0, 0, 0.8) 38.02%, rgba(0, 0, 0, 0.3) 60.4%, rgba(0, 0, 0, 0) 71.79%), url("../../assets/shareholding-pattern.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-end;
     position: relative;
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
 }
 
 .hero-header>h1 {
+    width: 60%;
     font-family: Urbanist, sans-serif;
     font-size: 4.235rem;
     font-weight: 600;
@@ -25,7 +26,7 @@
 }
 
 .hero-header>p {
-    width: 60%;
+    width: 65%;
     font-family: Plus Jakarta Sans, sans-serif;
     font-size: 1.2rem;
     font-weight: 500;
@@ -40,7 +41,7 @@
     position: absolute;
     background-color: #ffffff;
     padding: 20px 40px;
-    border-radius: 26px 0 0 0;
+    border-radius: 48px 0 0 0;
     bottom: 0;
     right: 0;
 }
@@ -71,12 +72,11 @@
 
 .breadcrumbs>a,
 .breadcrumbs>span {
-    font-family: Urbanist;
+    font-family: Urbanist, sans-serif;
     font-size: 1rem;
     font-weight: 600;
     line-height: 1.618;
     text-align: left;
-    text-decoration: none;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
@@ -88,17 +88,12 @@
 @media screen and (max-width:768px) {
     .main-hero {
         padding: 40px;
+        background: linear-gradient(180deg, rgba(137, 137, 137, 0) 0%, #000000 100%), url("../../assets/shareholding-pattern.jpg");
+        align-items: center;
     }
 
     .hero-header>h1 {
-        font-family: Urbanist;
-        font-size: 4.235rem;
-        font-weight: 700;
-        line-height: 1.2;
-        text-align: left;
-        text-underline-position: from-font;
-        text-decoration-skip-ink: none;
-        color: #ffffff;
+        width: 100%;
     }
 
     .hero-header>p {
@@ -109,18 +104,10 @@
 @media screen and (max-width:430px) {
     .main-hero {
         padding: 20px;
-        height: 90vh;
     }
 
     .hero-header>h1 {
-        font-family: Urbanist;
         font-size: 2.617rem;
-        font-weight: 700;
-        line-height: 1.2;
-        text-align: left;
-        text-underline-position: from-font;
-        text-decoration-skip-ink: none;
-        color: #ffffff;
     }
 
     .hero-header>p {
@@ -128,11 +115,6 @@
         width: 100%;
     }
 }
-
-
-
-
-
 
 .investor-context-main {
     display: flex;
@@ -219,7 +201,6 @@
     color: #141E47;
 }
 
-
 .key-figure-body {
     display: flex;
     flex-direction: column;
@@ -249,7 +230,7 @@
 
     .key-figure-header>h2 {
         font-family: Urbanist, sans-serif;
-        font-size: 2.6175rem;
+        font-size: 4.235rem;
         font-weight: 600;
         line-height: 1.5;
     }
@@ -261,8 +242,190 @@
         line-height: 1.5;
         letter-spacing: 1px;
     }
-
 }
+
+.director-desk-container {
+    padding: 64px 50px;
+    background-color: #f0f2f4;
+}
+
+.director-desk {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.director-desk-image {
+    width: 50%;
+    flex: 1;
+}
+
+.director-desk-image>img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.director-desk-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 50%;
+    flex: 1;
+}
+
+.director-desk-content>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.618;
+}
+
+.director-desk-content>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.618;
+}
+
+.director-desk-content>span {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.618;
+    text-decoration: none;
+}
+
+@media screen and (max-width:768px) {
+    .director-desk {
+        flex-direction: column;
+    }
+
+    .director-desk-image,
+    .director-desk-content {
+        width: 100%;
+        align-self: center;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width:430px) {
+    .director-desk-container {
+        padding: 40px 20px;
+    }
+}
+
+.investor-main-container {
+    padding: 64px 0px;
+}
+
+.investor-main-container-header>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.618;
+}
+
+.financial-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.financials-col {
+    /* background-color: #f0f2f4; */
+    width: 20%;
+    padding: 40px 20px;
+    flex: 1 1 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-right: 1px solid #8c8c99;
+}
+
+.financials-col:last-child {
+    border-right: none;
+}
+
+.financials-col>hr {
+    width: 20%;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #8c8c99;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.financials-col-body {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.financials-col-body>h3 {
+    font-family: Urbanist, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 600;
+    line-height: 1.618;
+}
+
+.financials-col-body>a {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.618;
+    text-decoration: none;
+    color: #000;
+}
+
+@media screen and (max-width:768px) {
+    .financials-col {
+        width: 45%;
+        flex: 1 1 45%;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .investor-main-container {
+        padding: 40px 20px;
+    }
+    .financials-col {
+        width: 100%;
+        flex: 1 1 100%;
+        padding: 40px 20px;
+        border-right: none;
+        border-bottom: 1px solid #8c8c99;
+    }
+    .financials-col:last-child {
+        border-bottom: none;
+    }
+    .financials-col>hr {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .financial-information {
     display: flex;
@@ -376,14 +539,14 @@
     justify-content: center;
 }
 
-.financial-row {
+/* .financial-row {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 16px;
-}
+} */
 
 .financial {
     width: 100%;
@@ -742,6 +905,7 @@
         transform: translateX(20px);
     }
 }
+
 /* 
 .footer-cta-main{
     padding: 50px;

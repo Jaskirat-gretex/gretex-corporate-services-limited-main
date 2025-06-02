@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -15,8 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet"
-        href="<?php echo $baseUrl; ?>css/investor-relations/investor-relations.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/investor-relations/investor-relations.css">
 
 </head>
 
@@ -25,10 +24,12 @@
 
     <div class="main-hero">
         <div class="hero-header">
-            <h1>Investor Relations</h1>
-            <p>At Gretex, we are committed to maintaining strong and transparent relationships with our investors. We
-                believe that open communication and timely disclosures are essential to building trust and credibility
-                with our stakeholders</p>
+            <h1>Strategic Growth Backed by Sound Governance</h1>
+            <p>At Gretex Corporate Services Limtied, we are committed to transparency, sound governance, and strategic
+                growth. As we
+                continue to evolve in a dynamic financial landscape, the trust and confidence of our investors remain at
+                the core of our progress. Their support empowers us to pursue innovation, uphold the highest standards
+                of compliance, and deliver sustainable value — ensuring we stay ahead in a competitive market.</p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
@@ -37,6 +38,7 @@
         </div>
     </div>
 
+    <!--     
 
     <div class="general-container">
         <div class="investor-context-main">
@@ -53,7 +55,7 @@
             </div>
 
         </div>
-    </div>
+    </div> -->
 
     <div class="general-container">
         <div class="key-figures">
@@ -101,96 +103,230 @@
         </div>
     </div>
 
+    <div class="director-desk-container">
 
+        <div class="director-desk">
+            <div class="director-desk-image">
+                <img src="<?php echo $baseUrl; ?>assets/employee-testimonial-main-banner.png" alt="">
+            </div>
+            <div class="director-desk-content">
+                <h2>From the CEO's desk</h2>
+                <p>We will continue to maintain a sharp focus on growth as we invest our time and energy in maximising
+                    our core, expanding into adjacent spaces and exploring new areas of business.</p>
+                <span>Alok Harlalka, Managing Director</span>
+            </div>
+        </div>
+    </div>
 
     <div class="general-container">
-        <div class="financial-information">
-            <div class="financial-information-left">
-                <img src="../assets/Man-reading-newspaper.jpg" alt="">
-                <div class="annual-report">
-                    <h2>Annual Report 24-25</h2>
-                    <a class="about-button" href="<?php echo $baseUrl; ?>services/">
-                        <i class="arrow-dissapear fa-solid fa-arrow-right"></i>
-                        <span class="button-text">Download</span>
-                        <i class="arrow-appear fa-solid fa-arrow-right"></i>
-                    </a>
-                </div>
+        <div class="investor-main-container">
+            <div class="investor-main-container-header">
+                <h2>Financials</h2>
             </div>
-            <div class="financial-information-right">
+            <div class="investor-main-container-body">
                 <div class="financial-row">
-                    <div class="financial">
-                        <a
-                            href="<?php echo $baseUrl; ?>investor-relations/disclosures-under-reg-46-of-lodr/financial-information/annual-reports.php">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512">
-                                <path fill="#141E47"
-                                    d="M432 176H320V64a48 48 0 0 0-48-48H80a48 48 0 0 0-48 48v416a16 16 0 0 0 16 16h104a8 8 0 0 0 8-8v-71.55c0-8.61 6.62-16 15.23-16.43A16 16 0 0 1 192 416v72a8 8 0 0 0 8 8h264a16 16 0 0 0 16-16V224a48 48 0 0 0-48-48M98.08 431.87a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m80 240a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m80 320a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79M444 464H320V208h112a16 16 0 0 1 16 16v236a4 4 0 0 1-4 4" />
-                                <path fill="#141E47"
-                                    d="M400 400a16 16 0 1 0 16 16a16 16 0 0 0-16-16m0-80a16 16 0 1 0 16 16a16 16 0 0 0-16-16m0-80a16 16 0 1 0 16 16a16 16 0 0 0-16-16m-64 160a16 16 0 1 0 16 16a16 16 0 0 0-16-16m0-80a16 16 0 1 0 16 16a16 16 0 0 0-16-16m0-80a16 16 0 1 0 16 16a16 16 0 0 0-16-16" />
-                            </svg>
-                            Annual Reports
-                        </a>
-                        <svg class="financial-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                            viewBox="0 0 24 24">
-                            <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="2" d="m14 5l7 7m0 0l-7 7m7-7H3" />
-                        </svg>
+                    <div class="financials-col">
+                        <hr>
+                        <div class="financials-col-body">
+                            <h3>Annual Reports</h3>
+                            <a
+                                href="<?php echo $baseUrl; ?>investor-relations/disclosures-under-reg-46-of-lodr/financial-information/annual-reports.php">View
+                                all</a>
+                        </div>
+
                     </div>
-                    <div class="financial">
-                        <a
-                            href="<?php echo $baseUrl; ?>investor-relations/disclosures-under-reg-46-of-lodr/financial-information/annual-returns.php">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512">
-                                <path fill="#141E47"
-                                    d="M432 176H320V64a48 48 0 0 0-48-48H80a48 48 0 0 0-48 48v416a16 16 0 0 0 16 16h104a8 8 0 0 0 8-8v-71.55c0-8.61 6.62-16 15.23-16.43A16 16 0 0 1 192 416v72a8 8 0 0 0 8 8h264a16 16 0 0 0 16-16V224a48 48 0 0 0-48-48M98.08 431.87a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m80 240a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m80 320a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79M444 464H320V208h112a16 16 0 0 1 16 16v236a4 4 0 0 1-4 4" />
-                                <path fill="#141E47"
-                                    d="M400 400a16 16 0 1 0 16 16a16 16 0 0 0-16-16m0-80a16 16 0 1 0 16 16a16 16 0 0 0-16-16m0-80a16 16 0 1 0 16 16a16 16 0 0 0-16-16m-64 160a16 16 0 1 0 16 16a16 16 0 0 0-16-16m0-80a16 16 0 1 0 16 16a16 16 0 0 0-16-16m0-80a16 16 0 1 0 16 16a16 16 0 0 0-16-16" />
-                            </svg>
-                            Annual Returns
-                        </a>
-                        <svg class="financial-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                            viewBox="0 0 24 24">
-                            <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="2" d="m14 5l7 7m0 0l-7 7m7-7H3" />
-                        </svg>
+                    <div class="financials-col">
+                        <hr>
+                        <div class="financials-col-body">
+                            <h3>Annual Returns</h3>
+                            <a
+                                href="<?php echo $baseUrl; ?>investor-relations/disclosures-under-reg-46-of-lodr/financial-information/annual-returns">View
+                                all</a>
+                        </div>
+
                     </div>
-                    <div class="financial">
-                        <a
-                            href="<?php echo $baseUrl; ?>investor-relations/disclosures-under-reg-46-of-lodr/financial-information/financial-results.php">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512">
-                                <path fill="#141E47"
-                                    d="M432 176H320V64a48 48 0 0 0-48-48H80a48 48 0 0 0-48 48v416a16 16 0 0 0 16 16h104a8 8 0 0 0 8-8v-71.55c0-8.61 6.62-16 15.23-16.43A16 16 0 0 1 192 416v72a8 8 0 0 0 8 8h264a16 16 0 0 0 16-16V224a48 48 0 0 0-48-48M98.08 431.87a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m80 240a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m80 320a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79M444 464H320V208h112a16 16 0 0 1 16 16v236a4 4 0 0 1-4 4" />
-                                <path fill="#141E47"
-                                    d="M400 400a16 16 0 1 0 16 16a16 16 0 0 0-16-16m0-80a16 16 0 1 0 16 16a16 16 0 0 0-16-16m0-80a16 16 0 1 0 16 16a16 16 0 0 0-16-16m-64 160a16 16 0 1 0 16 16a16 16 0 0 0-16-16m0-80a16 16 0 1 0 16 16a16 16 0 0 0-16-16m0-80a16 16 0 1 0 16 16a16 16 0 0 0-16-16" />
-                            </svg>
-                            Financial Results
-                        </a>
-                        <svg class="financial-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                            viewBox="0 0 24 24">
-                            <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="2" d="m14 5l7 7m0 0l-7 7m7-7H3" />
-                        </svg>
+                    <div class="financials-col">
+                        <hr>
+                        <div class="financials-col-body">
+                            <h3>Financials Subsidiary</h3>
+                            <a
+                                href="<?php echo $baseUrl; ?>investor-relations/disclosures-under-reg-46-of-lodr/financial-information/financials-subsidiary">View
+                                all</a>
+                        </div>
+
                     </div>
-                    <div class="financial">
-                        <a
-                            href="<?php echo $baseUrl; ?>investor-relations/disclosures-under-reg-46-of-lodr/financial-information/financials-subsidiary.php">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512">
-                                <path fill="#141E47"
-                                    d="M432 176H320V64a48 48 0 0 0-48-48H80a48 48 0 0 0-48 48v416a16 16 0 0 0 16 16h104a8 8 0 0 0 8-8v-71.55c0-8.61 6.62-16 15.23-16.43A16 16 0 0 1 192 416v72a8 8 0 0 0 8 8h264a16 16 0 0 0 16-16V224a48 48 0 0 0-48-48M98.08 431.87a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m80 240a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m80 320a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79M444 464H320V208h112a16 16 0 0 1 16 16v236a4 4 0 0 1-4 4" />
-                                <path fill="#141E47"
-                                    d="M400 400a16 16 0 1 0 16 16a16 16 0 0 0-16-16m0-80a16 16 0 1 0 16 16a16 16 0 0 0-16-16m0-80a16 16 0 1 0 16 16a16 16 0 0 0-16-16m-64 160a16 16 0 1 0 16 16a16 16 0 0 0-16-16m0-80a16 16 0 1 0 16 16a16 16 0 0 0-16-16m0-80a16 16 0 1 0 16 16a16 16 0 0 0-16-16" />
-                            </svg>
-                            Financial Subsidiary
-                        </a>
-                        <svg class="financial-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                            viewBox="0 0 24 24">
-                            <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="2" d="m14 5l7 7m0 0l-7 7m7-7H3" />
-                        </svg>
+                    <div class="financials-col">
+                        <hr>
+                        <div class="financials-col-body">
+                            <h3>Financial Results</h3>
+                            <a
+                                href="<?php echo $baseUrl; ?>investor-relations/disclosures-under-reg-46-of-lodr/financial-information/financial-results">View
+                                all</a>
+                        </div>
+
+                    </div>
+                    <div class="financials-col">
+                        <hr>
+                        <div class="financials-col-body">
+                            <h3>Statement of Deviations</h3>
+                            <a
+                                href="<?php echo $baseUrl; ?>investor-relations/disclosures-under-reg-46-of-lodr/statement-of-deviation">View
+                                all</a>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <div class="general-container">
+        <div class="investor-main-container">
+            <div class="investor-main-container-header">
+                <h2>Corporate Goverance</h2>
+            </div>
+            <div class="investor-main-container-body">
+                <div class="financial-row">
+                    <div class="financials-col">
+                        <hr>
+                        <div class="financials-col-body">
+                            <h3>Codes & Policies</h3>
+                            <a href="<?php echo $baseUrl; ?>investor-relations/codes-and-policies">View all</a>
+                        </div>
+
+                    </div>
+                    <div class="financials-col">
+                        <hr>
+                        <div class="financials-col-body">
+                            <h3>Board of Directors</h3>
+                            <a
+                                href="<?php echo $baseUrl; ?>investor-relations/disclosures-under-reg-46-of-lodr/composition-of-board-of-directors">View
+                                all</a>
+                        </div>
+
+                    </div>
+                    <div class="financials-col">
+                        <hr>
+                        <div class="financials-col-body">
+                            <h3>T & C for Appointment of Independent Director</h3>
+                            <a
+                                href="<?php echo $baseUrl; ?>investor-relations/disclosures-under-reg-46-of-lodr/terms-and-condition-for-appointment-of-independent-director">View
+                                all</a>
+                        </div>
+
+                    </div>
+                    <div class="financials-col">
+                        <hr>
+                        <div class="financials-col-body">
+                            <h3>Memorandum of Association and Articles of Association</h3>
+                            <a
+                                href="<?php echo $baseUrl; ?>investor-relations/disclosures-under-reg-46-of-lodr/memorandum-of-association-and-articles-of-association">View
+                                all</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="general-container">
+        <div class="investor-main-container">
+            <div class="investor-main-container-header">
+                <h2>Shareholding Information</h2>
+            </div>
+            <div class="investor-main-container-body">
+                <div class="financial-row">
+                    <div class="financials-col">
+                        <hr>
+                        <div class="financials-col-body">
+                            <h3>Shareholding Pattern</h3>
+                            <a
+                                href="<?php echo $baseUrl; ?>investor-relations/disclosures-under-reg-46-of-lodr/shareholding-pattern">View
+                                all</a>
+                        </div>
+
+                    </div>
+                    <div class="financials-col">
+                        <hr>
+                        <div class="financials-col-body">
+                            <h3>Notice for Shareholders</h3>
+                            <a href="<?php echo $baseUrl; ?>investor-relations/disclosures-under-reg-46-of-lodr/notice-for-shareholders">View all</a>
+                        </div>
+
+                    </div>
+                    <div class="financials-col">
+                        <hr>
+                        <div class="financials-col-body">
+                            <h3>Gretex Right Issue</h3>
+                            <a href="<?php echo $baseUrl; ?>investor-relations/gretex-rights-issue.php">View all</a>
+                        </div>
+
+                    </div>
+                    <div class="financials-col">
+                        <hr>
+                        <div class="financials-col-body">
+                            <h3>Compliance with Stock Exchange</h3>
+                            <a href="<?php echo $baseUrl; ?>investor-relations/disclosures-under-reg-46-of-lodr/compliance-with-stock-exchange">View all</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="general-container">
+        <div class="investor-main-container">
+            <div class="investor-main-container-header">
+                <h2>Investor Communications</h2>
+            </div>
+            <div class="investor-main-container-body">
+                <div class="financial-row">
+                    <div class="financials-col">
+                        <hr>
+                        <div class="financials-col-body">
+                            <h3>Announcements</h3>
+                            <a href="<?php echo $baseUrl; ?>investor-relations/disclosures-under-reg-46-of-lodr/announcements">View all</a>
+                        </div>
+
+                    </div>
+                    <div class="financials-col">
+                        <hr>
+                        <div class="financials-col-body">
+                            <h3>Investors Charter</h3>
+                            <a href="<?php echo $baseUrl; ?>investor-relations/investor-charter">View all</a>
+                        </div>
+
+                    </div>
+                    <div class="financials-col">
+                        <hr>
+                        <div class="financials-col-body">
+                            <h3>Investors Complaint</h3>
+                            <a href="<?php echo $baseUrl; ?>investor-relations/investor-complaints">View all</a>
+                        </div>
+
+                    </div>
+                    <div class="financials-col">
+                        <hr>
+                        <div class="financials-col-body">
+                            <h3>Investor Contact</h3>
+                            <a href="<?php echo $baseUrl; ?>investor-relations/disclosures-under-reg-46-of-lodr/investor-contact">View all</a>
+                        </div>
+
+                    </div>
+                    <div class="financials-col">
+                        <hr>
+                        <div class="financials-col-body">
+                            <h3>Archival</h3>
+                            <a href="">View all</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="general-container">
 
@@ -281,206 +417,33 @@
         </div>
     </div>
 
-
-
-    <div class="quick-links">
-        <div class="quick-links-header">
-            <h3>Quick Links</h3>
-        </div>
-        <div class="quick-links-body">
-            <div class="quick-links-row">
-                <div class="quick-links-col">
-                    <div class="quick-link">
-                        <div class="quick-icon-box">
-                            <a class="link" href="">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">
-                                    <path fill="#141E47"
-                                        d="M432 176H320V64a48 48 0 0 0-48-48H80a48 48 0 0 0-48 48v416a16 16 0 0 0 16 16h104a8 8 0 0 0 8-8v-71.55c0-8.61 6.62-16 15.23-16.43A16 16 0 0 1 192 416v72a8 8 0 0 0 8 8h264a16 16 0 0 0 16-16V224a48 48 0 0 0-48-48M98.08 431.87a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m80 240a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m80 320a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79M444 464H320V208h112a16 16 0 0 1 16 16v236a4 4 0 0 1-4 4" />
-                                    <path fill="#141E47"
-                                        d="M400 400a16 16 0 1 0 16 16a16 16 0 0 0-16-16m0-80a16 16 0 1 0 16 16a16 16 0 0 0-16-16m0-80a16 16 0 1 0 16 16a16 16 0 0 0-16-16m-64 160a16 16 0 1 0 16 16a16 16 0 0 0-16-16m0-80a16 16 0 1 0 16 16a16 16 0 0 0-16-16m0-80a16 16 0 1 0 16 16a16 16 0 0 0-16-16" />
-                                </svg>
-                                Business Details
-                            </a>
-                        </div>
-                        <div class="quick-arrow">
-                            <svg class="quick-link-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24">
-                                <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="m14 5l7 7m0 0l-7 7m7-7H3" />
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="quick-link">
-                        <div class="quick-icon-box">
-                            <a class="link"
-                                href="<?php echo $baseUrl; ?>investor-relations/disclosures-under-reg-46-of-lodr/composition-of-board-of-directors.php">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                    <path fill="#141E47"
-                                        d="M16 17v2H2v-2s0-4 7-4s7 4 7 4m-3.5-9.5A3.5 3.5 0 1 0 9 11a3.5 3.5 0 0 0 3.5-3.5m3.44 5.5A5.32 5.32 0 0 1 18 17v2h4v-2s0-3.63-6.06-4M15 4a3.4 3.4 0 0 0-1.93.59a5 5 0 0 1 0 5.82A3.4 3.4 0 0 0 15 11a3.5 3.5 0 0 0 0-7" />
-                                </svg>
-                                Composition of Board Of Directors
-                            </a>
-                        </div>
-                        <div class="quick-arrow">
-                            <svg class="quick-link-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24">
-                                <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="m14 5l7 7m0 0l-7 7m7-7H3" />
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="quick-link">
-                        <div class="quick-icon-box">
-                            <a class="link" href="">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">
-                                    <path fill="#141E47"
-                                        d="M432 176H320V64a48 48 0 0 0-48-48H80a48 48 0 0 0-48 48v416a16 16 0 0 0 16 16h104a8 8 0 0 0 8-8v-71.55c0-8.61 6.62-16 15.23-16.43A16 16 0 0 1 192 416v72a8 8 0 0 0 8 8h264a16 16 0 0 0 16-16V224a48 48 0 0 0-48-48M98.08 431.87a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m80 240a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m80 320a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79m0-80a16 16 0 1 1 13.79-13.79a16 16 0 0 1-13.79 13.79M444 464H320V208h112a16 16 0 0 1 16 16v236a4 4 0 0 1-4 4" />
-                                    <path fill="#141E47"
-                                        d="M400 400a16 16 0 1 0 16 16a16 16 0 0 0-16-16m0-80a16 16 0 1 0 16 16a16 16 0 0 0-16-16m0-80a16 16 0 1 0 16 16a16 16 0 0 0-16-16m-64 160a16 16 0 1 0 16 16a16 16 0 0 0-16-16m0-80a16 16 0 1 0 16 16a16 16 0 0 0-16-16m0-80a16 16 0 1 0 16 16a16 16 0 0 0-16-16" />
-                                </svg>
-                                Investor Contact
-                            </a>
-                        </div>
-                        <div class="quick-arrow">
-                            <svg class="quick-link-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24">
-                                <path fill="none" stroke="#141E47" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="m14 5l7 7m0 0l-7 7m7-7H3" />
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="quick-link">
-                        <div class="quick-icon-box">
-                            <a class="link" href="">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                    <path fill="#141E47"
-                                        d="M16 17v2H2v-2s0-4 7-4s7 4 7 4m-3.5-9.5A3.5 3.5 0 1 0 9 11a3.5 3.5 0 0 0 3.5-3.5m3.44 5.5A5.32 5.32 0 0 1 18 17v2h4v-2s0-3.63-6.06-4M15 4a3.4 3.4 0 0 0-1.93.59a5 5 0 0 1 0 5.82A3.4 3.4 0 0 0 15 11a3.5 3.5 0 0 0 0-7" />
-                                </svg>
-                                Shareholding Pattern
-                            </a>
-                        </div>
-                        <div class="quick-arrow">
-                            <svg class="quick-link-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24">
-                                <path fill="none" stroke="#141E47" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="m14 5l7 7m0 0l-7 7m7-7H3" />
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="quick-link">
-                        <div class="quick-icon-box">
-                            <a class="link" href="">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                    <path fill="#141E47"
-                                        d="M16 17v2H2v-2s0-4 7-4s7 4 7 4m-3.5-9.5A3.5 3.5 0 1 0 9 11a3.5 3.5 0 0 0 3.5-3.5m3.44 5.5A5.32 5.32 0 0 1 18 17v2h4v-2s0-3.63-6.06-4M15 4a3.4 3.4 0 0 0-1.93.59a5 5 0 0 1 0 5.82A3.4 3.4 0 0 0 15 11a3.5 3.5 0 0 0 0-7" />
-                                </svg>
-                                Scrutinizer Report
-                            </a>
-                        </div>
-                        <div class="quick-arrow">
-                            <svg class="quick-link-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24">
-                                <path fill="none" stroke="#141E47" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="m14 5l7 7m0 0l-7 7m7-7H3" />
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-                <div class="quick-links-col">
-                    <div class="quick-link">
-                        <div class="quick-icon-box">
-                            <a class="link" href="">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                    <path fill="#141E47"
-                                        d="M16 17v2H2v-2s0-4 7-4s7 4 7 4m-3.5-9.5A3.5 3.5 0 1 0 9 11a3.5 3.5 0 0 0 3.5-3.5m3.44 5.5A5.32 5.32 0 0 1 18 17v2h4v-2s0-3.63-6.06-4M15 4a3.4 3.4 0 0 0-1.93.59a5 5 0 0 1 0 5.82A3.4 3.4 0 0 0 15 11a3.5 3.5 0 0 0 0-7" />
-                                </svg>
-                                T & C for appointing Independent Director
-                            </a>
-                        </div>
-                        <div class="quick-arrow">
-                            <svg class="quick-link-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24">
-                                <path fill="none" stroke="#141E47" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="m14 5l7 7m0 0l-7 7m7-7H3" />
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="quick-link">
-                        <div class="quick-icon-box">
-                            <a class="link" href="">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                    <path fill="#141E47"
-                                        d="M16 17v2H2v-2s0-4 7-4s7 4 7 4m-3.5-9.5A3.5 3.5 0 1 0 9 11a3.5 3.5 0 0 0 3.5-3.5m3.44 5.5A5.32 5.32 0 0 1 18 17v2h4v-2s0-3.63-6.06-4M15 4a3.4 3.4 0 0 0-1.93.59a5 5 0 0 1 0 5.82A3.4 3.4 0 0 0 15 11a3.5 3.5 0 0 0 0-7" />
-                                </svg>
-                                Notice for Shareholders
-                            </a>
-                        </div>
-                        <div class="quick-arrow">
-                            <svg class="quick-link-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24">
-                                <path fill="none" stroke="#141E47" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="m14 5l7 7m0 0l-7 7m7-7H3" />
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="quick-link">
-                        <div class="quick-icon-box">
-                            <a class="link" href="">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                    <path fill="#141E47"
-                                        d="M16 17v2H2v-2s0-4 7-4s7 4 7 4m-3.5-9.5A3.5 3.5 0 1 0 9 11a3.5 3.5 0 0 0 3.5-3.5m3.44 5.5A5.32 5.32 0 0 1 18 17v2h4v-2s0-3.63-6.06-4M15 4a3.4 3.4 0 0 0-1.93.59a5 5 0 0 1 0 5.82A3.4 3.4 0 0 0 15 11a3.5 3.5 0 0 0 0-7" />
-                                </svg>
-                                Announcements
-                            </a>
-                        </div>
-                        <div class="quick-arrow">
-                            <svg class="quick-link-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24">
-                                <path fill="none" stroke="#141E47" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="m14 5l7 7m0 0l-7 7m7-7H3" />
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="quick-link">
-                        <div class="quick-icon-box">
-                            <a class="link" href="">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                    <path fill="#141E47"
-                                        d="M16 17v2H2v-2s0-4 7-4s7 4 7 4m-3.5-9.5A3.5 3.5 0 1 0 9 11a3.5 3.5 0 0 0 3.5-3.5m3.44 5.5A5.32 5.32 0 0 1 18 17v2h4v-2s0-3.63-6.06-4M15 4a3.4 3.4 0 0 0-1.93.59a5 5 0 0 1 0 5.82A3.4 3.4 0 0 0 15 11a3.5 3.5 0 0 0 0-7" />
-                                </svg>
-                                Statement of Deviation
-                            </a>
-                        </div>
-                        <div class="quick-arrow">
-                            <svg class="quick-link-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24">
-                                <path fill="none" stroke="#141E47" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="m14 5l7 7m0 0l-7 7m7-7H3" />
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="quick-link">
-                        <div class="quick-icon-box">
-                            <a class="link" href="">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                    <path fill="#141E47"
-                                        d="M16 17v2H2v-2s0-4 7-4s7 4 7 4m-3.5-9.5A3.5 3.5 0 1 0 9 11a3.5 3.5 0 0 0 3.5-3.5m3.44 5.5A5.32 5.32 0 0 1 18 17v2h4v-2s0-3.63-6.06-4M15 4a3.4 3.4 0 0 0-1.93.59a5 5 0 0 1 0 5.82A3.4 3.4 0 0 0 15 11a3.5 3.5 0 0 0 0-7" />
-                                </svg>
-                                Compliance with Stock Exchange
-                            </a>
-                        </div>
-                        <div class="quick-arrow">
-                            <svg class="quick-link-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24">
-                                <path fill="none" stroke="#141E47" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="m14 5l7 7m0 0l-7 7m7-7H3" />
-                            </svg>
-                        </div>
-                    </div>
-                </div>
+    <!-- Contact CTA section -->
+    <div class="footer-cta-section">
+        <div class="cta-section-left">
+            <div class="cta-header">
+                <h4>Fuel Your Company's Growth with Strategic Financial Solutions</h4>
+                <p>Looking to expand your business, raise capital, or explore new financial opportunities? We
+                    specialize in tailored merchant banking solutions that empower companies to scale with confidence.
+                    Get in touch with us today and let's unlock new growth possibilities together.</p>
+            </div>
+            <div class="cta-section-button">
+                <a class="cta-button-main" href="<?php echo $baseUrl; ?>contact">
+                    <span class="button-text">Contact us</span>
+                    <svg class="cta-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                        viewBox="0 0 24 24">
+                        <path fill="#fff" fill-rule="evenodd"
+                            d="M9 6.75a.75.75 0 0 1 0-1.5h9a.75.75 0 0 1 .75.75v9a.75.75 0 0 1-1.5 0V7.81L6.53 18.53a.75.75 0 0 1-1.06-1.06L16.19 6.75z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </a>
             </div>
         </div>
+        <div class="cta-section-right">
+
+        </div>
     </div>
+
+    
 
     <?php include "../footer.php" ?>
     <script src="<?php echo $baseUrl; ?>js/mobilemenu.js"></script>

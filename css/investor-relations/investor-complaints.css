@@ -81,7 +81,7 @@
     text-decoration-skip-ink: none;
 }
 
-.breadcrumbs > a{
+.breadcrumbs>a {
     color: #141E47;
 }
 
@@ -133,11 +133,11 @@
     padding: 50px;
 }
 
-.document-headline{
+.document-headline {
     padding: 16px 0;
 }
 
-.document-headline > h2{
+.document-headline>h2 {
     font-family: Urbanist, sans-serif;
     font-size: 2.617rem;
     font-weight: 800;
@@ -203,13 +203,139 @@
     }
 }
 
-.compliance{
+.support-container {
+    background-color: #f0f2f4;
+    padding: 64px 50px;
+}
+
+.support-container-header>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.support-container-body {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.support-box1 {
+    width: 50%;
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #000;
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-.compliance-header > h2{
+.support-box1:nth-last-child(1){
+    border-right: none;
+}
+
+.designation-meta > span{
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.618;
+    text-align: left;
+}
+
+.designation-meta > h2{
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.designation-meta > p{
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.618;
+    text-align: left;
+}
+
+.support-address-meta{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.address-tab,
+.tel-tab,
+.email-tab {
+    display: flex;
+    gap: 16px;
+}
+
+.tab-header {
+    width: 20%;
+}
+
+.tab-content {
+    width: 70%;
+}
+
+.support-address-meta > *{
+    font-family: Urbanist, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.618;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .support-container-body{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .support-box1 {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #000;
+        padding: 40px 0;
+    }
+    .support-box1:nth-last-child(1){
+        border-bottom: none;
+    }
+}
+
+@media screen and (max-width:430px){
+    .support-container {
+        padding: 64px 20px;
+    }
+
+    .support-box1 {
+        width: 100%;
+        padding: 64px 10px;
+    }
+
+    .designation-meta > h2 {
+        font-size: 1.618rem;
+    }
+}
+
+
+
+
+
+
+
+.compliance {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.compliance-header>h2 {
     font-family: Urbanist, sans-serif;
     font-size: 2.617rem;
     font-weight: 600;
@@ -220,7 +346,7 @@
     text-decoration-skip-ink: none;
 }
 
-.compliance-icon-box{
+.compliance-icon-box {
     background-color: antiquewhite;
     display: flex;
     justify-content: flex-start;
@@ -228,7 +354,7 @@
     gap: 8px;
 }
 
-.icon-content > span{
+.icon-content>span {
     font-family: Plus Jakarta Sans, sans-serif;
     font-size: 1rem;
     font-weight: 500;
@@ -239,7 +365,7 @@
     text-decoration-skip-ink: none;
 }
 
-.icon-content > h3{
+.icon-content>h3 {
     font-family: Urbanist, sans-serif;
     font-size: 1.618rem;
     font-weight: 600;

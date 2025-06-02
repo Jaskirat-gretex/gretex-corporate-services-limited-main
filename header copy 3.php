@@ -200,7 +200,7 @@
     </div>
 
     <div class="nav-cta">
-        <a class="navbar-cta-button" href="">
+        <a class="navbar-cta-button" href="<?php echo $baseUrl; ?>contact">
             <i class="arrow-dissapear fa-solid fa-arrow-right"></i>
             <span class="button-text">Contact Us</span>
             <i class="arrow-appear fa-solid fa-arrow-right"></i>

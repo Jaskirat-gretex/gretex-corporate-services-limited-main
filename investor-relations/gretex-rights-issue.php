@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
