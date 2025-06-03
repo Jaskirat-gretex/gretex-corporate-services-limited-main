@@ -20,8 +20,6 @@
 <body>
     <?php include '../header.php'; ?>
 
-
-
     <div class="main-hero">
         <div class="hero-header">
             <h1>Reach out to us</h1>
@@ -122,11 +120,9 @@
                                         class="form-required">*</span></label>
                                 <select name="Revenue" id="Revenue" required>
                                     <option value="" disabled selected>Select your revenue</option>
-                                    <option value="">10 - 20 CR</option>
-                                    <option value="">20 - 30 CR</option>
-                                    <option value="">30 - 40 CR</option>
-                                    <option value="">40 - 50 CR</option>
-                                    <option value="">50 - 100 CR</option>
+                                    <option value="50-100 CR">50 - 100 CR</option>
+                                    <option value="100-500 CR">100 - 500 CR</option>
+                                    <option value="500 CR Above">500 CR Above</option>
                                 </select>
                             </div>
                             <div class="form-field">
@@ -134,11 +130,9 @@
                                         class="form-required">*</span></label>
                                 <select name="Profit After Tax" id="Revenue">
                                     <option value="" disabled selected>Select Profit After Tax</option>
-                                    <option value="">10 - 20 CR</option>
-                                    <option value="">20 - 30 CR</option>
-                                    <option value="">30 - 40 CR</option>
-                                    <option value="">40 - 50 CR</option>
-                                    <option value="">50 - 100 CR</option>
+                                    <option value="10-20 CR">10 - 20 CR</option>
+                                    <option value="21-50 CR">21 - 50 CR</option>
+                                    <option value="50-100 CR">50 - 100 CR</option>
                                 </select>
                             </div>
                         </div>

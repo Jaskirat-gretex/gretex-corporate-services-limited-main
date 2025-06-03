@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/investor-relations/shareholding-pattern.css">
-
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/investor-relations/investor-relations-main-template.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/investor-relations/scrutinizer-report.css">
 
 </head>
 
@@ -42,7 +42,7 @@
     </div>
 
     <div class="document-container">
-        <div class="document-row">            
+        <div class="document-row">
             <div class="document">
                 <div class="icon-box">
                     <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -81,7 +81,7 @@
                         </svg></a>
                 </div>
             </div>
-            
+
         </div>
     </div>
 

@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/investor-relations/shareholding-pattern.css">
-
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/investor-relations/investor-relations-main-template.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/investor-relations/investor-contact.css">
 
 </head>
 
@@ -61,7 +61,33 @@
                                 d="M12 15.575q-.2 0-.375-.062T11.3 15.3l-3.6-3.6q-.3-.3-.288-.7t.288-.7q.3-.3.713-.312t.712.287L11 12.15V5q0-.425.288-.712T12 4t.713.288T13 5v7.15l1.875-1.875q.3-.3.713-.288t.712.313q.275.3.288.7t-.288.7l-3.6 3.6q-.15.15-.325.213t-.375.062M6 20q-.825 0-1.412-.587T4 18v-2q0-.425.288-.712T5 15t.713.288T6 16v2h12v-2q0-.425.288-.712T19 15t.713.288T20 16v2q0 .825-.587 1.413T18 20z" />
                         </svg></a>
                 </div>
-            </div>            
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact CTA section -->
+    <div class="footer-cta-section">
+        <div class="cta-section-left">
+            <div class="cta-header">
+                <h4>Fuel Your Company's Growth with Strategic Financial Solutions</h4>
+                <p>Looking to expand your business, raise capital, or explore new financial opportunities? We
+                    specialize in tailored merchant banking solutions that empower companies to scale with confidence.
+                    Get in touch with us today and let's unlock new growth possibilities together.</p>
+            </div>
+            <div class="cta-section-button">
+                <a class="cta-button-main" href="<?php echo $baseUrl; ?>contact.php">
+                    <span class="button-text">Contact us</span>
+                    <svg class="cta-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                        viewBox="0 0 24 24">
+                        <path fill="#fff" fill-rule="evenodd"
+                            d="M9 6.75a.75.75 0 0 1 0-1.5h9a.75.75 0 0 1 .75.75v9a.75.75 0 0 1-1.5 0V7.81L6.53 18.53a.75.75 0 0 1-1.06-1.06L16.19 6.75z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="cta-section-right">
+
         </div>
     </div>
 
