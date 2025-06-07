@@ -227,6 +227,26 @@
         </div>
     </div>
 
+    <div class="company-culture-main">
+        <div class="company-culture-header-main">
+            <span>Company Culture</span>
+            <h2>Investing In Tomorrow: Your Gateway To Growth With Our Venture Capital</h2>
+        </div>
+        <div class="company-culture-body-main">
+            <div class="video">
+                <div class="video-wrapper">
+                    <video class="story-media" id="customVideo" preload="metadata">
+                        <source src="<?php echo $baseUrl; ?>assets/videos/gretex-corporate-timeline-min.mp4"
+                            type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="custom-play-button" id="playBtn"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <div class="company-culture">
         <div class="company-culture-header">
             <span>Company Culture</span>
@@ -234,6 +254,7 @@
         </div>
 
         <div class="company-culture-body">
+
             <div class="careers-video">
                 <video class="story-media" src="../assets/videos/360onejourney_77d57ed114.mp4" muted autoplay loop
                     controlslist="nodownload"></video>
@@ -269,12 +290,10 @@
                     <h2>About Gretex</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores numquam odio quos voluptatem
                         blanditiis pariatur quod perferendis necessitatibus facilis. Ut voluptatibus ullam, odio
-                        adipisci
-                        blanditiis dolorum perspiciatis dicta id odit a nihil modi consequuntur dolor non soluta dolorem
-                        maxime
-                        recusandae exercitationem eius reprehenderit eaque nulla voluptate libero labore. Qui officiis
-                        ipsa
-                        nesciunt laboriosam quae, nostrum nam numquam ea magnam debitis maiores nulla quo dignissimos.
+                        adipisci blanditiis dolorum perspiciatis dicta id odit a nihil modi consequuntur dolor non
+                        soluta dolorem maxime recusandae exercitationem eius reprehenderit eaque nulla voluptate libero
+                        labore. Qui officiis ipsa nesciunt laboriosam quae, nostrum nam numquam ea magnam debitis
+                        maiores nulla quo dignissimos.
                     </p>
                 </div>
 

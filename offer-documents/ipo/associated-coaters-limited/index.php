@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -21,13 +21,20 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Associated Coaters Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Associated Coaters Limited delivers precision-driven coating solutions for aluminium extrusions across
+                architectural and real estate sectors. Commencing services in 2017, the firm has emerged as eastern
+                India's benchmark in powder coating excellence. With an annual processing strength of 1,200 metric tons,
+                it utilizes both fully automated and dual manual coating units. Recognized as the exclusive Approved
+                Applicator for Akzonobel, Jotun, and Asian Paints in architectural finishes, the company maintains
+                rigorous standards in surface pre-treatment and powder coating. Associated Coaters Limited was publicly
+                listed on June 6, 2024, affirming its growing influence in the aluminium coating and metal finishing
+                industry.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Associated Coaters Limited</span>
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> /
+                <span>Associated Coaters Limited</span>
             </div>
         </div>
     </div>
@@ -75,7 +82,7 @@
         </div>
     </div>
 
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">

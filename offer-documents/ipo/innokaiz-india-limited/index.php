@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -22,14 +22,17 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Innokaiz India Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Innokaiz India Limited, formed in 2013, excels in event management, corporate gifting, advertising, and
+                marketing services across offline and online channels. With 15,250+ roadshows and a World Record to its
+                credit, the company serves the Banking, Insurance, and FMCG sectors. From outdoor advertising, MICE
+                events, and UI/UX development to custom gifting and e-commerce, Innokaiz delivers integrated brand
+                solutions with excellence. The company proudly listed on the BSE SME in May 2023.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Innokaiz India Limited</span>
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> /
+                <span>Innokaiz India Limited</span>
             </div>
         </div>
     </div>

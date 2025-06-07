@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -29,8 +29,8 @@
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main">Home</a> / <a
-                    href="http://localhost/Gretex%20Corporate%20main">IPO</a> / <span>Debock Sales & Marketing
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
+                    href="<?php echo $baseUrl; ?>">IPO</a> / <span>Debock Sales & Marketing
                     Limited</span>
             </div>
         </div>

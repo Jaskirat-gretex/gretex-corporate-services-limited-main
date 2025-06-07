@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -21,9 +21,12 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>B-Right Realestate Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>B Right Realestate Limited is a premier integrated construction and real estate development company in
+                residential and commercial projects. With a focus on delivering top-quality construction, B Right
+                leverages its strong in-house capabilities to ensure supremacy. The company made its debut on the BSE
+                SME in June 2022. Notable projects include Nirvana by Shrishti by Aum Creators in Khar West, Meridian by
+                Rushabh Developers Malad East, and Satellite Tower by Neileshwar Developers (Andheri West).
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">

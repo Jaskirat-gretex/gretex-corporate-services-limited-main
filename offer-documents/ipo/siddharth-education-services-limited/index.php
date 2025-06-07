@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -11,29 +11,28 @@
 
     <title>Siddharth Education Services Limited | Gretex Corporate Services Limited</title>
     <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/Ipo/ipo-global.css">
-
     <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/Ipo/siddharth-education-services-limited.css">
 
 </head>
 
 <body>
 
-    <?php include '../header.php'; ?>
+    <?php include '../../../header.php'; ?>
 
     <div class="main-hero">
         <div class="hero-header">
             <h1>Siddharth Education Services Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments. Its portfolio of products includes gold and silver jewellery with
-                or without studded precious and semi-precious stones. VOL's gold & silver traditional jewellery &
-                ornaments are either made with kundan, gem stones, American diamonds etc or just plain gold or silver.
-                The company caters to the local markets in its region.</p>
+            <p>Siddharth Education Services Limited delivers comprehensive coaching for professional courses in
+                particular, Company Secretaries, Chartered Accountancy, Cost & Management Accountancy, and CFA. With
+                multiple centers and a dedicated team of skilled faculty members, the company facilitates effective and
+                accessible learning through its well-structured test series. Focused on delivering clear, concise
+                education to help students shine.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Siddharth Education Services
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> /
+                <span>Siddharth Education Services
                     Limited</span>
             </div>
         </div>
@@ -144,7 +143,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">
@@ -171,7 +170,7 @@
         </div>
     </div>
 
-    <?php include '../footer.php'; ?>
+    <?php include '../../../footer.php'; ?>
 
 </body>
 

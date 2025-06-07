@@ -120,6 +120,121 @@
     }
 }
 
+
+
+
+.vision{
+    /* padding: 50px; */
+    /* height: 90vh; */
+    display: flex;
+}
+
+.vision-image-container{
+    background: url("../../assets/vision-banner-min.png") center / cover no-repeat;
+    width: 40%;
+    padding: 50px;
+}
+
+.vision-content-container{
+    width: 60%;
+    align-items: stretch;
+    align-self: stretch;
+}
+
+.vision-content-main{
+    padding: 64px;
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+.vision-content-main > p{
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.vision-content-main > h2{
+    width: 80%;
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.metrics{
+    padding: 64px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.metric{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.metric > h3{
+    font-family: Urbanist, sans-serif;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.metric > p{
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px){
+   .vision-content-main > h2{
+    font-size: 1.618rem;
+    width: 100%;
+   }
+   .metric > h3{
+    font-size: 1.618rem;
+   }
+   .metric > p{
+    font-size: 1rem;
+   }
+}
+
+@media screen and (max-width:430px){
+    .vision{
+        flex-direction: column;
+        width: 100%;
+    }
+    .vision-image-container{
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+    }
+    .vision-content-container{
+        width: 100%;
+    }
+    .vision-content-main{
+        padding: 64px 32px;
+    }
+    .vision-reverse{
+        flex-direction: column-reverse;
+    }
+}
+
+
 /* USPs */
 
 .about-main{
@@ -446,91 +561,6 @@
 
 /* USPs ends */
 
-
-/* Vision & Mission */
-
-.vision-row{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 64px;
-}
-
-.vision-col{
-    width: 50%;
-}
-
-.vision-content{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.vision-content > h2{
-    font-family: Urbanist, sans-serif;
-    font-size: 2.617rem;
-    font-weight: 600;
-    line-height: 1.2;
-}
-
-.vision-content > p{
-    font-family: Plus Jakarta Sans, sans-serif;
-    font-size: 1.618rem;
-    font-weight: 500;
-    line-height: 1.5;
-}
-
-.vision-image > img{
-    width: 100%;
-    object-fit: cover;
-    margin: 0 auto;
-    border-radius: 26px;
-}
-
-.mission-row{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    gap: 64px;
-}
-
-.mission-col{
-    width: 50%;
-}
-
-.mission-content{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.mission-content > h2{
-    font-family: Urbanist, sans-serif;
-    font-size: 2.617rem;
-    font-weight: 600;
-    line-height: 1.2;
-}
-
-.mission-content > p{
-    font-family: Plus Jakarta Sans, sans-serif;
-    font-size: 1.618rem;
-    font-weight: 500;
-    line-height: 1.5;
-}
-
-.mission-image > img{
-    width: 100%;
-    object-fit: cover;
-    margin: 0 auto;
-    border-radius: 26px;
-}
-
-
-
-
-/* Vision & Mission ends*/
-
 /* Our Story */
 
 .story {
@@ -845,6 +875,31 @@
     display: flex;
     flex-direction: column;
     gap: 64px;
+}
+
+.awards-header{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.awards-header>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 2.617rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.awards-header>p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.618;
+    letter-spacing: -0.02em;
+    text-align: center;
 }
 
 .awards-row {

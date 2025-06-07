@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -21,14 +21,17 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Aaron Industries Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Aaron Industries Ltd exhibits innovative solutions for the elevator and related industries. As the first
+                Public Limited Company in the SME sector of the elevator industry, Aaron made its mark with cutting-edge
+                Elevator Cabins and Auto Door Systems. With nationwide reach and a progressive approach, Aaron continues
+                to redefine market standards, driving perfection and pioneering design in elevator technology. Listed on
+                NSE since 2018, the company remains in the foreground of the elevator industry's evolution.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Aaron Industries
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Aaron
+                    Industries
                     Limited</span>
             </div>
         </div>
@@ -96,7 +99,7 @@
         </div>
     </div>
 
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">

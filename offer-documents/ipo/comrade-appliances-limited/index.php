@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -21,14 +21,17 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Comrade Appliances Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Initiated in 2017, Comrade Appliances Limited is a primary producer of consumer durable goods including
+                Air Coolers and Electric Geysers. With knack in both OEM and ODM business models, the enterprise offers
+                end-to-end solutions, from product conceptualization to final assembly. Listed on the BSE SME in June
+                2023, Comrade Appliances operates a ultra modern manufacturing facility in Palghar, spanning 66,322 Sq.
+                Ft. The products are marketed under the trusted "Comrade" brand, delivering durability and upheaval.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Comrade Appliances
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> /
+                <span>Comrade Appliances
                     Limited</span>
             </div>
         </div>

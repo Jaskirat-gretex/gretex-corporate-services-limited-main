@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -22,14 +22,18 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Suumaya Lifestyle Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Suumaya Lifestyle Ltd, a trailblazer in women's designer wear since 1985, redefines elegance with its
+                ethnic collections, blending innovation with tradition. The company produces a distinct range of
+                products, from Kurtis to ethnic tops and salwar suits. Driven by second-generation entrepreneurs,
+                Suumaya focuses on sustainability, growth, and creating value both aesthetically and economically for
+                the nation. The brand thrives by fostering unique relationships while preserving the rich cultural
+                heritage of India.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Suumaya Lifestyle
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> /
+                <span>Suumaya Lifestyle
                     Limited</span>
             </div>
         </div>
@@ -99,7 +103,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">

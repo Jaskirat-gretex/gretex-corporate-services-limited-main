@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -22,9 +22,13 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Jash Dealmark Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Jash Dealmark Ltd, formed in 2008, is a prominent leader in India's import and trade landscape, dealing
+                in Plastic and Glass Moulded Products, FMCG commodities, and EXIM SCRIPS. The firm boasts a wide-ranging
+                inventory, including industrial plastic items and well-known personal care products such as Fair and
+                Handsome, hair oils, and perfumes. Their unwavering focus on product integrity and client trust
+                underscores their footprint in the fast-moving consumer goods market. Listed on the BSE SME on March 27,
+                2017, Jash Dealmark continues to advance as a dynamic market player.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
@@ -146,7 +150,7 @@
 
         </div>
     </div>
-    
+
     <?php include '../../../footer.php'; ?>
 
 

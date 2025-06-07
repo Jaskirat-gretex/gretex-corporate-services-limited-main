@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -22,13 +22,18 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Dhruv Wellness Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Dhruv Wellness Limited stands as a key wholesaler and distributor in Mumbai, delivering a diverse
+                portfolio of pharmaceutical, cosmetic, and general-purpose products. Serving an extensive network of
+                retailers and wholesalers throughout suburban Mumbai, the company aligns with top-tier distributors to
+                uphold superior product quality and dependable supply chains. Their range spans essential pharmaceutical
+                items to personal care products such as shampoos, ensuring comprehensive market coverage. Listed on the
+                BSE SME platform since September 2017, Dhruv Wellness Limited maintains a robust market presence driven
+                by reliability and strategic partnerships within the pharmaceutical distribution industry.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main">Home</a> / <a
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
                     href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Dhruv Wellness Limited</span>
             </div>
         </div>
@@ -100,7 +105,7 @@
         </div>
     </div>
 
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">

@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -15,21 +15,23 @@
 </head>
 
 <body>
-    <?php include "../header.php"; ?>
+    <?php include "../../../header.php"; ?>
 
     <div class="main-hero">
         <div class="hero-header">
             <h1>Anuroop Packaging Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments. Its portfolio of products includes gold and silver jewellery with
-                or without studded precious and semi-precious stones. VOL's gold & silver traditional jewellery &
-                ornaments are either made with kundan, gem stones, American diamonds etc or just plain gold or silver.
-                The company caters to the local markets in its region.</p>
+            <p>Anuroop Packaging Ltd (APL), established in 1995, is a Mumbai-based manufacturer offering high-quality
+                corrugated packaging solutions. The company offers a range of products, including corrugated boxes,
+                sheets, and kraft rolls, catering to industries such as pharmaceuticals, & consumer goods. Trusted by
+                prominent clients such as Pepe Jeans London, Himalaya Organics, and many more, APL is committed to
+                providing durable, eco-friendly, & affordable packaging solutions. Listed on BSE SME in 2019, APL
+                ensures quality, reliability, and innovation in every product.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Anuroop Packaging Limited</span>
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> /
+                <span>Anuroop Packaging Limited</span>
             </div>
         </div>
     </div>
@@ -115,7 +117,7 @@
         </div>
     </div>
 
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">

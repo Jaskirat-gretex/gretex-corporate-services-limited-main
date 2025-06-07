@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -22,9 +22,13 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Goel Food Products Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Goel Food Products Limited, established in 1996, is a renowned provider of banquet halls, catering
+                services, and event management solutions in Kolkata, under the "BIKA" brand. Dedicated in organizing
+                memorable events such as weddings, corporate functions, and private parties, the company also offers a
+                wide range of delicious Indian snacks and sweets. Listed on the prominent BSE SME on June 28, 2022, Goel
+                Food Products delivers outstanding event experiences and culinary delights, with a focus on tradition
+                and eminence.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
@@ -120,7 +124,7 @@
         </div>
     </div>
 
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">

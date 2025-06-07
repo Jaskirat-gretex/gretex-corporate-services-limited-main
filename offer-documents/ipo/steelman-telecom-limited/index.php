@@ -22,15 +22,17 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Steelman Telecom Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Steelman Telecom Limited, founded in 2013, renders extensive network services to the Telecom industry,
+                including Network Survey and Planning, Installation and Commissioning, Network Testing, and
+                Optimization. Headquartered in Kolkata, with a nationwide presence, Steelman's primary focus lies in
+                network maintenance and managed services, enhancing network performance for improved coverage and
+                subscriber experience. Listed on BSE SME, Steelman is a trustworthy partner for telecom solutions.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Steelman Telecom
-                    Limited</span>
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> /
+                <span>Steelman Telecom Limited</span>
             </div>
         </div>
     </div>
@@ -119,7 +121,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">

@@ -25,10 +25,8 @@
                 <h3>Company</h3>
                 <ul>
                     <li><a href="">Our Story</a></li>
-                    <li><a href="">Team</a></li>
                     <li><a href="">Services</a></li>
                     <li><a href="">Careers</a></li>
-                    <li><a href="">News & Press</a></li>
                     <li><a href="">CSR</a></li>
                 </ul>
             </div>

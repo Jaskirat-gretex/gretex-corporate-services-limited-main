@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -21,14 +21,18 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Platinumone Business Services Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>PlatinumOne Business Services Limited specializes in customer acquisition-driven Business Process
+                Management Services (BPMS) for mid-sized and large corporations. With services including Lead
+                Conversion, Customer Care, Channel Management, Lead Generation, and Loyalty Programs, delivered via Call
+                Centers, the company supports renowned clients notably Godrej Properties, Edelweiss Tokio Life, and
+                Tally. Headquartered in Maharashtra, PlatinumOne is listed on the prestigious BSE SME platform in the
+                year 2021.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Platinumone Business Services
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> /
+                <span>Platinumone Business Services
                     Limited</span>
             </div>
         </div>
@@ -144,7 +148,7 @@
 
         </div>
     </div>
-    
+
     <?php include '../../../footer.php'; ?>
 
 </body>

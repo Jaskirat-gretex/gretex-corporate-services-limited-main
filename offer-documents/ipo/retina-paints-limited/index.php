@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -21,14 +21,17 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Retina Paints Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Retina Paints Limited, originated in 2010, is a B2B decorative paints manufacturer offering distempers,
+                wall care products, primers and emulsions. Retina Paints supplies high-quality water-based paints to
+                dealers and distributors across India. With advanced tinting machine technology, the company intensifies
+                color precision and efficiency. Retina Paints listed on BSE SME in May 2023, it aimed to expand its
+                pan-India presence in the decorative coatings & paint manufacturing industry.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Retina Paints Limited</span>
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Retina
+                    Paints Limited</span>
             </div>
         </div>
     </div>
@@ -117,7 +120,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">

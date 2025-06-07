@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -15,22 +15,23 @@
 </head>
 
 <body>
-    <?php include '../header.php'; ?>
+    <?php include '../../../header.php'; ?>
 
     <div class="main-hero">
         <div class="hero-header">
             <h1>Reetech International Cargo Courier Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments. Its portfolio of products includes gold and silver jewellery with
-                or without studded precious and semi-precious stones. VOL's gold & silver traditional jewellery &
-                ornaments are either made with kundan, gem stones, American diamonds etc or just plain gold or silver.
-                The company caters to the local markets in its region.</p>
+            <p>Reetech International Cargo and Courier Ltd, established in 2008, is a leading coal supplier in India.
+                Based in Chhattisgarh, the company quickly gained recognition for its reliable coal supply from
+                Indonesia, South Africa, and India. With a focus on industries such as power, steel, and rolling,
+                Reetech ensures efficient transportation via road and rail. Listed on BSE SME in October 2022, Reetech
+                continues to deliver high-quality coal to various sectors, maintaining industry standards and customer
+                satisfaction.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Reetech International Cargo
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> /
+                <span>Reetech International Cargo
                     Courier Limited</span>
             </div>
         </div>
@@ -120,7 +121,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">

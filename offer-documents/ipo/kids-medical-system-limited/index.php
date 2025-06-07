@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -21,9 +21,13 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Kids Medical System Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Kids Medical Systems Limited transforms pediatric healthcare through a robust pediatric clinic chain
+                model. Operating under the brand "Kids Clinic (TKC)," the company partners with doctors to enhance
+                clinic operations, infrastructure, and staff development. Their services extend to infrastructure
+                support, timely vaccination reminders, co-branding, and tailored hospital consultancy. Dedicated to
+                improving child healthcare, TKC ensures efficient operations and personalized assistance for both
+                doctors and parents.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
@@ -165,7 +169,7 @@
 
         </div>
     </div>
-    
+
     <?php include '../../../footer.php'; ?>
 
 </body>

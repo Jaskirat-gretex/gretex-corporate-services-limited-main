@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,15 +20,17 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Jayant Infratech Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Jayant Infratech Ltd., established in 2003, is a technology-driven leader in Railway Electrification and
+                Infrastructure Projects. From design to energization, Jayant Infratech offers comprehensive solutions,
+                including the erection of traction substations. Listed on the BSE SME in June 2022, Jayant Infratech
+                provides end-to-end solutions, from design to commissioning, reducing fossil fuel dependence and
+                minimizing carbon footprint.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Jayant Infratech
-                    Limited</span>
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Jayant
+                    Infratech Limited</span>
             </div>
         </div>
     </div>
@@ -143,7 +145,7 @@
 
         </div>
     </div>
-    
+
     <?php include '../../../footer.php'; ?>
 
 </body>

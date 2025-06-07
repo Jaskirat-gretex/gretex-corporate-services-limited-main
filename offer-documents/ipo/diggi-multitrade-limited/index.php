@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -21,15 +21,19 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Diggi MultiTrade Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Diggi Multitrade Limited, a significant player since 2014, drives growth across Mumbai's dynamic real
+                estate sector. Engaged in strategic land and flat transactions in suburbs like Mira Road and Naigaon,
+                the company also plays a key role in the distribution of fabrics and construction inputs—ensuring stable
+                returns and competitive pricing. With a stronghold in the BSE SME since December 2017, Diggi Multitrade
+                actively enhances market presence and stakeholder value. The company's forward-looking vision and
+                diversified portfolio position it as a reliable tag in real estate trading, infrastructure support, and
+                material supply.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Diggi MultiTrade
-                    Limited</span>
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Diggi
+                    MultiTrade Limited</span>
             </div>
         </div>
     </div>
@@ -80,7 +84,7 @@
         </div>
     </div>
 
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">
@@ -106,7 +110,7 @@
 
         </div>
     </div>
-    
+
     <?php include '../../../footer.php'; ?>
 
 </body>

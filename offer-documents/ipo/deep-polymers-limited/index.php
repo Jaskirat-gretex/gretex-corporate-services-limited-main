@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -21,14 +21,17 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Deep Polymers Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Deep Polymers Limited, based in Ahmedabad, Gujarat, offers high-quality PTFE products, such as Expansion
+                Bellows, Envelope Gaskets, Ball Valves, Plug Valve Seats, Fabricated Components, and Compressor Parts.
+                These products are engineered with precision using advanced technology and superior materials, enhancing
+                durability and optimal performance. Deep Polymers is recognized for presenting cost-effective solutions
+                that meet diverse client requirements, ensuring reliability and excellence in every product.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Deep Polymers Limited</span>
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Deep
+                    Polymers Limited</span>
             </div>
         </div>
     </div>
@@ -114,7 +117,7 @@
         </div>
     </div>
 
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">

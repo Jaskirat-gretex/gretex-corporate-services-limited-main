@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -22,15 +22,18 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Veeram Ornaments Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Veeram Ornaments Limited stands as a distinguished name in India's jewelry industry, known for its
+                wholesale, retail, and trading expertise. Since its inception in 2011 as Veeram T.V Network Pvt. Ltd.,
+                the company has evolved into a multi-segment jewelry powerhouse, offering bespoke pieces across premium,
+                mid-tier, and affordable categories. With an emphasis on craftsmanship, cultural diversity, and
+                generational appeal, Veeram ensures timeless elegance across price points. Listed on the BSE SME
+                platform on January 5, 2017, it continues to shape the future of jewelry commerce with innovation and
+                trust.</p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Veeram Ornaments
-                    Limited</span>
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Veeram
+                    Ornaments Limited</span>
             </div>
         </div>
     </div>
@@ -101,7 +104,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">

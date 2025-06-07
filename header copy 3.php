@@ -521,117 +521,11 @@
                         <a class="nav-link-mobile" href="<?php echo $baseUrl; ?>blog">Blog</a>
                     </li>
 
-
-
-
                 </ul>
 
             </div>
 
         </div>
-
-        <!-- <div class="mobile-navbar-body">
-                <ul class="navbar-mobile">
-                    <li class="nav-item-mobile">
-                        <a class="nav-link-mobile" href="https://staging.gretexcorporate.com/about">About</a>
-                    </li>
-
-                    <li class="nav-item-mobile">
-                        <a class="nav-link-mobile" href="https://staging.gretexcorporate.com/what-we-do/">What we
-                            do</a>
-                    </li>
-
-                    <li class="nav-item-mobile">
-                        <a class="nav-link-mobile" href="https://staging.gretexcorporate.com/ipo">IPO</a>
-                    </li>
-
-                    <li class="nav-item-mobile">
-                        <a class="nav-link-mobile toggle-btn" href="#">Investor Relations <svg
-                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                <path fill="#000" d="M7.41 8.58L12 13.17l4.59-4.59L18 10l-6 6l-6-6z" />
-                            </svg></a>
-                        <div class="dropdown-content">
-                            <a class="toggle-btn nav-link-mobile"
-                                href="https://staging.gretexcorporate.com/investor-relations/disclosures-under-reg-46-of-lodr">Disclosures
-                                under Reg 46 Of LODR <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                    viewBox="0 0 24 24">
-                                    <path fill="#000" d="M7.41 8.58L12 13.17l4.59-4.59L18 10l-6 6l-6-6z" />
-                                </svg></a>
-                            <div class="dropdown-content">
-                                <a class="nav-link-mobile"
-                                    href="https://staging.gretexcorporate.com/investor-relations/disclosures-under-reg-46-of-lodr/business-details.php">Business
-                                    Details</a>
-                                <a class="nav-link-mobile"
-                                    href="https://staging.gretexcorporate.com/investor-relations/disclosures-under-reg-46-of-lodr/composition-of-board-of-directors.php">Composition
-                                    of Board of Directors</a>
-
-                                <a class="toggle-btn nav-link-mobile" href="#">Financial Information <svg
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                        <path fill="#000" d="M7.41 8.58L12 13.17l4.59-4.59L18 10l-6 6l-6-6z" />
-                                    </svg></a>
-                                <div class="dropdown-content">
-                                    <a class="nav-link-mobile"
-                                        href="https://staging.gretexcorporate.com/investor-relations/disclosures-under-reg-46-of-lodr/financial-information/annual-reports.php">Annual
-                                        Reports</a>
-                                    <a class="nav-link-mobile"
-                                        href="https://staging.gretexcorporate.com/investor-relations/disclosures-under-reg-46-of-lodr/financial-information/annual-returns.php">Annual
-                                        Returns</a>
-                                    <a class="nav-link-mobile"
-                                        href="https://staging.gretexcorporate.com/investor-relations/disclosures-under-reg-46-of-lodr/financial-information/financial-results.php">Financial
-                                        Results</a>
-                                    <a class="nav-link-mobile"
-                                        href="https://staging.gretexcorporate.com/investor-relations/disclosures-under-reg-46-of-lodr/financial-information/financials-subsidiary.php">Financial
-                                        Subsidiary</a>
-                                </div>
-                                <a class="nav-link-mobile"
-                                    href="https://staging.gretexcorporate.com/investor-relations/disclosures-under-reg-46-of-lodr/investor-contact.php">Investor
-                                    Contact</a>
-                                <a class="nav-link-mobile"
-                                    href="https://staging.gretexcorporate.com/investor-relations/disclosures-under-reg-46-of-lodr/shareholding-pattern.php">Shareholding
-                                    Pattern</a>
-                                <a class="nav-link-mobile"
-                                    href="https://staging.gretexcorporate.com/investor-relations/disclosures-under-reg-46-of-lodr/scrutinizer-report.php">Scrutinizer
-                                    Report</a>
-                                <a class="nav-link-mobile"
-                                    href="https://staging.gretexcorporate.com/investor-relations/disclosures-under-reg-46-of-lodr/terms-and-condition-for-appointment-of-independent-director.php">Terms
-                                    & Conditions for Independent Director</a>
-                                <a class="nav-link-mobile"
-                                    href="https://staging.gretexcorporate.com/investor-relations/disclosures-under-reg-46-of-lodr/notice-for-shareholders.php">Notice
-                                    for Shareholders</a>
-                                <a class="nav-link-mobile"
-                                    href="https://staging.gretexcorporate.com/investor-relations/disclosures-under-reg-46-of-lodr/announcements.php">Announcements</a>
-                                <a class="nav-link-mobile"
-                                    href="https://staging.gretexcorporate.com/investor-relations/disclosures-under-reg-46-of-lodr/statement-of-deviation.php">Statement
-                                    of Deviations</a>
-                                <a class="nav-link-mobile" href="#">Compliance with Stock Exchange</a>
-                            </div>
-                            <a class="nav-link-mobile"
-                                href="https://staging.gretexcorporate.com/investor-relations/codes-and-policies.php">Codes
-                                and Policies</a>
-                            <a class="nav-link-mobile"
-                                href="https://staging.gretexcorporate.com/investor-relations/gretex-rights-issue.php">Gretex
-                                Rights Issue</a>
-                            <a class="nav-link-mobile"
-                                href="https://staging.gretexcorporate.com/investor-relations/investor-charter.php">Investor
-                                Charter</a>
-                            <a class="nav-link-mobile"
-                                href="https://staging.gretexcorporate.com/investor-relations/investor-complaints.php">Investor
-                                Complaints</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item-mobile">
-                        <a class="nav-link-mobile" href="https://staging.gretexcorporate.com/careers/">Join
-                            Us</a>
-                    </li>
-                    <li class="nav-item-mobile">
-                        <a class="nav-link-mobile" href="#">Blog</a>
-                    </li>
-                </ul>
-            </div> -->
-
-    </div>
-
     </div>
 
 </nav>

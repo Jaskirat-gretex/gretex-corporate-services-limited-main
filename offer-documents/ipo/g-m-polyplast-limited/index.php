@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -21,14 +21,18 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>G M Polyplast Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>GM Polyplast Limited is a premier producer of HIPS, ABS, PET, PP, and HDPE sheets, along with
+                high-quality plastic granules. Established in 2003, the company operates a state-of-the-art
+                manufacturing unit in Mumbai, equipped with advanced technology to ensure superior product quality.
+                Serving both domestic and international markets, GM Polyplast supplies across India and exports to UAE,
+                Israel, Hong Kong, and Jordan. Listed on the BSE SME in 2020, GM Polyplast has become a key player in
+                the industry.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>G M Polyplast Limited</span>
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>G M
+                    Polyplast Limited</span>
             </div>
         </div>
     </div>
@@ -97,7 +101,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">

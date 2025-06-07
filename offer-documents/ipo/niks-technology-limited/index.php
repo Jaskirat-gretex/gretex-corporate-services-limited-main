@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -21,13 +21,17 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Niks Technology Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Niks Technology Limited is a major IT solutions provider, offering digital marketing, software
+                development, website development, mobile app development, and certification courses through online and
+                offline channels. With expert management, domain proficiency, and technical innovation, the company
+                caters to the evolving IT industry demands. Listed on the BSE SME in March 2021, NIKS Technology
+                continues to drive product innovation and deliver cutting-edge technology solutions.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Niks Technology Limited</span>
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Niks
+                    Technology Limited</span>
             </div>
         </div>
     </div>
@@ -96,7 +100,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">

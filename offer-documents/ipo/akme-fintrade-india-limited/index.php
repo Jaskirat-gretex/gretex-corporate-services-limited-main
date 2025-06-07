@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -10,26 +10,29 @@
     <script src="<?php echo $baseUrl; ?>js/script.js"></script>
 
     <title>Akme Fintrade India Limited | Gretex Corporate Services Limited</title>
-    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/Ipo/Veeramornamentslimited.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/Ipo/ipo-global.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/Ipo/akme-fintrade-india-limited.css">
 
 </head>
 
 <body>
-    <?php include "../header.php"; ?>
+    <?php include "../../../header.php"; ?>
 
     <div class="main-hero">
         <div class="hero-header">
             <h1>Akme Fintrade India Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments. Its portfolio of products includes gold and silver jewellery with
-                or without studded precious and semi-precious stones. VOL's gold & silver traditional jewellery &
-                ornaments are either made with kundan, gem stones, American diamonds etc or just plain gold or silver.
-                The company caters to the local markets in its region.</p>
+            <p>Akme Fintrade (India) Ltd, a seasoned NBFC since 1996, has carved a strong foothold in India’s rural and
+                semi-urban lending space. With over two decades of deep-rooted expertise, the company empowers small
+                entrepreneurs and wage earners across Rajasthan, Maharashtra, Madhya Pradesh, and Gujarat through
+                customized vehicle and business financing. Its core offerings include funding for two-wheelers,
+                three-wheelers, and micro-enterprise development—bridging aspirations with access. Akme Fintrade's IPO
+                debuted on June 26, 2024, further amplifying its mission-driven financial inclusion.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Akme Fintrade India Limited</span>
+                <a href="http://localhost/Gretex%20Corporate%20main">Home</a> / <a
+                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Akme Fintrade India Limited</span>
             </div>
         </div>
     </div>
@@ -58,7 +61,7 @@
         </div>
     </div>
 
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">
@@ -85,7 +88,7 @@
         </div>
     </div>
 
-    <?php include '../footer.php'; ?>
+    <?php include '../../../footer.php'; ?>
 
 </body>
 

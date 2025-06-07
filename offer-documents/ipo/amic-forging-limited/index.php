@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -21,9 +21,14 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Amic Forging Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>AMIC Forging Limited, formerly Kali Mata Forging Private Limited since June 2007, is a premier Indian
+                manufacturer of precision-engineered open die forgings. Famed for supplying bespoke shafts, gears, and
+                industrial spares in carbon, alloy, and stainless steel variants, the company delivers critical
+                components for sectors including Oil & Gas, Heavy Machinery, Power, and Steel. Backed by globally
+                accredited facilities and uncompromising quality benchmarks, AMIC Forging ensures dimensional accuracy
+                and metallurgical excellence. With its equity shares listed on the BSE SME in December 2023, AMIC
+                continues to shape industrial strength with forged precision.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
@@ -120,7 +125,7 @@
 
         </div>
     </div>
-    
+
     <?php include '../../../footer.php'; ?>
 
 

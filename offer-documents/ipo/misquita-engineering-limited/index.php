@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -21,13 +21,17 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Misquita Engineering Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Founded in 1998, Misquita Engineering Ltd. specializes in the manufacturing and supply of front-loading
+                washers for washing machine makers in India. As a key supplier to I.F.B. Industries Ltd., the company
+                holds a significant position in the market, with over 50% share of front-loading washers in India.
+                Misquita Engineering Limited listed on BSE SME in 2019, recognized for excellence, the company received
+                awards for "Best Supplier of Machine Parts" and "Best Quality Process" in 2016-18.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Misquita Engineering Limited</span>
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> /
+                <span>Misquita Engineering Limited</span>
             </div>
         </div>
     </div>
@@ -116,7 +120,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">

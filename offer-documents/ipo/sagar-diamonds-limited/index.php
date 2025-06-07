@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -21,14 +21,19 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Sagar Diamonds Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Sagar Diamonds Ltd, introduced in 2015, is a distinguished manufacturer and exporter of both rough and
+                polished diamonds, renowned for its exceptional diamond jewelry collection. Their extensive portfolio
+                ranges from exquisite custom-crafted rings, chains, earrings, to necklaces, all meticulously created by
+                expert artisans. Operating a cutting-edge facility in Gujarat and supported by a global distribution
+                network, Sagar Diamonds delivers premium quality diamonds and jewelry worldwide. The company’s IPO was
+                successfully listed on the BSE SME platform in September 2017, marking its significant presence in the
+                gem and jewelry sector.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Sagar Diamonds Limited</span>
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Sagar
+                    Diamonds Limited</span>
             </div>
         </div>
     </div>
@@ -47,7 +52,7 @@
                 </div>
                 <div class="download-cta">
                     <a class="view-button"
-                        href="../assets/documents/sagar-diamonds-limited/DRHP-Sagar-Diamonds-Limited.pdf"><span>Download</span>
+                        href="<?php echo $baseUrl; ?>assets/documents/sagar-diamonds-limited/DRHP-Sagar-Diamonds-Limited.pdf"><span>Download</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                             <path fill="currentColor"
                                 d="M12 15.575q-.2 0-.375-.062T11.3 15.3l-3.6-3.6q-.3-.3-.288-.7t.288-.7q.3-.3.713-.312t.712.287L11 12.15V5q0-.425.288-.712T12 4t.713.288T13 5v7.15l1.875-1.875q.3-.3.713-.288t.712.313q.275.3.288.7t-.288.7l-3.6 3.6q-.15.15-.325.213t-.375.062M6 20q-.825 0-1.412-.587T4 18v-2q0-.425.288-.712T5 15t.713.288T6 16v2h12v-2q0-.425.288-.712T19 15t.713.288T20 16v2q0 .825-.587 1.413T18 20z" />
@@ -68,7 +73,7 @@
                 </div>
                 <div class="download-cta">
                     <a class="view-button"
-                        href="../assets/documents/sagar-diamonds-limited/RHP-Sagar-Diamonds-Limited.pdf"><span>Download</span>
+                        href="<?php echo $baseUrl; ?>assets/documents/sagar-diamonds-limited/RHP-Sagar-Diamonds-Limited.pdf"><span>Download</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                             <path fill="currentColor"
                                 d="M12 15.575q-.2 0-.375-.062T11.3 15.3l-3.6-3.6q-.3-.3-.288-.7t.288-.7q.3-.3.713-.312t.712.287L11 12.15V5q0-.425.288-.712T12 4t.713.288T13 5v7.15l1.875-1.875q.3-.3.713-.288t.712.313q.275.3.288.7t-.288.7l-3.6 3.6q-.15.15-.325.213t-.375.062M6 20q-.825 0-1.412-.587T4 18v-2q0-.425.288-.712T5 15t.713.288T6 16v2h12v-2q0-.425.288-.712T19 15t.713.288T20 16v2q0 .825-.587 1.413T18 20z" />
@@ -88,7 +93,7 @@
                 </div>
                 <div class="download-cta">
                     <a class="view-button"
-                        href="../assets/documents/sagar-diamonds-limited/FINAL-Prospectus-Sagar-Diamonds-Limited.pdf"><span>Download</span>
+                        href="<?php echo $baseUrl; ?>assets/documents/sagar-diamonds-limited/FINAL-Prospectus-Sagar-Diamonds-Limited.pdf"><span>Download</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                             <path fill="currentColor"
                                 d="M12 15.575q-.2 0-.375-.062T11.3 15.3l-3.6-3.6q-.3-.3-.288-.7t.288-.7q.3-.3.713-.312t.712.287L11 12.15V5q0-.425.288-.712T12 4t.713.288T13 5v7.15l1.875-1.875q.3-.3.713-.288t.712.313q.275.3.288.7t-.288.7l-3.6 3.6q-.15.15-.325.213t-.375.062M6 20q-.825 0-1.412-.587T4 18v-2q0-.425.288-.712T5 15t.713.288T6 16v2h12v-2q0-.425.288-.712T19 15t.713.288T20 16v2q0 .825-.587 1.413T18 20z" />
@@ -98,7 +103,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">

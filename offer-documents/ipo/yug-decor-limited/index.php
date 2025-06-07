@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -22,14 +22,19 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Yug Decor Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Yug Decor Ltd, since 2003, has emerged as a formidable force in the global trade of premium laminates and
+                plywood. Renowned for formulating superior-grade adhesives under the brand YUG-COL, their portfolio
+                spans Synthetic Binders, Rubber-Based Compounds, Resin Solutions, Natural Rubber Adhesives, and Footwear
+                Glue. With an expansive footprint across Asia, Europe, and Africa—including key regions such as
+                Bangladesh, Dubai, Saudi Arabia, and Ethiopia—the company ensures consistent quality and innovation.
+                Listed on the BSE SME platform on May 31, 2017, Yug Decor exemplifies excellence in the adhesive and
+                laminate sector.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Yug Decor Limited</span>
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Yug
+                    Decor Limited</span>
             </div>
         </div>
     </div>
@@ -120,7 +125,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">

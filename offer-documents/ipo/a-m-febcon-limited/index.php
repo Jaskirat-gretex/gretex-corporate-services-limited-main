@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -21,14 +21,19 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>A&M Febcon Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>A & M Febcon Ltd, founded in 2013, delivers cutting-edge industrial engineering services with a core
+                focus on factory systems—planning, designing, and operational control. Renowned for their excellence in
+                metalwork and fabrication, they convert raw inputs into semi-finished industrial components with
+                unmatched precision. Their tailored manufacturing solutions empower sectors like petrochemicals, oil &
+                gas, and cement with high-performance equipment including boilers, pressure vessels, and heat
+                exchangers. Listed on the BSE SME platform since September 14, 2017, the company stands out for its
+                dedication to quality-driven process plant equipment.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>A&M Febcon Limited</span>
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>A&M
+                    Febcon Limited</span>
             </div>
         </div>
     </div>

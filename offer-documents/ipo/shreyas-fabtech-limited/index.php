@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -11,7 +11,6 @@
 
     <title>Shreyas Fabtech Limited | Gretex Corporate Services Limited</title>
     <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/Ipo/ipo-global.css">
-
     <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/Ipo/shreyas-fabtech-limited.css">
 
 </head>
@@ -29,8 +28,8 @@
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Shreyas Fabtech Limited</span>
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> /
+                <span>Shreyas Fabtech Limited</span>
             </div>
         </div>
     </div>

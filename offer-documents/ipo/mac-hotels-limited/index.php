@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -21,14 +21,17 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Mac Hotels Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Mac Hotels is a renowned name in Goa's hospitality industry, with over 25 years of excellence. Known for
+                iconic projects such as Hotel Miramar, Sand Castles Holiday Homes, & Ocean Heights Bungalows, Mac Hotels
+                has established itself as a leader in luxury accommodations. Listed on the BSE SME in 2018, the company
+                specializes in owning, operating, and managing premier hotels, and resorts. Serving both domestic &
+                international tourists, Mac Hotels continues to set the standard for memorable stays in Goa.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main">Home</a> / <a
-                    href="http://localhost/Gretex%20Corporate%20mainipo">IPO</a> / <span>Mac Hotels Limited</span>
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
+                    href="<?php echo $baseUrl; ?>">IPO</a> / <span>Mac Hotels Limited</span>
             </div>
         </div>
     </div>
@@ -47,7 +50,7 @@
                 </div>
                 <div class="download-cta">
                     <a class="view-button"
-                        href="../assets/documents/mac-hotels-limited/MAC-DRHP.pdf"><span>Download</span>
+                        href="<?php echo $baseUrl; ?>assets/documents/mac-hotels-limited/MAC-DRHP.pdf"><span>Download</span>
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M12 18L4.5 10.5L6.6 8.325L10.5 12.225V0H13.5V12.225L17.4 8.325L19.5 10.5L12 18ZM3 24C2.175 24 1.469 23.7065 0.882 23.1195C0.295 22.5325 0.001 21.826 0 21V16.5H3V21H21V16.5H24V21C24 21.825 23.7065 22.5315 23.1195 23.1195C22.5325 23.7075 21.826 24.001 21 24H3Z"
@@ -68,7 +71,7 @@
                 </div>
                 <div class="download-cta">
                     <a class="view-button"
-                        href="../assets/documents/mac-hotels-limited/MAC-HOTELS-PROSPECTUS-Final.pdf"><span>Download</span>
+                        href="<?php echo $baseUrl; ?>assets/documents/mac-hotels-limited/MAC-HOTELS-PROSPECTUS-Final.pdf"><span>Download</span>
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M12 18L4.5 10.5L6.6 8.325L10.5 12.225V0H13.5V12.225L17.4 8.325L19.5 10.5L12 18ZM3 24C2.175 24 1.469 23.7065 0.882 23.1195C0.295 22.5325 0.001 21.826 0 21V16.5H3V21H21V16.5H24V21C24 21.825 23.7065 22.5315 23.1195 23.1195C22.5325 23.7075 21.826 24.001 21 24H3Z"
@@ -89,7 +92,7 @@
                 </div>
                 <div class="download-cta">
                     <a class="view-button"
-                        href="../assets/documents/mac-hotels-limited/MAC-Abridged-Prospectus.pdf"><span>Download</span>
+                        href="<?php echo $baseUrl; ?>assets/documents/mac-hotels-limited/MAC-Abridged-Prospectus.pdf"><span>Download</span>
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M12 18L4.5 10.5L6.6 8.325L10.5 12.225V0H13.5V12.225L17.4 8.325L19.5 10.5L12 18ZM3 24C2.175 24 1.469 23.7065 0.882 23.1195C0.295 22.5325 0.001 21.826 0 21V16.5H3V21H21V16.5H24V21C24 21.825 23.7065 22.5315 23.1195 23.1195C22.5325 23.7075 21.826 24.001 21 24H3Z"
@@ -110,7 +113,7 @@
                 </div>
                 <div class="download-cta">
                     <a class="view-button"
-                        href="../assets/documents/mac-hotels-limited/MAC_BOA_Advertisement.pdf"><span>Download</span>
+                        href="<?php echo $baseUrl; ?>assets/documents/mac-hotels-limited/MAC_BOA_Advertisement.pdf"><span>Download</span>
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M12 18L4.5 10.5L6.6 8.325L10.5 12.225V0H13.5V12.225L17.4 8.325L19.5 10.5L12 18ZM3 24C2.175 24 1.469 23.7065 0.882 23.1195C0.295 22.5325 0.001 21.826 0 21V16.5H3V21H21V16.5H24V21C24 21.825 23.7065 22.5315 23.1195 23.1195C22.5325 23.7075 21.826 24.001 21 24H3Z"
@@ -147,7 +150,7 @@
 
         </div>
     </div>
-    
+
     <?php include '../../../footer.php'; ?>
 
 

@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -22,14 +22,19 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Interiors and More Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Spearheaded in June 2012, Interiors & More Limited is a noteworthy importer, trader, and manufacturer of
+                high-grade artificial flowers and decorative elements tailored for residential and commercial spaces.
+                With two advanced production units spanning 64,000 sq. ft. in Gujarat, the company ensures seamless
+                design, assembly, and logistics. Its diversified portfolio includes lifelike Roses, Hanging Orchids,
+                Green Mats, Hydrangeas, Marigolds, and deluxe décor like LED Candles, Fountains, Designer Vases,
+                Furniture, and Chandeliers. The company marked its public listing on NSE SME on February 23, 2024,
+                affirming its industry credibility.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Interiors and More
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> /
+                <span>Interiors and More
                     Limited</span>
             </div>
         </div>

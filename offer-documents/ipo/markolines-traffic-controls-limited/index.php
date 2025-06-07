@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -21,13 +21,17 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Markolines Traffic Controls Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Markolines Traffic Controls Limited (NPST), incorporated in 2002, is a leading Highway Operations &
+                Maintenance (O&M) service provider. Specializing in Toll operations, Route Patrolling, and other
+                maintenance services such as Microsurfacing (MS), Base/Sub-base Stabilization (FDR), and Cold In Place
+                Recycling (CIPR), the company has successfully executed over 90+ projects. Markolines was listed on the
+                BSE SME in September 2021, driven by a commitment to integrity, and best-in-class services in the
+                highway infrastructure industry.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main">Home</a> / <a
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
                     href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Markolines Traffic Controls
                     Limited</span>
             </div>
@@ -148,7 +152,7 @@
 
         </div>
     </div>
-    
+
     <?php include '../../../footer.php'; ?>
 
 </body>

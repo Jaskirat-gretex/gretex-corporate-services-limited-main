@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -22,14 +22,19 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Transteel Seating Technologies Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Transteel Seating Technologies Limited, originated in 1995 and headquartered in Bangalore, is a ruling
+                name in India's office furniture industry. Renowned for its quality, durability, and cost-effectiveness,
+                Transteel offers a wide range of ergonomic office chairs, modular workstations, desks, conference
+                tables, and storage solutions. Trusted by corporate giants like Infosys, ITC, Indigo, Wistron, and
+                Bosch, Transteel continues to innovate with cutting-edge design and technology, redefining workspace
+                functionality and employee wellness. The company's SME IPO debut on NSE in November 2023 marked a new
+                milestone in its growth journey
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Transteel Seating Technologies
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> /
+                <span>Transteel Seating Technologies
                     Limited</span>
             </div>
         </div>
@@ -119,7 +124,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">

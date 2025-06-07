@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -21,14 +21,20 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Kalyani Cast Tech Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Instituted in September 2012, Kalyani Cast Tech Ltd is a cutting-edge manufacturer enfolded in
+                precision-engineered steel, SG Iron, and cast iron components. Celebrated for its integrated production
+                ecosystem, the company leverages advanced casting and machining technologies to deliver superior
+                industrial solutions. Kalyani Cast Tech also designs and manufactures a broad range of cargo containers,
+                including ISO 20', 40', dwarf, cuboid, and custom-built units tailored for parcel logistics and
+                two/three-wheelers—conforming to international benchmarks. With its shares listed on the BSE SME
+                platform since November 17, 2023, the company continues to demonstrate excellence in industrial
+                fabrication and transport equipment innovation.
+                </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Kalyani Cast Tech
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> /
+                <span>Kalyani Cast Tech
                     Limited</span>
             </div>
         </div>
@@ -164,7 +170,7 @@
 
         </div>
     </div>
-    
+
     <?php include '../../../footer.php'; ?>
 
 

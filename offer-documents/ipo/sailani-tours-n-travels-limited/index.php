@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -21,17 +21,17 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Sailani Tours N Travels Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments. Its portfolio of products includes gold and silver jewellery with
-                or without studded precious and semi-precious stones. VOL's gold & silver traditional jewellery &
-                ornaments are either made with kundan, gem stones, American diamonds etc or just plain gold or silver.
-                The company caters to the local markets in its region.</p>
+            <p> Sailani Tours N Travels Limited is a dynamic travel agency, offering a wide range of tourism and
+                hospitality services. With mastery in Leisure Travel, Corporate Travel, Forex, Visa Processing, & MICE
+                services, the company designs customized travel packages for both individuals and groups. The company
+                listed on the BSE SME in July 2022, Sailani ensures premium service in organizing seamless domestic and
+                international travel experiences.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Sailani Tours N Travels
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> /
+                <span>Sailani Tours N Travels
                     Limited</span>
             </div>
         </div>
@@ -121,7 +121,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">

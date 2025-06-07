@@ -20,7 +20,7 @@
 </head>
 
 <body>
-     <?php include "../header copy 3.php"; ?>
+    <?php include "../header copy 3.php"; ?>
 
     <!-- Main section -->
     <div class="main-hero">
@@ -39,6 +39,91 @@
     </div>
 
     <div class="general-container">
+        <div class="about-intro-container">
+            <div class="about-intro-header">
+                <span>SEBI registered category 1 Merchant Banker</span>
+            </div>
+            <div class="about-intro-logos-swiper">
+                <div class="logo">
+                    <img src="" alt="">
+                </div>
+                <div class="logo">
+
+                </div>
+                <div class="logo">
+
+                </div>
+                <div class="logo">
+
+                </div>
+                <div class="logo">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="vision">
+        <div class="vision-image-container">
+
+        </div>
+        <div class="vision-content-container">
+            <div class="vision-content-main">
+                <p>Our Vision</p>
+                <h2>To be India's top merchant banker, driving financial growth and prosperity for businesses,
+                    individuals, and organizations while making a lasting impact on the economy and society</h2>
+            </div>
+            <div class="metrics">
+                <div class="metric">
+                    <h3>10+</h3>
+                    <p>Years of Experience</p>
+                </div>
+                <div class="metric">
+                    <h3>10+</h3>
+                    <p>Years of Experience</p>
+                </div>
+                <div class="metric">
+                    <h3>10+</h3>
+                    <p>Years of Experience</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="vision vision-reverse">
+        <div class="vision-content-container">
+            <div class="vision-content-main">
+                <p>Our Mission</p>
+                <h2>Empowering businesses, individuals, organizations, and SMEs through trust, innovation, and
+                    expertise. We strive to create wealth for our valued customers, stakeholders, and partners while
+                    expanding our global footprint through strategic synergies with associates worldwide.</h2>
+            </div>
+            <div class="metrics">
+                <div class="metric">
+                    <h3>10+</h3>
+                    <p>Years of Experience</p>
+                </div>
+                <div class="metric">
+                    <h3>10+</h3>
+                    <p>Years of Experience</p>
+                </div>
+                <div class="metric">
+                    <h3>10+</h3>
+                    <p>Years of Experience</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="vision-image-container">
+
+        </div>
+    </div>
+
+    <!-- <div class="general-container">
         <div class="about-main">
             <div class="about-header">
                 <h2>Get the skills you need for the job that is in demand </h2>
@@ -135,44 +220,7 @@
                 </div>
             </div>
         </div>
-    </div>
-
-
-    <!-- Vision & Mission -->
-    <div class="general-container">
-        <div class="vision-mission">
-            <div class="vision-row">
-                <div class="vision-col">
-                    <div class="vision-content">
-                        <h2>Our Vision</h2>
-                        <p>To be India's top merchant banker, driving financial growth and prosperity for businesses,
-                            individuals, and organizations while making a lasting impact on the economy and society</p>
-                    </div>
-                </div>
-                <div class="vision-col">
-                    <div class="vision-image">
-                        <img src="<?php echo $baseUrl; ?>assets/gcsl-vision.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="mission-row">
-                <div class="mission-col">
-                    <div class="mission-content">
-                        <h2>Our Mission</h2>
-                        <p>Empowering businesses, individuals, organizations, and SMEs through trust, innovation, and
-                            expertise. We strive to create wealth for our valued customers, stakeholders, and partners
-                            while expanding our global footprint through strategic synergies with associates worldwide.
-                        </p>
-                    </div>
-                </div>
-                <div class="mission-col">
-                    <div class="mission-image">
-                        <img src="<?php echo $baseUrl; ?>assets/gcsl-vision.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    </div> -->
 
     <!-- Our Story section -->
     <div class="story">
@@ -279,11 +327,10 @@
     <!-- Awards section -->
     <div class="general-container">
         <div class="awards">
-            <div class="section-header">
-                <h2 class="section-heading">Awards and Accolades</h2>
-                <p class="section-description">Gretex is a SEBI Registered Category- I Merchant Banker with
-                    established
-                    track record of more than 6 years in the Merchant Banking field</p>
+            <div class="awards-header">
+                <h2>Awards and Accolades</h2>
+                <p>Gretex is a SEBI Registered Category- I Merchant Banker with
+                    established track record of more than 6 years in the Merchant Banking field</p>
             </div>
 
             <div class="awards-row">

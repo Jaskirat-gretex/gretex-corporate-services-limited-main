@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -22,14 +22,18 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Zenith Drugs Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Zenith Drugs Limited, originating in 2000 in Indore, pioneers pharmaceutical innovation through its
+                premium range of branded, generic, and OTC formulations. As the trailblazing pharma company listed on
+                NSE Emerge (Feb 27, 2024), it delivers top-tier solutions such as ORS powders, oral liquids, ointments,
+                capsules, and more—engineered for safety, reliability, and cost-efficiency. Operating from a WHO-GMP
+                certified, technology-driven facility, Zenith ranks among Central India's largest ORS sachet producers,
+                supplying trusted players including Ajanta Pharma and Micro Labs across 18 Indian states.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Zenith Drugs Limited </span>
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Zenith
+                    Drugs Limited </span>
             </div>
         </div>
     </div>

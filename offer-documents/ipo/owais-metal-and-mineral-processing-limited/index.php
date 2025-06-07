@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -21,14 +21,19 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Owais Metal Mineral Processing Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Owais Metal and Mineral Processing Limited launched its operations in December 2022 as a public limited
+                entity, with core expertise in producing high-grade Manganese Oxide (MNO), MC Ferro Manganese, and
+                premium Wood Charcoal. These products serve critical sectors including fertilizer, steel manufacturing,
+                casting, ceramics, glass, and interior furnishing industries. Strategically distributing products across
+                Madhya Pradesh, Maharashtra, Punjab, Delhi, and Gujarat, the company bolsters regional industrial
+                growth. The firm's debut IPO was successfully listed on the NSE SME platform on March 4, 2024,
+                designating a tectonic landmark in its industrial journey.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Owais Metal Mineral Processing
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Owais
+                    Metal Mineral Processing
                     Limited</span>
             </div>
         </div>
@@ -48,7 +53,7 @@
                 </div>
                 <div class="download-cta">
                     <a class="view-button"
-                        href="../assets/documents/owais-metal-mineral-processing-limited/DRHP-Owais-Final.pdf"><span>Download</span>
+                        href="<?php echo $baseUrl; ?>assets/documents/owais-metal-mineral-processing-limited/DRHP-Owais-Final.pdf"><span>Download</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                             <path fill="currentColor"
                                 d="M12 15.575q-.2 0-.375-.062T11.3 15.3l-3.6-3.6q-.3-.3-.288-.7t.288-.7q.3-.3.713-.312t.712.287L11 12.15V5q0-.425.288-.712T12 4t.713.288T13 5v7.15l1.875-1.875q.3-.3.713-.288t.712.313q.275.3.288.7t-.288.7l-3.6 3.6q-.15.15-.325.213t-.375.062M6 20q-.825 0-1.412-.587T4 18v-2q0-.425.288-.712T5 15t.713.288T6 16v2h12v-2q0-.425.288-.712T19 15t.713.288T20 16v2q0 .825-.587 1.413T18 20z" />
@@ -68,7 +73,7 @@
                 </div>
                 <div class="download-cta">
                     <a class="view-button"
-                        href="../assets/documents/owais-metal-mineral-processing-limited/Red-Herring-Prospectus.pdf"><span>Download</span>
+                        href="<?php echo $baseUrl; ?>assets/documents/owais-metal-mineral-processing-limited/Red-Herring-Prospectus.pdf"><span>Download</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                             <path fill="currentColor"
                                 d="M12 15.575q-.2 0-.375-.062T11.3 15.3l-3.6-3.6q-.3-.3-.288-.7t.288-.7q.3-.3.713-.312t.712.287L11 12.15V5q0-.425.288-.712T12 4t.713.288T13 5v7.15l1.875-1.875q.3-.3.713-.288t.712.313q.275.3.288.7t-.288.7l-3.6 3.6q-.15.15-.325.213t-.375.062M6 20q-.825 0-1.412-.587T4 18v-2q0-.425.288-.712T5 15t.713.288T6 16v2h12v-2q0-.425.288-.712T19 15t.713.288T20 16v2q0 .825-.587 1.413T18 20z" />
@@ -88,7 +93,7 @@
                 </div>
                 <div class="download-cta">
                     <a class="view-button"
-                        href="../assets/documents/owais-metal-mineral-processing-limited/Prospectus-Owais.pdf"><span>Download</span>
+                        href="<?php echo $baseUrl; ?>assets/documents/owais-metal-mineral-processing-limited/Prospectus-Owais.pdf"><span>Download</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                             <path fill="currentColor"
                                 d="M12 15.575q-.2 0-.375-.062T11.3 15.3l-3.6-3.6q-.3-.3-.288-.7t.288-.7q.3-.3.713-.312t.712.287L11 12.15V5q0-.425.288-.712T12 4t.713.288T13 5v7.15l1.875-1.875q.3-.3.713-.288t.712.313q.275.3.288.7t-.288.7l-3.6 3.6q-.15.15-.325.213t-.375.062M6 20q-.825 0-1.412-.587T4 18v-2q0-.425.288-.712T5 15t.713.288T6 16v2h12v-2q0-.425.288-.712T19 15t.713.288T20 16v2q0 .825-.587 1.413T18 20z" />
@@ -108,7 +113,7 @@
                 </div>
                 <div class="download-cta">
                     <a class="view-button"
-                        href="../assets/documents/owais-metal-mineral-processing-limited/BOA-Ad.pdf"><span>Download</span>
+                        href="<?php echo $baseUrl; ?>assets/documents/owais-metal-mineral-processing-limited/BOA-Ad.pdf"><span>Download</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                             <path fill="currentColor"
                                 d="M12 15.575q-.2 0-.375-.062T11.3 15.3l-3.6-3.6q-.3-.3-.288-.7t.288-.7q.3-.3.713-.312t.712.287L11 12.15V5q0-.425.288-.712T12 4t.713.288T13 5v7.15l1.875-1.875q.3-.3.713-.288t.712.313q.275.3.288.7t-.288.7l-3.6 3.6q-.15.15-.325.213t-.375.062M6 20q-.825 0-1.412-.587T4 18v-2q0-.425.288-.712T5 15t.713.288T6 16v2h12v-2q0-.425.288-.712T19 15t.713.288T20 16v2q0 .825-.587 1.413T18 20z" />
@@ -128,7 +133,7 @@
                 </div>
                 <div class="download-cta">
                     <a class="view-button"
-                        href="../assets/documents/owais-metal-mineral-processing-limited/Abirdged-Prospectus.pdf"><span>Download</span>
+                        href="<?php echo $baseUrl; ?>assets/documents/owais-metal-mineral-processing-limited/Abirdged-Prospectus.pdf"><span>Download</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                             <path fill="currentColor"
                                 d="M12 15.575q-.2 0-.375-.062T11.3 15.3l-3.6-3.6q-.3-.3-.288-.7t.288-.7q.3-.3.713-.312t.712.287L11 12.15V5q0-.425.288-.712T12 4t.713.288T13 5v7.15l1.875-1.875q.3-.3.713-.288t.712.313q.275.3.288.7t-.288.7l-3.6 3.6q-.15.15-.325.213t-.375.062M6 20q-.825 0-1.412-.587T4 18v-2q0-.425.288-.712T5 15t.713.288T6 16v2h12v-2q0-.425.288-.712T19 15t.713.288T20 16v2q0 .825-.587 1.413T18 20z" />
@@ -138,7 +143,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">

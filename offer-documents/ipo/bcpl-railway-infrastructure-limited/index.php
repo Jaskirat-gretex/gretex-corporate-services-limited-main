@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -21,13 +21,17 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>BCPL Railway Infrastructure Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>BCPL Railway Infrastructure Limited (BCPL) is a premier railway modernization service provider
+                specializing in Railway Infrastructure Development. With a PAN-India presence, BCPL excels in the
+                design, supply, erection, and commissioning of 25KV, 50Hz Single Phase Traction Overhead Equipment. A
+                trusted partner for Rail Vikas Nigam, Rail Infrastructure Development Karnataka, and multiple railway
+                zones, BCPL has been a key player in India's railway electrification drive. Listed in 2018 and
+                successfully migrated to the BSE mainboard in 2020, BCPL continues to power India's railway network.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main">Home</a> / <a
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
                     href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>BCPL Railway Infrastructure
                     Limited</span>
             </div>
@@ -96,7 +100,7 @@
         </div>
     </div>
 
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">
@@ -123,7 +127,7 @@
         </div>
     </div>
 
-    <?php include '../footer.php'; ?>
+    <?php include '../../../footer.php'; ?>
 
 </body>
 

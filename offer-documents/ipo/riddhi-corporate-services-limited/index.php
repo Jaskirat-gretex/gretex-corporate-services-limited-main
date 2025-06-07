@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -21,15 +21,19 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Riddhi Corporate Services Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Riddhi Corporate Services Ltd, operational since 2009, delivers comprehensive Business Process
+                Outsourcing (BPO) solutions across Telecom, Banking, Government, and Insurance verticals. With expertise
+                in Data Management, CAF handling, Billing Operations, and Debt Recovery, the company supports Telecom
+                Operators, NBFCs, and Digital Payment Platforms. Known for enhancing customer lifecycle value through
+                advanced escalation protocols and data accuracy, Riddhi ensures operational agility and service
+                precision. The company made its market debut on June 22, 2017, with shares listed on the BSE SME
+                platform.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Riddhi Corporate Services
-                    Limited</span>
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Riddhi
+                    Corporate Services Limited</span>
             </div>
         </div>
     </div>
@@ -100,7 +104,7 @@
         </div>
     </div>
 
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">
@@ -126,7 +130,7 @@
 
         </div>
     </div>
-    
+
     <?php include '../../../footer.php'; ?>
 
 </body>

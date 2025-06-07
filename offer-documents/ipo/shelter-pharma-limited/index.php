@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -22,14 +22,17 @@
     <div class="main-hero">
         <div class="hero-header">
             <h1>Shelter Pharma Limited</h1>
-            <p>Veeram Ornaments Ltd (VOL) is an integrated Wholesaler, Trader & Retailer of
-                branded Jewellery & Ornaments. VOL is also into trading business of silver and distributor of readymade
-                gold & silver Jewellery & Ornaments.</p>
+            <p>Shelter Pharma Limited, with a legacy since 1965 and incorporation in 2007, is a trusted name in herbal
+                medicine manufacturing. Headquartered in Himmatnagar, Gujarat, the company offers Ayurvedic healthcare
+                solutions for human, veterinary, and poultry health. Combining Ayurveda with modern science, its
+                products like Sherolax, Stonyl Tablets, and Agrical Powder ensure safe, natural healing. Listed on BSE
+                SME in August 2023, Shelter Pharma continues its mission of holistic well-being.
+            </p>
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>ipo">IPO</a> / <span>Shelter Pharma Limited</span>
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>ipo">IPO</a> /
+                <span>Shelter Pharma Limited</span>
             </div>
         </div>
     </div>
@@ -138,7 +141,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Contact CTA section -->
     <div class="footer-cta-section">
         <div class="cta-section-left">

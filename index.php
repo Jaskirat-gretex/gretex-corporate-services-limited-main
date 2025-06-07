@@ -21,7 +21,7 @@
 
 <body>
 
-    <?php include "header copy 3.php"; ?>
+    <?php include "header.php"; ?>
 
     <!-- Main Carousel -->
     <div class="slider">
