@@ -636,24 +636,6 @@ html {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .mobile-navbar-header {
     display: flex;
     justify-content: flex-end;
@@ -1041,6 +1023,27 @@ input[id="newsletter-email"]::placeholder {
     gap: 20px;
     justify-content: flex-end;
 }
+
+.social-cta > .facebook{
+    border: 1px solid #fff;
+    padding: 8px;
+}
+
+.social-cta > .instagram{
+    border: 1px solid #fff;
+    padding: 8px;
+}
+
+.social-cta > .twitter{
+    border: 1px solid #fff;
+    padding: 8px;
+}
+
+.social-cta > .linkedin{
+    border: 1px solid #fff;
+    padding: 8px;
+}
+
 
 @media screen and (max-width:768px) {
     .footer {

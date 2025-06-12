@@ -11,6 +11,7 @@
 
     <title>Clara Industries Limited | Gretex Corporate Services Limited</title>
 
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/Ipo/ipo-global.css">
     <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/Ipo/Veeramornamentslimited.css">
 
 </head>

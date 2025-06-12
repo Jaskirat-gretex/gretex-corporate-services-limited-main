@@ -592,8 +592,39 @@
 
     </div>
 
+    <div class="general-container">
+        <div class="press-container">
+
+        </div>
+    </div>
+
+
+    <div class="newsletter-container">
+        <div class="newsletter-header">
+            <h2>Subscribe to Briefings</h2>
+            <p>Our signature newsletter with insights and analysis from across the firm</p>
+        </div>
+        <div class="newsletter-form-container">
+            <form id="newsletterForm" class="newsletter-form" action="routers/subscribe.php" method="post">
+
+                <input type="email" name="email" id="newsletter-email" placeholder="Enter your email here" required>
+                <button type="submit">Submit
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                        <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M17 7L7 17M8 7h9v9" />
+                    </svg>
+                </button>
+            </form>
+            <p id="newsletterMessage"></p>
+            <span id="newsletterDisclaimer">By submitting this information, you agree that the information you are providing is subject to Gretex
+                Corporate Services Limited's <a href=""> privacy policy </a> and <a href="">Terms of Use</a>.
+                You consent to receive our newletter via email. </span>
+        </div>
+
+    </div>
+
     <!-- Contact CTA section -->
-    <div class="footer-cta-section">
+    <!-- <div class="footer-cta-section">
         <div class="cta-section-left">
             <div class="cta-header">
                 <h4>Fuel Your Company's Growth with Strategic Financial Solutions</h4>
@@ -616,12 +647,48 @@
         <div class="cta-section-right">
 
         </div>
-    </div>
+    </div> -->
 
     <?php include "footer.php"; ?>
     <script src="<?php echo $baseUrl; ?>js/mobilemenu.js"></script>
 
     <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const form = document.getElementById('newsletterForm');
+            const msg = document.getElementById('newsletterMessage');
+            const disclaimer = document.getElementById('newsletterDisclaimer');
+
+            if (!form) {
+                console.error('Newsletter form not found!');
+                return;
+            }
+
+            console.log("Newsletter script loaded");
+
+            form.addEventListener('submit', function (e) {
+                e.preventDefault(); // Prevent page reload
+
+                const formData = new FormData(form);
+
+                fetch(form.action, {
+                    method: 'POST',
+                    body: formData
+                })
+                    .then(res => res.text())
+                    .then(response => {
+                        form.style.display = 'none';
+                        if (disclaimer) disclaimer.style.display = 'none';
+                        msg.textContent = response;
+                        msg.removeAttribute('style'); // Remove any inline styles
+                    })
+                    .catch(() => {
+                        form.style.display = 'none';
+                        if (disclaimer) disclaimer.style.display = 'none';
+                        msg.textContent = 'Something went wrong.';
+                        msg.removeAttribute('style');
+                    });
+            });
+        });
 
         //----------main swiper----------
         const swiper = new Swiper('.swiper-main', {
@@ -636,8 +703,8 @@
                 prevEl: '.button-prev',
             },
         });
-        //----------main swiper ends----------
 
+        //----------services swiper ends----------
         const servicesSswiper = new Swiper('.services-swiper', {
             // Optional parameters
             direction: 'horizontal',
@@ -679,43 +746,40 @@
         counters.forEach(counter => {
             const updateCounter = () => {
                 const target = +counter.getAttribute('data-target');
+                const format = counter.getAttribute('data-format');
                 const current = +counter.innerText.replace(/[^0-9]/g, ""); // Remove non-numeric characters
 
                 const increment = Math.ceil(target / speed);
 
                 if (current < target) {
                     const nextValue = Math.min(current + increment, target);
-                    const format = counter.getAttribute('data-format');
-
-                    // Update number with format
                     if (format === "+") {
                         counter.innerText = `${nextValue.toLocaleString('en-IN')}+`;
                     } else if (format === "₹Cr") {
                         counter.innerText = `₹${nextValue.toLocaleString('en-IN')} Cr`;
+                    } else {
+                        counter.innerText = nextValue.toLocaleString('en-IN');
                     }
-
                     setTimeout(updateCounter, 10);
                 } else {
-                    // Final value to ensure correct format
-                    const format = counter.getAttribute('data-format');
                     if (format === "+") {
                         counter.innerText = `${target.toLocaleString('en-IN')}+`;
                     } else if (format === "₹Cr") {
                         counter.innerText = `₹${target.toLocaleString('en-IN')} Cr`;
+                    } else {
+                        counter.innerText = target.toLocaleString('en-IN');
                     }
                 }
             };
 
             updateCounter();
         });
-        //----------performance counter ends----------
 
-        //----------lightbox----------
-        const playButton = document.getElementById("playButton");
+
+        // //----------lightbox---------- const playButton=document.getElementById("playButton");
         const lightbox = document.getElementById("lightbox");
         const closeButton = document.getElementById("closeButton");
-
-        // Show the lightbox when the play button is clicked
+        // Show the lightbox when the play button is clicked 
         playButton.addEventListener("click", () => {
             lightbox.classList.remove("hidden");
         });
@@ -734,11 +798,8 @@
         //----------lightbox ends----------
 
     </script>
-    <!-- GSAP Library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="http://localhost/Gretex%20Corporate%20main/js/script.js"></script>
-    <script src="http://localhost/Gretex%20Corporate%20main/js/global-animations.js"></script>
+    <script src="<?php echo $baseUrl; ?>js/script.js"></script>
+    <script src="<?php echo $baseUrl; ?>js/global-animations.js"></script>
 
 </body>
 

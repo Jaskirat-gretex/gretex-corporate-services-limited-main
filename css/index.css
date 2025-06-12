@@ -123,7 +123,7 @@
 .button-prev,
 .button-next {
     cursor: pointer;
-    padding: 20px;
+    padding: 10px;
     border-radius: 50%;
     border: 1px solid #000;
     transition: background 1s ease-in;
@@ -1537,7 +1537,7 @@
 
     @media screen and (max-width:430px) {
 
-        .blog-main{
+        .blog-main {
             padding: 64px 20px;
         }
 
@@ -1545,7 +1545,7 @@
             width: 100%;
         }
 
-        .blog-main-header-content > h3{
+        .blog-main-header-content>h3 {
             font-size: 2.617rem;
         }
 
@@ -1560,6 +1560,119 @@
 
 
 }
+
+
+/* newsletter-section */
+
+.newsletter-container {
+    height: 80vh;
+    padding: 64px 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 64px;
+    background-color: #104b88;
+    position: relative;
+}
+
+.newsletter-header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.newsletter-header>h2 {
+    font-family: Urbanist, sans-serif;
+    font-size: 4.235rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    color: #fff;
+}
+
+.newsletter-header>p {
+    width: 70%;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+    color: #fff;
+}
+
+.newsletter-form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 0px;
+    width: 100%;
+}
+
+.newsletter-form>input {
+    width: 500px;
+    background: #fff;
+    padding: 16px;
+    border-radius: 0px;
+    border: none;
+}
+
+input[id="newsletter-email"]::placeholder {
+    color: #000;
+    font-family: Urbanist;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.618;
+    text-align: left;
+}
+
+.newsletter-form>button {
+    display: flex;
+    padding: 16px 24px;
+    border-radius: 0px;
+    background-color: #000;
+    color: var(--white-text);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+    transition: 0.5s;
+    border: none;
+    z-index: 9999;
+    outline: none;
+}
+
+#newsletterMessage{
+    font-family: Urbanist, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+    color: #fff;
+}
+
+.newsletter-form-container>span {
+    width: 50%;
+    font-family: Urbanist, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    color: #fff;
+}
+
+.newsletter-form-container > span > a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+
 
 /* CTA Section */
 

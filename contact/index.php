@@ -14,6 +14,8 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/contact.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 
 </head>
 
@@ -89,16 +91,18 @@
                     <h3>Get in Touch</h3>
                 </div>
                 <div class="contact-form">
-                    <form class="main-form" action="">
+                    <form id="contactForm" class="main-form" action="../routers/contact-submit.php" method="POST">
 
                         <div class="form-group">
                             <div class="form-field">
                                 <label for="Name" class="label-field">Name<span class="form-required">*</span></label>
-                                <input type="text" class="field" placeholder="Enter your name here" required>
+                                <input type="text" name="name" class="field" placeholder="Enter your name here"
+                                    required>
                             </div>
                             <div class="form-field">
                                 <label for="Email" class="label-field">Email<span class="form-required">*</span></label>
-                                <input type="email" class="field" placeholder="Enter your email here" required>
+                                <input type="email" name="email" class="field" placeholder="Enter your email here"
+                                    required>
                             </div>
                         </div>
 
@@ -106,19 +110,21 @@
                             <div class="form-field">
                                 <label for="Phone no" class="label-field">Phone No<span
                                         class="form-required">*</span></label>
-                                <input type="number" class="field" placeholder="Enter your phone here" required>
+                                <input type="tel" name="phone" class="field" placeholder="Enter your phone here"
+                                    pattern="^\d{10}$" maxlength="10" required>
                             </div>
                             <div class="form-field">
                                 <label for="Company Name" class="label-field">Company Name<span
                                         class="form-required">*</span></label>
-                                <input type="text" class="field" placeholder="Enter your company name here" required>
+                                <input type="text" name="company" class="field"
+                                    placeholder="Enter your company name here" required>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="form-field">
                                 <label for="Revenue" class="label-field">Revenue<span
                                         class="form-required">*</span></label>
-                                <select name="Revenue" id="Revenue" required>
+                                <select name="revenue" id="Revenue" required>
                                     <option value="" disabled selected>Select your revenue</option>
                                     <option value="50-100 CR">50 - 100 CR</option>
                                     <option value="100-500 CR">100 - 500 CR</option>
@@ -128,7 +134,7 @@
                             <div class="form-field">
                                 <label for="Profit After Tax" class="label-field">Profit After Tax<span
                                         class="form-required">*</span></label>
-                                <select name="Profit After Tax" id="Revenue">
+                                <select name="profit" id="Revenue" required>
                                     <option value="" disabled selected>Select Profit After Tax</option>
                                     <option value="10-20 CR">10 - 20 CR</option>
                                     <option value="21-50 CR">21 - 50 CR</option>
@@ -141,20 +147,33 @@
                             <div class="form-field">
                                 <label for="message" class="label-field">Message<span
                                         class="form-required">*</span></label>
-                                <textarea rows="8" cols="50" class="field"
+                                <textarea name="message" rows="8" cols="50" class="field"
                                     placeholder="Enter your message here" required></textarea>
                             </div>
                         </div>
 
+                        <div class="form-group">
+                            <div class="form-field">
+                                <div id="recaptcha-container" class="g-recaptcha" data-sitekey="6Ld1yF0rAAAAAPg6vUtMiHGJ-sZ_3iKHOioxnNpZ"></div>
+                            </div>
+                        </div>
+
                         <div class="submit-button">
-                            <button class="about-button" href="">
+                            <button type="submit" class="about-button">
                                 <i class="arrow-dissapear fa-solid fa-arrow-right"></i>
                                 <span class="button-text">Submit Application</span>
                                 <i class="arrow-appear fa-solid fa-arrow-right"></i>
                             </button>
                         </div>
 
+                        <div class="form-group" id="contactDisclaimer">
+                            <p>By submitting this form, you agree to our <a href="<?php echo $baseUrl; ?>privacy-policy"
+                                    target="_blank">Privacy Policy</a>. We will use your information to respond to your
+                                inquiry and provide you with the requested services.</p>
+                        </div>
+
                     </form>
+                    <p id="contactMessage" class="response-message"></p>
                 </div>
             </div>
         </div>
@@ -241,7 +260,74 @@
     <?php include '../footer.php'; ?>
     <script src="<?php echo $baseUrl; ?>js/mobilemenu.js"></script>
 
+    <script>
+        document.querySelector('input[name="phone"]').addEventListener('input', function (e) {
+            this.value = this.value.replace(/[^\d]/g, '').slice(0, 10); // Only digits, max 10
+        });
 
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const form = document.querySelector('.main-form');
+            const thankYouMessage = document.getElementById('contactMessage'); // message container
+            const recaptchaContainer = document.getElementById('recaptcha-container'); // div around recaptcha
+
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+
+                // Clear previous error states
+                form.querySelectorAll('.field, select, textarea').forEach(field => {
+                    field.style.border = '';
+                });
+                recaptchaContainer.classList.remove('error');
+
+                let isValid = true;
+                const formData = new FormData(form);
+
+                // Check for empty required fields
+                ['name', 'email', 'phone', 'company', 'revenue', 'profit', 'message'].forEach(name => {
+                    const input = form.querySelector(`[name="${name}"]`);
+                    if (!formData.get(name)) {
+                        input.style.border = '1px solid red';
+                        isValid = false;
+                    }
+                });
+
+                // Validate phone
+                const phone = formData.get('phone');
+                if (!/^\d{10}$/.test(phone)) {
+                    const phoneInput = form.querySelector('[name="phone"]');
+                    phoneInput.style.border = '1px solid red';
+                    isValid = false;
+                }
+
+                // Check reCAPTCHA
+                if (grecaptcha.getResponse().length === 0) {
+                    recaptchaContainer.classList.add('error');
+                    recaptchaContainer.setAttribute('title', 'Captcha is required');
+                    isValid = false;
+                }
+
+                if (!isValid) return;
+
+                // Submit via fetch
+                fetch(form.action, {
+                    method: 'POST',
+                    body: formData
+                })
+                    .then(res => res.text())
+                    .then(response => {
+                        form.style.display = 'none';
+                        thankYouMessage.textContent = response;
+                        thankYouMessage.style.display = 'block';
+                    })
+                    .catch(() => {
+                        form.style.display = 'none';
+                        thankYouMessage.textContent = 'Something went wrong. Please try again.';
+                        thankYouMessage.style.display = 'block';
+                    });
+            });
+        });
+    </script>
 
 </body>
 

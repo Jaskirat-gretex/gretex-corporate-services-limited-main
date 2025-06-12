@@ -10,6 +10,8 @@
     <script src="<?php echo $baseUrl; ?>js/script.js"></script>
 
     <title>Anuroop Packaging Limited | Gretex Corporate Services Limited</title>
+
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/Ipo/ipo-global.css">
     <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/Ipo/Veeramornamentslimited.css">
 
 </head>
@@ -144,7 +146,7 @@
         </div>
     </div>
 
-    <?php include '../footer.php'; ?>
+    <?php include '../../../footer.php'; ?>
 
 </body>
 

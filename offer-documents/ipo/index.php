@@ -1554,7 +1554,7 @@
                             <img src="../../assets/ipo/veeram-ornaments-limited.png" alt="">
                             <span>Listed on 7 Dec 2024</span>
                             <div class="ipo-cta-button">
-                                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                <a href="<?php echo $baseUrl; ?>offer-documents/ipo/arc-insulation-&-insulators-limited"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
                                         viewBox="0 0 24 24">
                                         <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-width="1.5" d="m14 16l4-4m0 0l-4-4m4 4H6" />
@@ -1562,7 +1562,7 @@
                             </div>
                         </div>
                         <div class="ipo-content">
-                            <a href="<?php echo $baseUrl; ?>">Arc Insulation & <br> Insulators Limited</a>
+                            <a href="<?php echo $baseUrl; ?>offer-documents/ipo/arc-insulation-&-insulators-limited">Arc Insulation & <br> Insulators Limited</a>
 
                         </div>
                     </div>

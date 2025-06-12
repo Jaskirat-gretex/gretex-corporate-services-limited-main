@@ -239,6 +239,54 @@ textarea {
   border-radius: 4px;
 }
 
+#contactMessage {
+  font-family: Urbanist, sans-serif;
+  font-size: 1.618rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+#contactDisclaimer>p {
+  font-family: Urbanist, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+
+}
+
+#recaptcha-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: flex-start;
+  border: 2px solid transparent;
+  padding: 0px;
+}
+
+#errorTooltip {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 4px;
+}
+
+#recaptcha-container.error {
+  border-color: red;
+  position: relative;
+}
+
+#recaptcha-container.error::after {
+  content: 'Captcha is required';
+  color: red;
+  font-family: Urbanist, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  position: absolute;
+  top: -24px;
+  left: 0;
+}
+
+
+
 @media screen and (max-width:768px) {
   .contact-us-main {
     flex-direction: column;
@@ -266,11 +314,11 @@ textarea {
     gap: 32px;
   }
 
-  .contact-header-main > h2{
+  .contact-header-main>h2 {
     width: 100%;
   }
 
-  .contact-header-main > p{
+  .contact-header-main>p {
     width: 100%;
   }
 

@@ -10,12 +10,12 @@
     <script src="<?php echo $baseUrl; ?>js/script.js"></script>
 
     <title>Debock Sales & Marketing Limited | Gretex Corporate Services Limited</title>
-    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/Ipo/Veeramornamentslimited.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/Ipo/ipo-global.css">
 
 </head>
 
 <body>
-    <?php include '../header.php'; ?>
+    <?php include '../../../header.php'; ?>
 
     <div class="main-hero">
         <div class="hero-header">

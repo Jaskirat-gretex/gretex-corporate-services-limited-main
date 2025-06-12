@@ -1,0 +1,17 @@
+.main-hero {
+    background: linear-gradient(89.53deg, rgba(0, 0, 0, 0.8) 38.02%, rgba(0, 0, 0, 0.3) 60.4%, rgba(0, 0, 0, 0) 71.79%), url("../../../assets/banners/open-offers/ms-chambal-breweries-and-distilleries-limited-min.png") center / cover no-repeat;
+    height: 100vh;
+    padding: 128px 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+}
+
+@media screen and (max-width:768px) {
+    .main-hero {
+        padding: 40px;
+        background: linear-gradient(180deg, rgba(137, 137, 137, 0) 0%, #000000 100%), url("../../../assets/banners/open-offers/ms-chambal-breweries-and-distilleries-limited-min.png") center / cover no-repeat;
+        align-items: center;
+    }
+}

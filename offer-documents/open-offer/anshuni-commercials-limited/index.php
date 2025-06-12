@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../../../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -12,8 +12,7 @@
     <title>Anshuni Commercials Limited | Gretex Corporate Services Limited</title>
     <link rel="stylesheet"
         href="<?php echo $baseUrl; ?>css/offer-documents/open-offer-template-main/open-offer-template.css">
-    <link rel="stylesheet"
-        href="<?php echo $baseUrl; ?>css/offer-documents/open-offer/anshuni-commercials-limited.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/offer-documents/open-offer/anshuni-commercials-limited.css">
 
 </head>
 
@@ -30,9 +29,8 @@
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="<?php echo $baseUrl; ?>">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>offer-documents">Offer Documents</a> / <a
-                    href="<?php echo $baseUrl; ?>offer-documents/open-offer">Open Offer</a> /
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>offer-documents">Offer
+                    Documents</a> / <a href="<?php echo $baseUrl; ?>offer-documents/open-offer">Open Offer</a> /
                 <span>Anshuni Commercials Limited</span>
             </div>
         </div>

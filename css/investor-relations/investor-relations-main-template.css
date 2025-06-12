@@ -87,7 +87,6 @@
 @media screen and (max-width:768px) {
     .main-hero {
         padding: 40px;
-        background: linear-gradient(180deg, rgba(137, 137, 137, 0) 0%, #000000 100%), url("../../assets/corporate-background.jpg");
         align-items: center;
     }
 

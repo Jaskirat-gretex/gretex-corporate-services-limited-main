@@ -12,9 +12,8 @@
         </div>
 
         <div class="footer-logo">
-            <a href="http://localhost/Gretex%20Corporate%20main/">
-                <img src="http://localhost/Gretex%20Corporate%20main/assets/Gretex.png" height="128px" width="128px"
-                    alt="Gretex-main-logo">
+            <a href="<?php echo $baseUrl; ?>">
+                <img src="<?php echo $baseUrl; ?>assets/Gretex.png" height="128px" width="128px" alt="Gretex-main-logo">
             </a>
         </div>
     </div>
@@ -52,9 +51,9 @@
                     <li><a href="">Blog</a></li>
                     <li><a href="">FAQs</a></li>
                     <li><a href="">Case Studies</a></li>
-                    <li><a href="http://localhost/Gretex%20Corporate%20main/assets/gid/GID.pdf">GID</a></li>
+                    <li><a href="<?php echo $baseUrl; ?>assets/documents/gid/GID.pdf">GID</a></li>
                 </ul>
-                
+
             </div>
             <div class="footer-link">
                 <h3>Investors</h3>
@@ -84,20 +83,26 @@
         </div>
         <div class="social-cta">
             <div class="facebook">
-                <a href="https://www.facebook.com/GretexCorporate/"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                        height="24" viewBox="0 0 24 24">
+                <a href="https://www.facebook.com/GretexCorporate/"><svg xmlns="http://www.w3.org/2000/svg" width="32"
+                        height="32" viewBox="0 0 24 24">
                         <path fill="#fff"
-                            d="M12 2.04c-5.5 0-10 4.49-10 10.02c0 5 3.66 9.15 8.44 9.9v-7H7.9v-2.9h2.54V9.85c0-2.51 1.49-3.89 3.78-3.89c1.09 0 2.23.19 2.23.19v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.45 2.9h-2.33v7a10 10 0 0 0 8.44-9.9c0-5.53-4.5-10.02-10-10.02" />
+                            d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95" />
                     </svg></a>
             </div>
             <div class="instagram">
-                <a href="https://www.instagram.com/gretex_corporate_services/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                        <path fill="#fff"
-                            d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3" />
+                <a href="https://www.instagram.com/gretex_corporate_services/"><svg xmlns="http://www.w3.org/2000/svg"
+                        width="32" height="32" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            color="#fff">
+                            <path
+                                d="M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12" />
+                            <path d="M16.5 12a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0m1.008-5.5h-.01" />
+                        </g>
                     </svg></a>
             </div>
             <div class="twitter">
-                <a href="https://twitter.com/gretexl?lang=en"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                <a href="https://twitter.com/gretexl?lang=en"><svg xmlns="http://www.w3.org/2000/svg" width="32"
+                        height="32" viewBox="0 0 14 14">
                         <g fill="none">
                             <g clip-path="url(#primeTwitter0)">
                                 <path fill="#fff"
