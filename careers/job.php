@@ -1,4 +1,4 @@
-<?php include_once '../../helpers/urlfetcher.php'; ?>
+<?php include_once '../helpers/urlfetcher.php'; ?>
 <?php $baseUrl = getBaseUrl(); ?>
 
 <!DOCTYPE html>
@@ -14,6 +14,7 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/careers/job.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 </head>
 
@@ -28,8 +29,8 @@
         </div>
         <div class="hero-footer">
             <div class="breadcrumbs">
-                <a href="http://localhost/Gretex%20Corporate%20main">Home</a> / <a
-                    href="<?php echo $baseUrl; ?>careers/">Careers</a> / <span>Job</span>
+                <a href="<?php echo $baseUrl; ?>">Home</a> / <a href="<?php echo $baseUrl; ?>careers/">Careers</a> /
+                <span>Job</span>
             </div>
         </div>
     </div>
@@ -87,28 +88,46 @@
                     <h2>Apply Now</h2>
 
                     <div class="job-form">
-                        <form action="" class="form-container">
+                        <form action="../routers/job-application.php" enctype="multipart/form-data"
+                            class="form-container" id="jobForm" method="POST">
                             <div class="form-field">
                                 <label for="Name" class="label-field">Name<span class="form-required">*</span></label>
-                                <input type="text" class="field" placeholder="Enter your Name here">
+                                <input type="text" name="name" class="field" placeholder="Enter your Name here"
+                                    required>
                             </div>
 
                             <div class="form-field">
                                 <label for="email" class="label-field">Email<span class="form-required">*</span></label>
-                                <input type="email" class="field" placeholder="Enter your Name here">
+                                <input type="email" name="email" class="field" placeholder="Enter your Name here"
+                                    required>
                             </div>
 
                             <div class="form-field">
                                 <label for="phone" class="label-field">Phone<span class="form-required">*</span></label>
-                                <input type="number" class="field" placeholder="Enter your Name here">
+                                <input type="tel" name="phone" class="field" placeholder="Enter your phone here"
+                                    pattern="^\d{10}$" maxlength="10" required>
                             </div>
 
                             <div class="form-field">
                                 <label for="message" class="label-field">Cover Letter<span
                                         class="form-required">*</span></label>
-                                <textarea rows="8" cols="50" class="field"
-                                    placeholder="Enter your cover letter here"></textarea>
+                                <textarea rows="8" cols="50" name="message" class="field"
+                                    placeholder="Enter your cover letter here" required></textarea>
                             </div>
+
+                            <div class="form-field">
+                                <label for="cv" class="label-field">Upload CV (only PDF or Word supported) <span
+                                        class="form-required">*</span></label>
+                                <input type="file" name="cv" accept=".pdf,.doc,.docx" id="" required>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="form-field">
+                                    <div id="recaptcha-container" class="g-recaptcha"
+                                        data-sitekey="6Ld1yF0rAAAAAPg6vUtMiHGJ-sZ_3iKHOioxnNpZ"></div>
+                                </div>
+                            </div>
+
                             <div class="submit-button">
                                 <button class="about-button" href="">
                                     <i class="arrow-dissapear fa-solid fa-arrow-right"></i>
@@ -116,7 +135,15 @@
                                     <i class="arrow-appear fa-solid fa-arrow-right"></i>
                                 </button>
                             </div>
+
+                            <div class="form-group" id="formDisclaimer">
+                                <p>By submitting this form, you agree to our <a
+                                        href="<?php echo $baseUrl; ?>privacy-policy" target="_blank">Privacy Policy</a>.
+                                    We will use your information to respond to your
+                                    inquiry and provide you with the requested services.</p>
+                            </div>
                         </form>
+                        <p id="response-message"></p>
                     </div>
                 </div>
             </div>
@@ -125,6 +152,45 @@
 
     <?php include '../footer.php'; ?>
     <script src="<?php echo $baseUrl; ?>js/mobilemenu.js"></script>
+
+    <script>
+        document.querySelector('input[name="phone"]').addEventListener('input', function (e) {
+            this.value = this.value.replace(/[^\d]/g, '').slice(0, 10); // Only digits, max 10
+        });
+
+        document.getElementById('jobForm').addEventListener('submit', async function (e) {
+            e.preventDefault();
+
+            const form = e.target;
+            const formData = new FormData(form);
+            const responseBox = document.getElementById('response-message');
+
+            try {
+                const response = await fetch(form.action, {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const result = await response.text();
+
+                // Success message
+                if (result.includes('Thank you')) {
+                    form.style.display = 'none';
+                    responseBox.textContent = 'Thank you for submitting your application!';
+                    responseBox.style.color = 'green';
+                } else {
+                    // Error message
+                    responseBox.textContent = result;
+                    responseBox.style.color = 'red';
+                }
+            } catch (err) {
+                responseBox.textContent = 'Something went wrong. Please try again.';
+                responseBox.style.color = 'red';
+            }
+        });
+
+
+    </script>
 
 
 </body>

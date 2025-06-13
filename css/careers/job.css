@@ -2,7 +2,7 @@
 
 .main-hero {
     height: 100vh;
-    padding: 50px;
+    padding: 128px 50px;
     background: linear-gradient(89.53deg, rgba(0, 0, 0, 0.8) 38.02%, rgba(0, 0, 0, 0.3) 60.4%, rgba(0, 0, 0, 0) 71.79%), url("../../assets/banners/careers-banner.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -42,7 +42,7 @@
     position: absolute;
     background-color: #ffffff;
     padding: 20px 40px;
-    border-radius: 26px 0 0 0;
+    border-radius: 48px 0 0 0;
     bottom: 0;
     right: 0;
 }
@@ -269,6 +269,22 @@ textarea {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: -0.03em;
+    text-align: left;
+}
+
+#formDisclaimer {
+    font-family: Urbanist, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+}
+
+#response-message{
+    font-family: Urbanist, sans-serif;
+    font-size: 1.618rem;
+    font-weight: 500;
+    line-height: 1.5;
     text-align: left;
 }
 
